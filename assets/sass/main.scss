@@ -1,0 +1,186 @@
+$theme-color: #0b8d36;
+$content-bg-color: #eaeaea;
+$burger-menu-color: #a0a0a0;
+
+$header-height-l: 180px;
+$header-height-m: 80px;
+$header-height-s: 50px;
+
+$drawer-width-l: 200px;
+$drawer-width-m: 150px;
+$drawer-width-s: 50%;
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	/* adds animation for all transitions */
+
+	-webkit-transition: .25s ease-in-out;
+	-moz-transition: .25s ease-in-out;
+	-o-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+}
+
+/* Makes sure that everything is 100% height */
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffffff;
+}
+
+h1, h2, h3 {
+	font-family: 'Oranienbaum', serif;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #ffffff url("/images/logo_lng.svg") no-repeat center;
+	background-size: auto $header-height-l;
+
+	height: $header-height-l;
+	font-family: 'Oranienbaum', serif;
+	z-index: 0;
+}
+
+/* main page content*/
+#content {
+	margin-left: 30px + $drawer-width-l;
+	margin-right: 30px;
+	margin-top: $header-height-l + 30px;
+	padding: 20px;
+	background-color: $content-bg-color;
+}
+
+#burger {
+	display: none;
+}
+
+#drawer {
+	position: fixed;
+	top: $header-height-l;
+	left: 0;
+	height: 100%;
+	width: $drawer-width-l - 20px;
+	background-color: $content-bg-color;
+
+	padding: 20px;
+	-webkit-overflow-scrolling: touch;
+}
+
+#drawer ul {
+	list-style-type: none;
+}
+
+#drawer ul a {
+	display: block;
+	padding: 10px;
+	color: #777777;
+	text-decoration: none;
+}
+
+#drawer ul a:hover {
+	color: #222222;
+}
+
+/* responsive media queries */
+/* narrow */
+@media only screen and (max-width: 600px) {
+
+	header {
+		height: $header-height-s;
+		background: $theme-color;
+		color: #ffffff;
+		padding: 10px 0 0;
+		font-size: 1.8em;
+		text-align: center;
+	}
+	header:after {
+		content: "Buterland-Beckerhook";
+	}
+
+	#burger {
+		display: block;
+		position: fixed;
+		left: 5px;
+		top: 5px;
+		width: $header-height-s - 10px;
+		height: $header-height-s - 10px;
+	}
+
+	#burger div {
+		width: 80%;
+		display: block;
+		margin: 10px;
+		height: 0.25em;
+
+		background-color: $burger-menu-color;
+		box-shadow: 0 0.5em 0 0 $burger-menu-color,
+		0 1em 0 0 $burger-menu-color;
+	}
+
+	#drawer {
+		top: $header-height-s;
+		left: -$drawer-width-s;
+		width: $drawer-width-s;
+
+	}
+
+	#drawer.drawer-open {
+		left: 0;
+	}
+
+	#content {
+		margin: $header-height-s 0 0;
+	}
+}
+
+/* medium */
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+
+	header {
+		height: $header-height-m;
+		background-size: auto $header-height-m;
+	}
+
+	/* main page content*/
+	#content {
+		margin-left: $drawer-width-m + 30px;
+		margin-top: $header-height-m + 30px;
+	}
+
+	#drawer {
+		padding-left: 10px;
+		top: $header-height-m;
+		width: $drawer-width-m;
+		margin-top: 30px;
+		margin-left: 20px;
+	}
+
+	#drawer ul a {
+		padding: 5px;
+		font-size: 0.95em;
+	}
+
+}
+
+/* wide */
+@media only screen and (min-width: 961px) {
+
+	#drawer {
+		margin: 30px;
+	}
+}
+

@@ -8,5 +8,9 @@
 	<base href="{{ .Site.BaseURL }}">
 	<title>{{ .Site.Title }}</title>
 
+	{{ partial "head/includes.html" . }}
+
 </head>
 <body>
+  {{ partial "head/drawer.html" . }}
+  <div id="content">

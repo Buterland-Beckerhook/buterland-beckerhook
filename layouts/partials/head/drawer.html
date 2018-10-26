@@ -1,0 +1,18 @@
+<!--<input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>-->
+<!--<label for="drawer-toggle" id="drawer-toggle-label">-->
+	<!--{{ partial "head/header.html" . }}-->
+<!--</label>-->
+
+
+{{ partial "head/header.html" . }}
+<div id="burger" onclick="toggleMenu()">
+	<div></div>
+</div>
+<nav id="drawer">
+	<ul>
+		<li><a href="#" onclick="toggleMenu()">Menu Item 1</a></li>
+		<li><a href="#">Menu Item 2</a></li>
+		<li><a href="#">Menu Item 3</a></li>
+		<li><a href="#">Menu Item 4</a></li>
+	</ul>
+</nav>
