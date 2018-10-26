@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+	<meta charset="UTF-8">
+	{{ partial "head/meta.html" . }}
+	{{ partial "head/icons.html" . }}
+
+	<base href="{{ .Site.BaseURL }}">
+	<title>{{ .Site.Title }}</title>
+
+	{{ partial "head/includes.html" . }}
+
+</head>
+<body>
+{{ partial "head/header.html" . }}
+<div id="error_msg">
+	<span style="font-size: 3em">404 - page not found</span><br /><br />
+	This is not the page you're looking for - <a href="{{ "/" | relURL }}">move along</a>
+</div>
+</body>
+</html>

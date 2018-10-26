@@ -1,4 +1,5 @@
 
+<!-- todo: minify scripts -->
 {{ $script := resources.Get "script/main.js" }}
 {{ $secureJS := $script | resources.Fingerprint "sha512" }}
 <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>

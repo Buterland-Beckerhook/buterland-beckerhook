@@ -1,6 +1,11 @@
 $theme-color: #0b8d36;
-$content-bg-color: #eaeaea;
+$content-bg-color: #f8ffd6;
+$navigation-bg-color: #f8ffd6;
 $burger-menu-color: #a0a0a0;
+
+$content-bg-color-narrow: #ffffff;
+$navigation-bg-color-narrow: #a0a0a0;
+$burger-menu-color-narrow: #a0a0a0;
 
 $header-height-l: 180px;
 $header-height-m: 80px;
@@ -95,6 +100,16 @@ header {
 	color: #222222;
 }
 
+#error_msg {
+	width: 100%;
+	display: block;
+	margin-top: $header-height-l + 30px;
+	padding: 20px;
+	text-align: center;
+	font-family: monospace, monospace;
+	font-size: 1.0em;
+}
+
 /* responsive media queries */
 /* narrow */
 @media only screen and (max-width: 600px) {
@@ -109,6 +124,10 @@ header {
 	}
 	header:after {
 		content: "Buterland-Beckerhook";
+	}
+
+	#content {
+		background: $content-bg-color-narrow;
 	}
 
 	#burger {
@@ -145,6 +164,10 @@ header {
 	#content {
 		margin: $header-height-s 0 0;
 	}
+
+	#error_msg {
+		font-size: 0.5em;
+	}
 }
 
 /* medium */
@@ -172,6 +195,10 @@ header {
 	#drawer ul a {
 		padding: 5px;
 		font-size: 0.95em;
+	}
+
+	#error_msg {
+		font-size: 0.6em;
 	}
 
 }
