@@ -1,10 +1,10 @@
 $theme-color: #0b8d36;
-$content-bg-color: #f8ffd6;
-$navigation-bg-color: #f8ffd6;
+$content-bg-color: #f5f5f5;
+$navigation-bg-color: #dedede;
 $burger-menu-color: #a0a0a0;
 
 $content-bg-color-narrow: #ffffff;
-$navigation-bg-color-narrow: #a0a0a0;
+$navigation-bg-color-narrow: #f5f5f5;
 $burger-menu-color-narrow: #a0a0a0;
 
 $header-height-l: 180px;
@@ -111,8 +111,72 @@ header {
 }
 
 /* responsive media queries */
+
+/* extreme narrow */
+@media only screen and (max-width: 350px) {
+
+	header {
+		height: $header-height-s;
+		background: $theme-color;
+		color: #ffffff;
+		padding: 10px 0 0;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	header:after {
+		padding-left: 15px;
+		content: "Buterland-Beckerhook";
+	}
+
+	#content {
+		background: $content-bg-color-narrow;
+	}
+
+	#burger {
+		display: block;
+		position: fixed;
+		left: 5px;
+		top: 5px;
+		width: $header-height-s - 10px;
+		height: $header-height-s - 10px;
+	}
+
+	#burger div {
+		width: 80%;
+		display: block;
+		margin: 10px;
+		height: 0.25em;
+
+		background-color: $burger-menu-color;
+		box-shadow: 0 0.5em 0 0 $burger-menu-color,
+		0 1em 0 0 $burger-menu-color;
+	}
+
+	#drawer {
+		top: $header-height-s;
+		left: -$drawer-width-s;
+		width: $drawer-width-s;
+
+	}
+
+	#drawer.drawer-open {
+		left: 0;
+	}
+
+	#content {
+		margin: $header-height-s 0 0;
+	}
+
+	#error_msg {
+		font-size: 0.5em;
+	}
+
+}
+
+
 /* narrow */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 351px) and (max-width: 600px) {
 
 	header {
 		height: $header-height-s;
@@ -122,7 +186,9 @@ header {
 		font-size: 1.8em;
 		text-align: center;
 	}
+
 	header:after {
+		padding-left: 15px;
 		content: "Buterland-Beckerhook";
 	}
 

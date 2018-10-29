@@ -11,8 +11,12 @@ menu:
     name: Aktuelles
     url: /
     weight: 1
+  - identifier: date
+    name: Termine
+    url: /date/
+    weight: 2
   - identifier: thrones
-    name: Aktueller Thron
+    name: Thron
     url: /thrones/
     weight: 10
   - identifier: privacy-policy
