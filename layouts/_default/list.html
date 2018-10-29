@@ -1,5 +1,6 @@
-{{ partial "head/site-header.html" . }}
-
-{{ .Content }}
-
-{{ partial "footer/site-footer.html" . }}
+{{ define "main" }}
+<div id="content">
+	<p>This from the list page template</p>
+	{{ .Content }}
+</div>
+{{ end }}
