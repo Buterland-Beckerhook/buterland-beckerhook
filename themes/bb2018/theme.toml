@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "bb2018"
+license = "MIT"
+licenselink = "https://github.com/rverst/BB2018/blob/master/LICENSE"
+description = ""
+homepage = "https://buterland-beckerhook.de/"
+tags = []
+features = []
+min_version = "0.41"
+
+[author]
+  name = "rverst"
+  homepage = ""

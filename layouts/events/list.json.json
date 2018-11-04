@@ -1,5 +1,0 @@
-{[
-	{{ range .Pages }}
-	"test": "Hello",
-	{{ end }}
-]}

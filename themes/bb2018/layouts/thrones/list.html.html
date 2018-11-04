@@ -1,0 +1,11 @@
+{{- define "main" }}
+	{{- range .Pages }}{{ $name := printf "t_%d" .Date.Year }}{{  $.Scratch.Set $name .Params.throne.king }}{{ end -}}
+	{{- $paginator := .Paginate .Data.Pages 1 -}}
+	{{- range $paginator.Pages -}}
+	<article class="uk-article">
+		<h1 class="uk-article-title">{{ .Title }}</h1>
+		{{ .Content }}
+	</article>
+	{{ end }}
+	{{ partial "thronenav.html" . }}
+{{ end -}}

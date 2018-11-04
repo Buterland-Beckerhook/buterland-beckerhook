@@ -1,0 +1,23 @@
+{{- $name := (.Get 0) -}}
+{{- $images := .Page.Resources.Match (printf "%s-*" $name) -}}
+<div uk-slideshow="animation: slide">
+	<div class="uk-position-relative uk-visible-toggle uk-light">
+		<ul class="uk-slideshow-items">
+
+		{{- range $images -}}
+			<li>
+			{{- $s := .Resize "480x" -}}
+			{{- $m := .Resize "800x" -}}
+			{{- $l := .Resize "1200x" -}}
+
+			<img data-src="{{ $s.Permalink }}" data-srcset="{{- $s.Permalink }} {{ $s.Width -}}w, {{ $m.Permalink }} {{ $m.Width -}}w, {{ $l.Permalink }}  {{ $l.Width -}}w"
+	        sizes="(max-width: {{ $s.Width -}}px) {{ $s.Width -}}px, (max-width: {{ $m.Width -}}px) {{ $m.Width -}}px 100vw" width="{{- $m.Width -}}" height="{{- $m.Height -}}" alt=""
+	        uk-cover uk-img="target: !.uk-slideshow-items">
+			</li>
+		{{ end }}
+		</ul>
+		<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+		<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+	</div>
+	<ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+</div>

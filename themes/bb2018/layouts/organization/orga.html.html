@@ -1,0 +1,25 @@
+{{- define "main" }}
+{{- range $i, $e := .Resources -}}
+<div class="uk-container-small uk-position-relative">
+	<h2 id="{{ .Params.ref }}" class="uk-h2">
+		<a class="uk-h2" name="{{ .Params.ref }}">{{ .Title }}</a>
+		{{- if gt $i 0 }}<a href="#" uk-totop uk-scroll></a>{{ end -}}
+	</h2>
+	<article>
+		{{ .Content }}
+	</article>
+</div>
+{{- end -}}
+</div>
+
+<div class="bb-navbar-right uk-visible@l">
+	<div class="uk-sticky uk-sticky-fixed uk-sticky-below" uk-sticky="offset: 500;" style="position: fixed; width: 100%;">
+		<ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-scrollspy-nav="closest: li; scroll: true; offset: 200;">
+			{{- range .Resources -}}
+			<li class=""><a href="#{{ .Params.ref }}">{{ .Title }}</a></li>
+			{{- end -}}
+		</ul>
+	</div>
+</div>
+
+{{ end -}}

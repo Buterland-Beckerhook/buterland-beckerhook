@@ -1,0 +1,9 @@
+{{ $active := int (.Get "active") }}
+{{ $names := split (.Get "names") "|" }}
+{{ $urls := split (.Get "urls") "|" }}
+<ul class="uk-subnav uk-subnav-divider" uk-margin>
+	{{ range $i, $e := $names }}
+	<li {{ if eq $active $i}}class="uk-active"{{ end }}><a href="{{ index $urls $i }}">{{ $e }}</a></li>
+	{{- end -}}
+</ul>
+

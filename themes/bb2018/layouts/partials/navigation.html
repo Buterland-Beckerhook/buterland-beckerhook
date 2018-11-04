@@ -1,0 +1,90 @@
+<div>
+	<a href="/">
+		<img src="/images/logo_lng.svg" alt="" class="uk-preserve">
+	</a>
+</div>
+<div id="navbar" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-active">
+	<nav class="uk-navbar-container uk-margin" uk-navbar>
+		<div class="uk-navbar-left">
+			<ul class="uk-navbar-nav uk-visible@s">
+				{{- $currentPage := . -}}
+				{{- range .Site.Menus.main }}
+				{{- $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
+				{{- if .HasChildren }}
+				<li {{ if $active -}}class="uk-active" {{- end -}}>
+					<a href="{{ .URL }}">{{ .Name }}</a>
+					<div class="uk-navbar-dropdown">
+						<ul class="uk-nav uk-navbar-dropdown-nav">
+							{{- range .Children }}
+							<li {{ if $active -}}class="uk-active" {{- end -}}>
+								<a href="{{ .URL }}">{{ .Name }}</a>
+							</li>
+							{{- end -}}
+						</ul>
+					</div>
+				</li>
+				{{- else -}}
+				<li {{ if $active -}}class="uk-active" {{- end -}}>
+					<a href="{{ .URL }}">{{ .Name }}</a>
+				</li>
+				{{- end -}}
+				{{- end -}}
+			</ul>
+		</div>
+		<div class="uk-navbar-right uk-visible@s">
+			<ul class="uk-navbar-nav">
+				{{- $currentPage := . -}}
+				{{- range .Site.Menus.right }}
+				{{- $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
+				<li {{ if $active -}}class="uk-active" {{- end -}}>
+					<a href="{{ .URL }}">{{ .Name }}</a>
+				</li>
+				{{- end -}}
+			</ul>
+		</div>
+
+		<!-- mobile off canvas menu -->
+		<div class="uk-margin uk-margin-small-left uk-hidden@s">
+			<a class="uk-navabar-toggle" uk-toggle="target: #mobile-nav" href="">
+				<span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Men&uuml;</span>
+			</a>
+			<div id="mobile-nav" class="uk-hidden@s" uk-offcanvas="overlay: true">
+				<div class="uk-offcanvas-bar">
+					<ul class="uk-nav uk-nav-default">
+						{{- $currentPage := . -}}
+						{{- range .Site.Menus.main }}
+						{{- $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
+
+						{{- if .HasChildren }}
+						<li {{ if $active -}}class="uk-active" {{- end -}}>
+							<a href="{{ .URL }}">{{ .Name }}</a>
+
+							<ul class="uk-nav-sub">
+								{{- range .Children }}
+								<li {{ if $active -}}class="uk-active" {{- end -}}>
+									<a href="{{ .URL }}">{{ .Name }}</a>
+								</li>
+								{{- end -}}
+							</ul>
+
+						</li>
+						{{- else -}}
+						<li {{ if $active -}}class="uk-active" {{- end -}}>
+							<a href="{{ .URL }}">{{ .Name }}</a>
+						</li>
+						{{- end -}}
+						{{- end -}}
+						<li class="uk-nav-divider"></li>
+						{{- $currentPage := . -}}
+						{{- range .Site.Menus.right }}
+						{{- $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
+						<li {{ if $active -}}class="uk-active" {{- end -}}>
+							<a href="{{ .URL }}">{{ .Name }}</a>
+						</li>
+						{{- end -}}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+</div>

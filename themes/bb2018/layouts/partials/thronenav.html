@@ -1,0 +1,30 @@
+{{- $pag := $.Paginator -}}
+{{- $year := .Date.Year -}}
+{{- if gt $pag.TotalPages 1 -}}
+	<ul class="uk-pagination uk-flex-center">
+		{{- if and $pag.HasPrev -}}
+		{{- $newYear := (add $year 1) -}}
+		<li><a href="{{ $pag.Prev.URL }}"><span class="uk-margin-small-right" uk-pagination-previous></span>{{ printf " %d/%d" $newYear (add $newYear 1) }}<span class="uk-visible@s"> - {{ $.Scratch.Get (printf "t_%d" $newYear) -}}</span> </a></li>
+		{{- else -}}
+		<li class="uk-disabled"><a href="#"><span class="uk-margin-small-right" uk-pagination-previous></span></a></li>
+		{{- end -}}
+	{{- if $pag.HasNext -}}
+	{{- $newYear := (sub $year 1) -}}
+		<li class="uk-margin-auto-left"><a href="{{ $pag.Next.URL }}">{{ printf " %d/%d" $newYear (add $newYear 1) }}<span class="uk-visible@m"> - {{ $.Scratch.Get (printf "t_%d" $newYear) -}}</span><span class="uk-margin-small-left" uk-pagination-next></span></a></li>
+	{{- else -}}
+		<li class="uk-margin-auto-left uk-disabled"><a href=""><span class="uk-margin-small-left" uk-pagination-next></span></a></li>
+	{{- end -}}
+	</ul>
+{{- end -}}
+
+<!--<li class="uk-flex-center"><select name="TT" id="sd" title="Throne im Buterland-Beckerhook" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">-->
+<!--{{ range $pag.Pagers }}-->
+<!--{{ if eq . $pag }} &lt;!&ndash; Current Page &ndash;&gt;-->
+<!--<option value="{{ .URL }}" selected="selected">{{ printf "%d/%d" $year (add $year 1) }} - {{ $.Scratch.Get (printf "t_%d" $year) }}-->
+<!--</option>-->
+<!--{{- else -}}-->
+<!--{{ $newYear := (add $year (sub $pag.PageNumber .PageNumber)) }}-->
+<!--<option value="{{ .URL }}">{{ printf "%d/%d" $newYear (add $newYear 1) }} - {{ $.Scratch.Get (printf "t_%d" $newYear) }}</option>-->
+<!--{{- end -}}-->
+<!--{{- end -}}-->
+<!--</select></li>-->

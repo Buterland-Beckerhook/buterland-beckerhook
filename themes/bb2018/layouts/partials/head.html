@@ -1,0 +1,40 @@
+{{- $scss := resources.Get "sass/custom.scss" -}}
+{{- $options := (dict "targetPath" "/css/style.min.css" "outputStyle" "compressed" "enableSourceMap" true) -}}
+{{ $style := $scss | resources.ToCSS $options }}
+<!-- todo: minify scripts -->
+{{- $script := resources.Get "script/main.js" -}}
+{{- $secScript := $script | resources.Fingerprint "sha512" -}}
+{{- $secScriptMin := $script | resources.Minify | resources.Fingerprint "sha512" -}}
+{{- $uikit := resources.Get "script/uikit.js" -}}
+{{- $uikitIcons := resources.Get "script/uikit-icons.js" -}}
+{{- $secUikit := slice $uikit $uikitIcons | resources.Concat "script/uikit-bundle.js" | resources.Fingerprint "sha256" -}}
+{{ $secUikitMin := slice $uikit $uikitIcons | resources.Concat "script/uikit-bundle-min.js" | resources.Minify | resources.Fingerprint "sha256" }}
+<head>
+	<meta charset="UTF-8">
+	<title>{{ .Title }}</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="350">
+	<meta name="apple-mobile-web-app-title" content="{{ .Title }}">
+	<meta name="application-name" content="{{ .Title }}">
+	<meta name="msapplication-TileColor" content="#00a300">
+	<meta name="theme-color" content="#ffffff">
+	{{- with .Site.Params.description -}}
+	<meta name="description" content="{{ . }}">
+	{{- end -}}
+	<meta name="keywords" content="{{ if .Keywords }}{{ range .Keywords }}{{ . }}, {{ end }}{{else if isset .Params "tags" }}{{ range .Params.tags }}{{ . }}, {{ end }}{{end}}">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oranienbaum" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/manifest/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/images/manifest/safari-pinned-tab.svg" color="#0b8d36">
+	<link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
+	<base href="{{ .Site.BaseURL }}">
+	{{- range .AlternativeOutputFormats -}}
+	{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
+	{{- end -}}
+	<script type="text/javascript" src="{{ $secUikit.Permalink }}" integrity="{{ $secUikit.Data.Integrity }}" async></script>
+	<script type="text/javascript" src="{{ $secScript.Permalink }}" integrity="{{ $secScript.Data.Integrity }}" async></script>
+</head>
