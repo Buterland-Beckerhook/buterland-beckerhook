@@ -12,9 +12,9 @@ throne:
   courtmarshal: Robert Verst
 
 resources:
-    - src: 'gallery/*.jpg'
-      name: 'gallery-:counter'
-      title: 'Thron 2018 #:counter'
+  - src: 'gallery/*.jpg'
+    name: 'gallery-:counter'
+    title: 'Thron 2018 #:counter'
 ---
 
 ### Der 429. Schuss entscheidet das spannende Königsschießen

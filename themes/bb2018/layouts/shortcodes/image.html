@@ -1,0 +1,14 @@
+{{- with .Get "name" -}}
+{{- $name := . -}}
+{{- range $.Page.Resources.ByType "image" -}}
+{{- if eq .Name $name -}}
+{{- $s := .Resize "480x" -}}
+{{- $m := .Resize "800x" -}}
+{{- $l := .Resize "1200x" -}}
+
+<img data-src="{{ $l.Permalink }}" data-srcset="{{- $s.Permalink }} {{ $s.Width -}}w, {{ $m.Permalink }} {{ $m.Width -}}w, {{ $l.Permalink }}  {{ $l.Width -}}w"
+     sizes="(max-width: {{ $s.Width -}}px) {{ $s.Width -}}px, (max-width: {{ $m.Width -}}px) {{ $m.Width -}}px 100vw" width="{{- $l.Width -}}" height="{{- $l.Height -}}" alt="" uk-img>
+
+{{- end -}}
+{{- end -}}
+{{- end -}}
