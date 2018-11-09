@@ -1,3 +1,8 @@
+{{- $class := "" -}}
+{{- with .Get "class" -}}
+{{- $class = . -}}
+{{- end -}}
+
 {{- with .Get "name" -}}
 {{- $name := . -}}
 {{- range $.Page.Resources.ByType "image" -}}
@@ -6,9 +11,12 @@
 {{- $m := .Resize "800x" -}}
 {{- $l := .Resize "1200x" -}}
 
+<figure class="{{ $class }}">
 <img data-src="{{ $l.Permalink }}" data-srcset="{{- $s.Permalink }} {{ $s.Width -}}w, {{ $m.Permalink }} {{ $m.Width -}}w, {{ $l.Permalink }}  {{ $l.Width -}}w"
-     sizes="(max-width: {{ $s.Width -}}px) {{ $s.Width -}}px, (max-width: {{ $m.Width -}}px) {{ $m.Width -}}px 100vw" width="{{- $l.Width -}}" height="{{- $l.Height -}}" alt="" uk-img>
-
+     sizes="(max-width: {{ $s.Width -}}px) {{ $s.Width -}}px, (max-width: {{ $m.Width -}}px) {{ $m.Width -}}px 100vw" width="{{- $l.Width -}}" height="{{- $l.Height -}}"
+     alt="{{- with .Title }}{{ . }}{{- end -}}" uk-img>
+{{- with .Title }}<figcaption>{{ . }}</figcaption>{{- end -}}
+</figure>
 {{- end -}}
 {{- end -}}
 {{- end -}}

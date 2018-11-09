@@ -1,0 +1,36 @@
+{{- define "main" }}
+
+{{- with .Page.Params.headlines -}}
+<div class="uk-container-small uk-position-relative">
+{{- end -}}
+    <article class="uk-article">
+        {{- with .Page.Params.headlines -}}
+        {{- range first 1 . }}
+        {{- $anchor := (index . "anchor") -}}
+        <h2 id="{{- $anchor -}}" class="uk-h2" >
+            <a class="uk-h2" name="{{- $anchor -}}">{{- index . "title" -}}</a>
+        </h2>
+        {{- end -}}
+        {{- else -}}
+        <h1 class="uk-article-title">{{ .Title }}</h1>
+        {{- end -}}
+        {{ .Content }}
+    </article>
+{{- with .Page.Params.headlines -}}
+</div>
+{{- end -}}
+
+{{- with .Page.Params.headlines -}}
+<div class="bb-navbar-right uk-visible@l">
+    <div class="uk-sticky uk-sticky-fixed uk-sticky-below" uk-sticky="offset: 500;" style="position: fixed; width: 100%;">
+        <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-scrollspy-nav="closest: li; scroll: true; offset: 200;">
+            {{- range . }}
+            {{- $anchor := (index . "anchor") -}}
+            <li class=""><a href="#{{- $anchor -}}">{{- index . "short" -}}</a></li>
+            {{- end -}}
+        </ul>
+    </div>
+</div>
+{{- end -}}
+{{ end -}}
+

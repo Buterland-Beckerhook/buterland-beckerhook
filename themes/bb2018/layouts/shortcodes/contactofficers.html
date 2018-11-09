@@ -1,0 +1,29 @@
+{{- $data := .Site.Data.officers -}}
+<div class="uk-overflow-auto uk-width-1-2@m uk-tile-muted uk-padding uk-align-center">
+    <table class="uk-table uk-table-small uk-table-middle">
+        <tr>
+            <td >Oberst:<br><br><br></td>
+            <td>
+                {{- index $data.colonel "name" -}}<br>
+                {{- index $data.colonel "street" -}}<br>
+                {{- index $data.colonel "city" -}}
+            </td>
+        </tr>
+        <tr>
+            <td>Oberstleutnant:<br><br><br></td>
+            <td>
+                {{- index $data.lieutenantColonel "name" -}}<br>
+                {{- index $data.lieutenantColonel "street" -}}<br>
+                {{- index $data.lieutenantColonel "city" -}}
+            </td>
+        </tr>
+        <tr>
+            <td>Major:<br><br><br></td>
+            <td>
+                {{- index $data.major "name" -}}<br>
+                {{- index $data.major "street" -}}<br>
+                {{- index $data.major "city" -}}
+            </td>
+        </tr>
+    </table>
+</div>

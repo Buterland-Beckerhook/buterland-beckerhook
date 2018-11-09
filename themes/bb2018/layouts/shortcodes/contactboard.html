@@ -1,0 +1,45 @@
+{{- $data := .Site.Data.board -}}
+<div class="uk-overflow-auto uk-width-1-2@m uk-tile-muted uk-padding uk-align-center">
+    <table class="uk-table uk-table-small uk-table-middle">
+        <tr>
+            <td >Pr&auml;sident:<br><br><br></td>
+            <td>
+                {{- index $data.president "name" -}}<br>
+                {{- index $data.president "street" -}}<br>
+                {{- index $data.president "city" -}}
+            </td>
+        </tr>
+        <tr>
+            <td>Vizepr&auml;sident:<br><br><br></td>
+            <td>
+                {{- index $data.vicePresident "name" -}}<br>
+                {{- index $data.vicePresident "street" -}}<br>
+                {{- index $data.vicePresident "city" -}}
+            </td>
+        </tr>
+        <tr>
+            <td>Gesch&auml;ftsf&uuml;hrer:<br><br><br></td>
+            <td>
+                {{- index $data.managingDirector "name" -}}<br>
+                {{- index $data.managingDirector "street" -}}<br>
+                {{- index $data.managingDirector "city" -}}
+            </td>
+        </tr>
+        <tr>
+            <td>Schriftf&uuml;hrer:<br><br><br></td>
+            <td>
+                {{- index $data.secretary "name" -}}<br>
+                {{- index $data.secretary "street" -}}<br>
+                {{- index $data.secretary "city" -}}
+            </td>
+        </tr>
+        <tr>
+            <td>Kasierer:<br><br><br></td>
+            <td>
+                {{- index $data.treasurer "name" -}}<br>
+                {{- index $data.treasurer "street" -}}<br>
+                {{- index $data.treasurer "city" -}}
+            </td>
+        </tr>
+    </table>
+</div>

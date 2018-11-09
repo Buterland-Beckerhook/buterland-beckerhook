@@ -3,6 +3,11 @@ $global-primary-background: #0b8d36 !default;
 $global-muted-background: lighten(mix(white, $global-primary-background, 40%), 20%) !default;
 $global-xxlarge-font-size: 2.35rem;
 
+$container-max-width: 1000px !default;
+$container-xsmall-max-width: 600px !default;
+$container-small-max-width: 800px !default;
+$container-large-max-width: 1300px !default;
+
 @import "variables-theme.scss";
 @import "mixins-theme.scss";
 

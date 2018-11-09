@@ -1,0 +1,41 @@
+{{- $class := "" -}}
+{{- with .Get "class" -}}
+  {{- $class = . -}}
+{{- end -}}
+
+{{ $lb := false }}
+{{- with (.Get "lightbox") -}}
+  {{- if eq . "true" -}}
+    {{ $lb = true }}
+  {{- end -}}
+{{- end -}}
+
+{{- $name := (.Get "name") -}}
+{{- $images := .Page.Resources.Match (printf "%s-*" $name) -}}
+<div class="uk-child-width-expand@s uk-text-center" uk-grid>
+    {{- range $i, $e := $images -}}
+    {{- $s := .Resize "480x" -}}
+    {{- $m := .Resize "800x" -}}
+    {{- $l := .Resize "1200x" -}}
+    <div>
+        <div class="uk-card uk-card-default uk-card-body">
+            <figure class="{{ $class }}">
+                <img data-src="{{ $l.Permalink }}" data-srcset="{{- $s.Permalink }} {{ $s.Width -}}w, {{ $m.Permalink }} {{ $m.Width -}}w, {{ $l.Permalink }}  {{ $l.Width -}}w"
+                     sizes="(max-width: {{ $s.Width -}}px) {{ $s.Width -}}px, (max-width: {{ $m.Width -}}px) {{ $m.Width -}}px 100vw" width="{{- $l.Width -}}" height="{{- $l.Height -}}"
+                     alt="{{- with .Title }}{{ . }}{{- end -}}"
+                     {{- if $lb -}}onclick="UIkit.lightbox('#pic{{- $i -}}').show({{- $i -}});" style="cursor: pointer" {{- end -}} uk-img>
+                {{- with .Title }}<figcaption>{{ . }}</figcaption>{{- end -}}
+            </figure>
+        </div>
+    </div>
+    {{- end -}}
+</div>
+
+{{- if $lb -}}
+{{- range $i, $e := $images -}}
+<div id="pic{{- $i -}}" uk-lightbox>
+    {{- $img := .Resize "800x q100" -}}
+    <a href="{{ $img.Permalink }}" {{- with $img.Title -}}data-caption="{{ . }}"{{- end -}}></a>
+</div>
+{{- end -}}
+{{- end -}}

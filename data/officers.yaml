@@ -1,0 +1,12 @@
+colonel:
+  name: Michael Terhalle
+  street: Oppelner Str. 6
+  city: 48599 Gronau
+lieutenantColonel:
+  name: Norbert Droste
+  street: Doetkottenweg 51
+  city: 48599 Gronau
+major:
+  name: Norbert Wülker
+  street: Beckerhookstr. 28a
+  city: 48599 Gronau

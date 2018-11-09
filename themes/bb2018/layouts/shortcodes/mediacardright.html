@@ -1,0 +1,26 @@
+{{ $img := "" }}
+{{- with .Get "image" -}}
+{{- $name := . -}}
+{{- range $.Page.Resources.ByType "image" -}}
+{{- if eq .Name $name -}}
+{{ $img = .Fill "120x180 top q100" }}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+<div class="uk-padding-large">
+    <div class="uk-card uk-card-default" uk-grid>
+        <div class="uk-width-expand@m uk-width-1-2@s">
+            <div class="uk-card-body">
+                <div class="uk-card-header">
+                    {{- with (.Get "title") }}<h3 class="uk-card-title">{{ . }}</h3>{{ end -}}
+                    {{- with (.Get "subtitle") }}{{ . }}{{ end -}}
+                </div>
+                <p>{{ .Inner }}</p>
+            </div>
+        </div>
+        <div class="uk-card-media-right uk-cover-container uk-width-1-2@s uk-width-1-4@m">
+            <canvas width="{{ $img.Width }}" Height="{{ $img.Height }}"></canvas>
+            <img class="uk-align-center" src="{{ $img.Permalink }}" width="{{ $img.Width }}" Height="{{ $img.Height }}" alt="" uk-cover>
+        </div>
+    </div>
+</div>

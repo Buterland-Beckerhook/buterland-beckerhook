@@ -1,0 +1,26 @@
+{{- $data := .Site.Data.board -}}
+<div class="uk-overflow-auto uk-width-1-2@m uk-tile-muted uk-padding uk-align-center">
+    <table class="uk-table uk-table-small uk-table-middle">
+        <caption><h4>Der gesch&auml;ftsführende Vorstand:</h4></caption>
+    <tr>
+        <td>1. Vorsitzender (Pr&auml;sident)</td>
+        <td>{{- index $data.president "name" -}}</td>
+    </tr>
+    <tr>
+        <td>2. Vorsitzender (Vizepr&auml;sident)</td>
+        <td>{{- index $data.vicePresident "name" -}}</td>
+    </tr>
+    <tr>
+        <td>Gesch&auml;ftsf&uuml;hrer</td>
+        <td>{{- index $data.managingDirector "name" -}}</td>
+    </tr>
+    <tr>
+        <td>Schriftf&uuml;hrer</td>
+        <td>{{- index $data.secretary "name" -}}</td>
+    </tr>
+    <tr>
+        <td>Kasierer</td>
+        <td>{{- index $data.treasurer "name" -}}</td>
+    </tr>
+    </table>
+</div>
