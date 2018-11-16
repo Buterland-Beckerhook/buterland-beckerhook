@@ -9576,7 +9576,7 @@
         data: function () { return ({
             preload: 1,
             videoAutoplay: false,
-            delayControls: 3000,
+            delayControls: 5000,
             items: [],
             cls: 'uk-open',
             clsPage: 'uk-lightbox-page',
@@ -9670,6 +9670,7 @@
                         return;
                     }
 
+	                 this.showControls() //rv: show controls if navigating with keyboard
                     switch (e.keyCode) {
                         case 37:
                             this.show('previous');
