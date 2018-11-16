@@ -1,0 +1,28 @@
+{{- $name := (.Get 0) -}}
+{{- $headless := .Site.GetPage $name -}}
+{{- $images := $headless.Resources.ByType "image" -}}
+<div uk-slideshow="animation: slide">
+
+	{{- range sort $images "Name" "desc" -}}
+	{{ printf "%v" .Name }}
+	{{ end }}
+	<div class="uk-position-relative uk-visible-toggle uk-light">
+		<ul class="uk-slideshow-items">
+
+			{{- range sort $images "Name" "desc" -}}
+			<li>
+				{{- $s := .Fit "800x600" -}}
+				{{- $m := .Fit "800x600" -}}
+				{{- $l := .Fit "800x600" -}}
+
+				<img data-src="{{ $l.Permalink }}" data-srcset="{{- $l.Permalink }} {{ $s.Width -}}w, {{ $l.Permalink }} {{ $l.Width -}}w, {{ $l.Permalink }}  {{ $l.Width -}}w"
+					 sizes="(max-width: {{ $l.Width -}}px) {{ $l.Width -}}px, (max-width: {{ $l.Width -}}px) {{ $l.Width -}}px 100vw" width="{{- $l.Width -}}" height="{{- $l.Height -}}" alt=""
+					 uk-cover uk-img="target: !.uk-slideshow-items">
+			</li>
+			{{ end }}
+		</ul>
+		<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+		<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+	</div>
+	<ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+</div>

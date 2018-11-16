@@ -1,0 +1,13 @@
+{{- $title := "" -}}
+{{- with .Get "title" -}}
+{{- $title = . -}}
+{{- end -}}
+{{- $class := "" -}}
+{{- with .Get "class" -}}
+{{- $class = . -}}
+{{- end -}}
+
+<div class="uk-card uk-card-body {{ with $class }} {{ . }}{{- end -}}">
+{{- with $title -}}<h3 class="uk-card-title">{{ . }}</h3>{{- end -}}
+{{ .Inner }}
+</div>
