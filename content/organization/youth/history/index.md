@@ -14,7 +14,7 @@ resources:
     name: 'grid-1'
     title: 'Die "ersten" Jungschützen im Jahre 1956'
   - src: 'images/marching.jpg'
-    name: 'grid-1'
+    name: 'grid-2'
     title: 'Teilnahme am Festumzug mit den neuen, selbst gemachten Holzgewehren'                  
 ---
 
