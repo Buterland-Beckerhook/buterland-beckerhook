@@ -2,43 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4061a8-e4c2-4239-8e44-4458f440b87f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/buterland-beckerhook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/buterland-beckerhook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/events/2017/Frauenbrunch.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/events/2017/Jahreshauptversammlung.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/events/2017/Test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/events/2018/Test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/events/2019/Preis-und-Pokalschießen.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/events/2019/Preis-und-Pokalschießen.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/aboutus.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/aboutus.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/events/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/events/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/impress.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/impress.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/board/images/board_2016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/board/board_2016.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/board/images/dropmann.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/board/presidents/fdropmann.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/board/images/eimann.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/board/presidents/teimann.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/board/images/gleispreister.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/board/presidents/gpreister.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/board/images/head_of_board_2016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/board/contact/head_of_board_2016.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/board/images/heinzverst.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/board/presidents/hverst.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/board/images/lewing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/officercorps/chiefs/hlewing.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/board/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/images/asundag.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/officercorps/chiefs/asundag.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/images/headofficers_2016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/officercorps/contact/headofficers_2016.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/images/hlammers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/officercorps/chiefs/hlammers.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/images/hlewing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/board/presidents/hlewing.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/images/hpieper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/officercorps/chiefs/hpieper.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/images/jtoenjann.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/officercorps/chiefs/jtoenjann.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/images/lsundag.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/officercorps/chiefs/lsundag.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/images/mterhalle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/officercorps/chiefs/mterhalle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/images/officers_2016.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/images/whoff.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/officercorps/chiefs/whoff.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/organization/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/organization/board/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/board/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/organization/committees/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/committees/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/organization/officercorps/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/officercorps/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/organization/youth/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/youth/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/youth/history/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/youth/history/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/organization/youth/youth_2016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/organization/youth/group_2016.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/privacy-policy.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/privacy-policy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bb2018/assets/script/uikit.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/assets/script/uikit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/organization/article.html.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/organization/article.html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/headofboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/headofboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/imagegrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/imagegrid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/imageslide.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/imageslide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/mediacardleft.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/mediacardleft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/thrones/2014/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/thrones/2015/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/thrones/2018/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/thrones/2018/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bb2018/assets/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/assets/script/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/_default/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/events/list.html.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/events/list.html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/organization/article.html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/organization/list.html.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/organization/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bb2018/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bb2018/layouts/partials/head.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,216 +37,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1604261462">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Pokal" value="1" />
-          <entry key="content" value="1" />
-          <entry key="css" value="4" />
-          <entry key="gitignore" value="4" />
-          <entry key="html" value="131" />
-          <entry key="ico" value="2" />
-          <entry key="ics" value="11" />
-          <entry key="js" value="9" />
-          <entry key="json" value="17" />
-          <entry key="lightbox" value="1" />
-          <entry key="md" value="142" />
-          <entry key="png" value="6" />
-          <entry key="scss" value="32" />
-          <entry key="svg" value="5" />
-          <entry key="toml" value="2" />
-          <entry key="xml" value="12" />
-          <entry key="yaml" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="131" />
-          <entry key="Image" value="8" />
-          <entry key="JSON" value="17" />
-          <entry key="JavaScript" value="9" />
-          <entry key="Markdown" value="142" />
-          <entry key="PLAIN_TEXT" value="20" />
-          <entry key="SCSS" value="32" />
-          <entry key="SVG" value="5" />
-          <entry key="XML" value="12" />
-          <entry key="YAML" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="12300" />
-          <entry key="JSON" value="1611" />
-          <entry key="JavaScript" value="252" />
-          <entry key="Markdown" value="3872" />
-          <entry key="PLAIN_TEXT" value="393" />
-          <entry key="SCSS" value="2509" />
-          <entry key="TOML file" value="4" />
-          <entry key="XML" value="17" />
-          <entry key="YAML" value="1013" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="40" />
-          <entry key="gitignore" value="32" />
-          <entry key="html" value="12287" />
-          <entry key="ics" value="166" />
-          <entry key="js" value="265" />
-          <entry key="json" value="1611" />
-          <entry key="md" value="3872" />
-          <entry key="scss" value="2509" />
-          <entry key="toml" value="82" />
-          <entry key="txt" value="77" />
-          <entry key="xml" value="17" />
-          <entry key="yaml" value="1013" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-    </session>
-    <session id="1865195623">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="2" />
-          <entry key="md" value="1" />
-          <entry key="scss" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="2" />
-          <entry key="Markdown" value="1" />
-          <entry key="SCSS" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1439260108">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="50" />
-          <entry key="jpg" value="11" />
-          <entry key="js" value="2" />
-          <entry key="md" value="36" />
-          <entry key="mediacard" value="1" />
-          <entry key="png" value="4" />
-          <entry key="scss" value="4" />
-          <entry key="txt" value="1" />
-          <entry key="yaml" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="50" />
-          <entry key="Image" value="15" />
-          <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="36" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="4" />
-          <entry key="YAML" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="3837" />
-          <entry key="js" value="76" />
-          <entry key="md" value="4251" />
-          <entry key="privacy-policymd" value="28" />
-          <entry key="scss" value="17" />
-          <entry key="txt" value="6" />
-          <entry key="yaml" value="359" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="3837" />
-          <entry key="JavaScript" value="76" />
-          <entry key="Markdown" value="4251" />
-          <entry key="PLAIN_TEXT" value="34" />
-          <entry key="SCSS" value="17" />
-          <entry key="YAML" value="359" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.45159817">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/image.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-                  <folding>
-                    <element signature="e#843#866#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/bb2018/assets/sass/variables.scss">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/bb2018/assets/sass/variables-theme.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="401">
-                  <caret line="533" column="9" selection-start-line="533" selection-start-column="1" selection-end-line="533" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/organization/board/_index.md">
+            <entry file="file://$PROJECT_DIR$/content/_index.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
                   <first_editor relative-caret-position="289">
-                    <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+                    <caret line="17" selection-start-line="17" selection-end-line="17" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -266,11 +54,29 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/content/organization/youth/group-photos/index.md">
+            <entry file="file://$PROJECT_DIR$/themes/bb2018/assets/script/email.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="714">
+                  <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config.yaml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="544">
+                  <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/content/organization/board/contact/index.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="204">
-                    <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="340">
+                    <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -281,8 +87,8 @@
             <entry file="file://$PROJECT_DIR$/content/impress.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="204">
-                    <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+                  <first_editor relative-caret-position="170">
+                    <caret line="10" column="56" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="56" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -290,22 +96,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/content/privacy-policy.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="1184">
-                    <caret line="211" column="16" selection-start-line="211" selection-start-column="16" selection-end-line="211" selection-end-column="16" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/impress-publisher.html">
+            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/emailjs.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+                <state relative-caret-position="357">
+                  <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -313,26 +107,53 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/impress-representer.html">
+            <entry file="file://$PROJECT_DIR$/content/contact.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="33" selection-start-column="33" selection-end-column="33" />
+                <state relative-caret-position="153">
+                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/policy-representer.html">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/_default/baseof.html">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/headofboard.html">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/partials/head.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="55" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="55" />
+                <state relative-caret-position="633">
+                  <caret line="41" column="98" selection-start-line="41" selection-start-column="98" selection-end-line="41" selection-end-column="98" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/_default/list.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="21" selection-start-column="21" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/card.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -401,127 +222,70 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/content/thrones/2018/index.md" />
-        <option value="$PROJECT_DIR$/content/organization/board/aboutus.md" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/mediacard.html" />
-        <option value="$PROJECT_DIR$/data/board.yaml" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/anchorhead.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/contactboard.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/alert.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/bottomstpace.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/bottomspace.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/events/list.html.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/organization/orga/single.html.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/assets/sass/custom.scss" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/hr.html" />
-        <option value="$PROJECT_DIR$/data/officers.yaml" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/contactofficers.html" />
-        <option value="$PROJECT_DIR$/content/organization/officercorps/index.md" />
-        <option value="$PROJECT_DIR$/content/organization/board/index.md" />
-        <option value="$PROJECT_DIR$/content/organization/youth/index.md" />
-        <option value="$PROJECT_DIR$/content/events/2019/Preis-und-Pokalschießen.md" />
-        <option value="$PROJECT_DIR$/content/organization/youth/history/index.md" />
-        <option value="$PROJECT_DIR$/content/organization/youth/jubliee/index.md" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/imagegrid.html" />
-        <option value="$PROJECT_DIR$/content/organization/youth/today/index.md" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/imageslide.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/groupslide.html" />
-        <option value="$PROJECT_DIR$/content/organization/youth/_index.md" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/organization/article.html.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/mediacardleft.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/assets/script/uikit.js" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/image.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/headofboard.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/organization/list.html.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/card.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/grid.html" />
-        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/mediacardright.html" />
         <option value="$PROJECT_DIR$/content/organization/board/presidents/index.md" />
         <option value="$PROJECT_DIR$/content/organization/board/old_index.txt" />
         <option value="$PROJECT_DIR$/content/organization/board/contact/index.md" />
         <option value="$PROJECT_DIR$/content/organization/officercorps/old_index.txt" />
         <option value="$PROJECT_DIR$/content/organization/officercorps/contact/index.md" />
         <option value="$PROJECT_DIR$/content/organization/officercorps/chiefs/index.md" />
-        <option value="$PROJECT_DIR$/content/organization/officercorps/_index.md" />
         <option value="$PROJECT_DIR$/content/organization/officercorps/group-photos/index.md" />
         <option value="$PROJECT_DIR$/content/organization/board/group-photos/index.md" />
-        <option value="$PROJECT_DIR$/content/organization/board/_index.md" />
         <option value="$PROJECT_DIR$/content/organization/youth/group-photos/index.md" />
         <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/impress_publisher.html" />
         <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/impress-representer.html" />
         <option value="$PROJECT_DIR$/content/privacy-policymd" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/html.html" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/maillink.html" />
+        <option value="$PROJECT_DIR$/themes/bb2018/assets/script/main.js" />
         <option value="$PROJECT_DIR$/content/impress.md" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/events/list.html.html" />
+        <option value="$PROJECT_DIR$/content/aboutus.md" />
+        <option value="$PROJECT_DIR$/content/events/_index.md" />
+        <option value="$PROJECT_DIR$/content/organization/committees/index.md" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/organization/list.html.html" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/organization/single.html.html" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/_default/single.html" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/organization/single.html" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/organization/list.html" />
+        <option value="$PROJECT_DIR$/content/organization/index.md" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/organization/organization.html" />
+        <option value="$PROJECT_DIR$/content/organization/board/_index.md" />
+        <option value="$PROJECT_DIR$/content/organization/officercorps/_index.md" />
+        <option value="$PROJECT_DIR$/content/organization/youth/_index.md" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/summary.html" />
+        <option value="$PROJECT_DIR$/content/organization/_index.md" />
+        <option value="$PROJECT_DIR$/content/index.md" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/currentthrone.html" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/link.html" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/tlink.html" />
+        <option value="$PROJECT_DIR$/content/thrones/2018/index.md" />
+        <option value="$PROJECT_DIR$/content/reports/2018/volkstrauertag.md" />
+        <option value="$PROJECT_DIR$/content/reports/2018/jahreshauptversammlung.md" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/_default/list.html" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/index.html" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/card.html" />
+        <option value="$PROJECT_DIR$/content/_index.md" />
+        <option value="$PROJECT_DIR$/config.yaml" />
+        <option value="$PROJECT_DIR$/content/contact.html" />
         <option value="$PROJECT_DIR$/content/privacy-policy.md" />
+        <option value="$PROJECT_DIR$/content/assets/scripts/email.js" />
+        <option value="$PROJECT_DIR$/themes/bb2018/assets/script/email.js" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/emailjs.html" />
+        <option value="$PROJECT_DIR$/content/contact.md" />
+        <option value="$PROJECT_DIR$/themes/bb2018/layouts/partials/head.html" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="142" />
-    <option name="y" value="79" />
-    <option name="width" value="3491" />
-    <option name="height" value="1911" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Code style issuesCSS</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>DOM issuesJavaScript</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Invalid elementsCSS</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Probable bugsCSS</id>
-          </State>
-          <State>
-            <id>Pug/Jade</id>
-          </State>
-          <State>
-            <id>Spelling</id>
-          </State>
-          <State>
-            <id>YAML</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Spelling</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="x" value="153" />
+    <option name="width" value="3090" />
+    <option name="height" value="2124" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -531,6 +295,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -552,7 +317,17 @@
             <path>
               <item name="buterland-beckerhook" type="b2602c69:ProjectViewProjectNode" />
               <item name="buterland-beckerhook" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="organization" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="buterland-beckerhook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="buterland-beckerhook" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="organization" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="buterland-beckerhook" type="b2602c69:ProjectViewProjectNode" />
@@ -571,14 +346,6 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="bb2018" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="buterland-beckerhook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buterland-beckerhook" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bb2018" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="buterland-beckerhook" type="b2602c69:ProjectViewProjectNode" />
@@ -617,14 +384,6 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="bb2018" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="organization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="buterland-beckerhook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buterland-beckerhook" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="bb2018" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
               <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -639,7 +398,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -648,22 +406,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../projects/cashbox/ATMTapp" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="/snap/node/current/lib/node_modules/npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\officercorps\chiefs" />
-      <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\officercorps\contact" />
-      <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\officercorps" />
-      <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\board\contact" />
-      <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\board\presidents" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dev\misc\hugo\buterland-beckerhook\themes\bb2018\layouts\shortcodes" />
       <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\board\group-photos" />
       <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\officercorps\group-photos" />
       <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\officercorps" />
       <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\officercorps\chiefs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\misc\hugo\buterland-beckerhook\themes\bb2018\assets\script" />
+      <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\officercorps\chiefs" />
+      <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\officercorps\contact" />
+      <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\officercorps" />
+      <recent name="C:\dev\misc\hugo\buterland-beckerhook\content\organization\board\contact" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -679,7 +437,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -719,7 +477,10 @@
       <workItem from="1541513967726" duration="1163000" />
       <workItem from="1541515599443" duration="227000" />
       <workItem from="1541515845196" duration="967000" />
-      <workItem from="1541516834044" duration="49675000" />
+      <workItem from="1541516834044" duration="50274000" />
+      <workItem from="1542876194627" duration="17388000" />
+      <workItem from="1543224591790" duration="139000" />
+      <workItem from="1543224752801" duration="17250000" />
     </task>
     <task id="LOCAL-00001" summary="Added icon set, base templates">
       <created>1540546710433</created>
@@ -746,7 +507,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193311000" />
+    <option name="totallyTimeSpent" value="228687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -760,12 +521,12 @@
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945593" visible="true" weight="0.15208825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945593" visible="true" weight="0.13711584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5005441" side_tool="true" weight="0.19672132" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33694476" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33671084" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.20457019" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -780,7 +541,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945593" visible="true" weight="0.13272727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945593" visible="true" weight="0.13711584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5005441" side_tool="true" weight="0.19672132" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -792,9 +553,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5020979" side_tool="true" weight="0.34561214" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5020979" side_tool="true" weight="0.34555382" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4993007" weight="0.24377032" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4979021" visible="true" weight="0.16038562" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4979021" weight="0.16038562" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -828,9 +589,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -842,336 +614,100 @@
     <option name="LAST_COMMIT_MESSAGE" value="Cleanup base template" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/_default/baseof.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/impress-representer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/board/aboutus.md">
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/assets/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/aboutus.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="9" selection-end-column="55" />
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/officers.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/contactofficers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/subnav.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/events/2018/_index.md">
+    <entry file="file://$PROJECT_DIR$/content/events/_index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/organization/committees/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/organization/article.html.html" />
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/maillink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/events/single.calendar.ics">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/events/single.html.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/organization/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/events/list.json.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/imagegrid.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="92" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
-          <folding>
-            <element signature="e#1121#1144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/youth/jubliee/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="170">
-            <caret line="10" column="23" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/events/2019/Preis-und-Pokalschießen.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/youth/group_2014.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/youth/group_2016.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/youth/group-photos/2009.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/youth/group-photos/1984.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/thrones/2018/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="221">
-            <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/youth/history/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="731">
-            <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/groupslide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/assets/sass/variables.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/image.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding>
-            <element signature="e#843#866#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/youth/today/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor>
-            <caret selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/imageslide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/organization/article.html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/organization/list.html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/mediacardleft.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="121" />
-          <folding>
-            <element signature="e#736#759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/board/presidents/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor>
-            <caret selection-end-line="16" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/grid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/assets/script/uikit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="9580" column="27" selection-start-line="9580" selection-start-column="27" selection-end-line="9580" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/officercorps/contact/head_of_board_2016.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/officercorps/chiefs/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1156">
-            <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/officercorps/old_index.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="989">
-            <caret line="128" column="14" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/board/old_index.txt">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="136">
-            <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/officercorps/group-photos/2014.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/officercorps/group-photos/2018.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/mediacardright.html">
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/organization/organization.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/board/contact/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="340">
-            <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/officercorps/contact/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="272">
-            <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/youth/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="272">
-            <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="112" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/officercorps/group-photos/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="102">
-            <caret line="6" selection-start-line="5" selection-start-column="10" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/board/group-photos/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/organization/officercorps/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="238">
-            <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="119" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/assets/sass/variables-theme.scss">
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/events/list.html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="533" column="9" selection-start-line="533" selection-start-column="1" selection-end-line="533" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/organization/board/_index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="289">
-            <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <first_editor relative-caret-position="323">
+            <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
@@ -1181,56 +717,262 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="204">
-            <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/headofboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="55" />
+    <entry file="file://$PROJECT_DIR$/content/organization/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/impress-publisher.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/board.yaml">
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/assets/sass/variables.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/impress-representer.html">
+    <entry file="file://$PROJECT_DIR$/content/thrones/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/imageslide.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/thrones/2018/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="408">
+            <caret line="24" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/currentthrone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/tlink.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+          <caret column="109" selection-start-column="109" selection-end-column="109" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/policy-representer.html">
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/thrones/list.html.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/reports/2018/volkstrauertag.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/reports/2018/jahreshauptversammlung.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/reports/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/categories/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tags/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/organization/youth/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/organization/officercorps/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="98" lean-forward="true" selection-start-line="15" selection-start-column="98" selection-end-line="15" selection-end-column="98" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/organization/youth/today/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/_default/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/thrones/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/_default/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/theme.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/impress.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="204">
-            <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="56" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="56" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/assets/script/photoswipe-ui-default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="542" column="3" selection-start-line="542" selection-start-column="3" selection-end-line="542" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/privacy-policy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1184">
-            <caret line="211" column="16" selection-start-line="211" selection-start-column="16" selection-end-line="211" selection-end-column="16" />
+          <first_editor relative-caret-position="1063">
+            <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/organization/board/contact/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/_default/baseof.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/assets/script/email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="289">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/shortcodes/emailjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/contact.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bb2018/layouts/partials/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="41" column="98" selection-start-line="41" selection-start-column="98" selection-end-line="41" selection-end-column="98" />
         </state>
       </provider>
     </entry>

@@ -14,6 +14,8 @@ resources:
     title: 'Die Jungschützen zum Schützenfest 2016 (für weitere Gruppenbilder auf das Bild klicken)'
 ---
 
-{{< image name="group" class="uk-width-3-4@m uk-align-center" hl-lightbox="/organization/youth/group-photos" >}}
 Die Jungschützen begleiten den Schützenvereins Buterland-Beckerhook e.V. seit 1956, die Anzahl ihrer Mitglieder 
-schwankt im Laufe der Jahre.
+schwankt im Laufe der Jahre.<!--more-->
+
+{{< image name="group" class="uk-width-3-4@m uk-align-center" hl-lightbox="/organization/youth/group-photos" >}}
+

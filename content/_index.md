@@ -1,23 +1,17 @@
-## Hello go world!
+---
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio lorem, hendrerit at gravida eu, malesuada et justo. Integer eleifend vulputate fringilla. Nullam ac dapibus tellus, vel gravida lectus. Vivamus sed lacus a felis venenatis euismod. Nunc velit nunc, ullamcorper sed velit a, hendrerit placerat nibh. Quisque id purus a orci convallis vehicula non ut mauris. Nulla nec turpis risus. Pellentesque egestas fermentum varius. Praesent in eros et lorem venenatis tempor volutpat et elit. Morbi auctor erat felis, ultricies euismod justo ultricies ut. Praesent laoreet arcu vitae aliquam finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+{{% card title="Work in Progress" %}}
+Diese Seite wird aktuell komplett neu aufgebaut. Daher sind noch nicht alle Bereiche und Funktionen wie gewohnt
+verfügbar, bis zum Abschluss sind alle Daten auch weiterhin unter der Addresse 
+[http://www.Buterland-Beckerhook.de](http://www.Buterland-Beckerhook.de) verfügbar.
+{{% /card %}}
 
-Nunc et dapibus nibh. Donec eu pharetra magna. Morbi tempus vel massa id iaculis. Nullam erat nunc, aliquam a nulla at, mattis pharetra turpis. Suspendisse convallis mi quis odio semper, sit amet fermentum metus pellentesque. Etiam rutrum lacus eget tellus interdum pellentesque. Vestibulum vel turpis est. Mauris in eros tempus, pharetra urna sit amet, porttitor sem.
+{{% card title="Aktueller Thron" class="uk-card-primary" %}}
+{{% currentthrone %}}
+{{% /card %}}
 
-Aliquam fringilla tellus non turpis cursus, ut sagittis dolor mollis. Fusce dictum placerat ex et tempor. Praesent vulputate ornare ante at dignissim. Fusce tincidunt ac tellus a pellentesque. Sed mi ante, aliquet eu semper nec, placerat a ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sit amet scelerisque ante.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan velit quis semper convallis. Duis vitae ullamcorper lorem. Suspendisse vel varius turpis. Proin eget dolor eu dui euismod fermentum a vitae diam. Vivamus eget felis rutrum, euismod sapien quis, interdum tellus. Maecenas rutrum nisl in risus rhoncus tincidunt. Quisque vitae libero sem. Quisque gravida pellentesque velit dignissim tempor. Etiam vitae elementum est. Mauris laoreet ex et mi fringilla, eu gravida est faucibus.
-
-Vivamus molestie tristique scelerisque. Curabitur consequat accumsan ligula, sed consectetur nulla eleifend malesuada. Etiam sollicitudin dignissim congue. Duis non vulputate sem. Fusce facilisis pulvinar blandit. Donec egestas dignissim dui sit amet scelerisque. Vestibulum efficitur placerat interdum. Integer sed tortor lacinia, bibendum lacus nec, ornare lorem. Donec efficitur euismod quam eget facilisis. Sed tristique mauris quis quam sagittis rutrum id laoreet nibh. Proin interdum, nisi nec sodales suscipit, ligula purus vestibulum enim, eget tincidunt erat felis vel lectus.
-
-Nunc et dapibus nibh. Donec eu pharetra magna. Morbi tempus vel massa id iaculis. Nullam erat nunc, aliquam a nulla at, mattis pharetra turpis. Suspendisse convallis mi quis odio semper, sit amet fermentum metus pellentesque. Etiam rutrum lacus eget tellus interdum pellentesque. Vestibulum vel turpis est. Mauris in eros tempus, pharetra urna sit amet, porttitor sem.
-
-Aliquam fringilla tellus non turpis cursus, ut sagittis dolor mollis. Fusce dictum placerat ex et tempor. Praesent vulputate ornare ante at dignissim. Fusce tincidunt ac tellus a pellentesque. Sed mi ante, aliquet eu semper nec, placerat a ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sit amet scelerisque ante.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan velit quis semper convallis. Duis vitae ullamcorper lorem. Suspendisse vel varius turpis. Proin eget dolor eu dui euismod fermentum a vitae diam. Vivamus eget felis rutrum, euismod sapien quis, interdum tellus. Maecenas rutrum nisl in risus rhoncus tincidunt. Quisque vitae libero sem. Quisque gravida pellentesque velit dignissim tempor. Etiam vitae elementum est. Mauris laoreet ex et mi fringilla, eu gravida est faucibus.
-
-Nunc et dapibus nibh. Donec eu pharetra magna. Morbi tempus vel massa id iaculis. Nullam erat nunc, aliquam a nulla at, mattis pharetra turpis. Suspendisse convallis mi quis odio semper, sit amet fermentum metus pellentesque. Etiam rutrum lacus eget tellus interdum pellentesque. Vestibulum vel turpis est. Mauris in eros tempus, pharetra urna sit amet, porttitor sem.
-
-Aliquam fringilla tellus non turpis cursus, ut sagittis dolor mollis. Fusce dictum placerat ex et tempor. Praesent vulputate ornare ante at dignissim. Fusce tincidunt ac tellus a pellentesque. Sed mi ante, aliquet eu semper nec, placerat a ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sit amet scelerisque ante.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan velit quis semper convallis. Duis vitae ullamcorper lorem. Suspendisse vel varius turpis. Proin eget dolor eu dui euismod fermentum a vitae diam. Vivamus eget felis rutrum, euismod sapien quis, interdum tellus. Maecenas rutrum nisl in risus rhoncus tincidunt. Quisque vitae libero sem. Quisque gravida pellentesque velit dignissim tempor. Etiam vitae elementum est. Mauris laoreet ex et mi fringilla, eu gravida est faucibus.
+{{% card title="Nächster Termin" class="uk-card-secondary" %}}
+Nächster Termin
+{{% /card %}}

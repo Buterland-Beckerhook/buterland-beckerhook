@@ -1,4 +1,4 @@
-baseURL: https://bb.verst.eu/
+baseURL: https://buterland-beckerhook.de/
 languageCode: de-DE
 title: Buterland-Beckerhook
 theme: bb2018
@@ -12,6 +12,14 @@ menu:
     name: Der Verein
     url: /
     weight: 1
+  - identifier: events
+    name: Termine
+    url: /events/
+    weight: 2
+  - identifier: reports
+    name: Aktuelles
+    url: /reports/
+    weight: 3
   - identifier: organization
     name: Gremien
     url: /organization/
@@ -22,11 +30,15 @@ menu:
     weight: 10
 
   right:
+  - identifier: contact
+    name: Kontakt
+    url: /contact/
+    weight: 1
   - identifier: privacy-policy
     name: Datenschutz
     url: /privacy-policy/
-    weight: 1
+    weight: 2
   - identifier: impress
     name: Impressum
     url: /impress/
-    weight: 2
+    weight: 3

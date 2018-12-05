@@ -4,7 +4,7 @@ Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Date
   
   
 {{< impress-publisher >}}  
-eMail-Adresse: [Vorstand@Buterland-Beckerhook.de](mailto://Vorstand@Buterland-Beckerhook.de)  
+eMail-Adresse: {{< maillink >}}Vorstand{{< /maillink >}}  
 Geschäftsführer: {{< impress-representer >}}
 
 Link zum Impressum: [{{< ref "/impress.md" >}}]({{< ref "/impress.md" >}})
@@ -111,43 +111,16 @@ löschen Ihre Daten nach Ablauf dieser Fristen.
 Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig. Wir können Ihre Anfrage jedoch nur bearbeiten, 
 sofern Sie uns Ihren Namen, Ihre E-Mail-Adresse und den Grund der Anfrage mitteilen.
 
-## Verwendung von Scriptbibliotheken (Google Webfonts)
-### Art und Zweck der Verarbeitung:
-Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend darzustellen, verwenden wir auf dieser 
-Website „Google Web Fonts“ der Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; nachfolgend „Google“) 
-zur Darstellung von Schriften.
-
-Die Datenschutzrichtlinie des Bibliothekbetreibers Google finden Sie hier: 
-[https://www.google.com/policies/privacy/](https://www.google.com/policies/privacy/)
-
-### Rechtsgrundlage:
-Rechtsgrundlage für die Einbindung von Google Webfonts und dem damit verbundenen Datentransfer zu Google ist Ihre 
-Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
-
-### Empfänger:
-Der Aufruf von Scriptbibliotheken oder Schriftbibliotheken löst automatisch eine Verbindung zum Betreiber der 
-Bibliothek aus. Dabei ist es theoretisch möglich – aktuell allerdings auch unklar ob und ggf. zu welchen Zwecken – 
-dass der Betreiber in diesem Fall Google Daten erhebt.
-
-### Speicherdauer:
-Wir erheben keine personenbezogenen Daten, durch die Einbindung von Google Webfonts.
-
-Weitere Informationen zu Google Web Fonts finden Sie unter https://developers.google.com/fonts/faq und in der 
-Datenschutzerklärung von Google: [https://www.google.com/policies/privacy/](https://www.google.com/policies/privacy/)
-
-### Drittlandtransfer:
-Google verarbeitet Ihre Daten in den USA und hat sich dem EU_US Privacy Shield unterworfen 
-[https://www.privacyshield.gov/EU-US-Framework](https://www.privacyshield.gov/EU-US-Framework).
-
-### Bereitstellung vorgeschrieben oder erforderlich:
-Die Bereitstellung der personenbezogenen Daten ist weder gesetzlich, noch vertraglich vorgeschrieben. 
-Allerdings kann ohne die korrekte Darstellung der Inhalte von Standardschriften nicht ermöglicht werden.
-
-### Widerruf der Einwilligung:
-Zur Darstellung der Inhalte wird regelmäßig die Programmiersprache JavaScript verwendet. Sie können der 
-Datenverarbeitung daher widersprechen, indem Sie die Ausführung von JavaScript in Ihrem Browser deaktivieren 
-oder einen Einbindung JavaScript-Blocker installieren. Bitte beachten Sie, dass es hierdurch zu Funktionseinschränkungen 
-auf der Website kommen kann.
+### Google reCAPTCHA
+Wir verwenden den Google-Dienst reCAPTCHA, um festzustellen, ob ein Mensch oder ein Computer eine bestimmte Eingabe 
+in unserem Kontaktformular macht. Google prüft anhand folgender Daten, ob Sie ein Mensch oder ein Computer sind: 
+IP-Adresse des verwendeten Endgeräts, die Webseite, die Sie bei uns besuchen und auf der das Captcha eingebunden ist, 
+das Datum und die Dauer des Besuchs, die Erkennungsdaten des verwendeten Browser- und Betriebssystem-Typs, 
+Google-Account, wenn Sie bei Google eingeloggt sind, Mausbewegungen auf den reCaptcha-Flächen sowie Aufgaben, 
+bei denen Sie Bilder identifizieren müssen. Rechtsgrundlage für die beschriebene Datenverarbeitung ist Art. 6 Abs. 1 
+Buchstabe f Datenschutz-Grundverordnung. Es besteht ein berechtigtes Interesse auf unserer Seite an dieser 
+Datenverarbeitung, die Sicherheit unserer Webseite zu gewährleisten und uns vor automatisierten Eingaben (Angriffen) 
+zu schützen.
 
 ## Verwendung von Google Maps
 ### Art und Zweck der Verarbeitung:
@@ -187,6 +160,46 @@ Google verarbeitet Ihre Daten in den USA und hat sich dem EU_US Privacy Shield u
 Wenn Sie nicht möchten, dass Google über unseren Internetauftritt Daten über Sie erhebt, verarbeitet oder nutzt, 
 können Sie in Ihrem Browsereinstellungen JavaScript deaktivieren. In diesem Fall können Sie unsere Webseite jedoch nicht 
 oder nur eingeschränkt nutzen.
+
+### Bereitstellung vorgeschrieben oder erforderlich:
+Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig, allein auf Basis Ihrer Einwilligung. 
+Sofern Sie den Zugriff unterbinden, kann es hierdurch zu Funktionseinschränkungen auf der Website kommen.
+
+## Eingebettete YouTube-Videos
+### Art und Zweck der Verarbeitung:
+Auf einigen unserer Webseiten betten wir YouTube-Videos ein. Betreiber der entsprechenden Plugins ist die 
+YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA (nachfolgend „YouTube“). Wenn Sie eine Seite mit dem 
+YouTube-Plugin besuchen, wird eine Verbindung zu Servern von YouTube hergestellt. Dabei wird YouTube mitgeteilt,
+welche Seiten Sie besuchen. Wenn Sie in Ihrem YouTube-Account eingeloggt sind, kann YouTube Ihr Surfverhalten Ihnen 
+persönlich zuzuordnen. Dies verhindern Sie, indem Sie sich vorher aus Ihrem YouTube-Account ausloggen.
+
+Wird ein YouTube-Video gestartet, setzt der Anbieter Cookies ein, die Hinweise über das Nutzerverhalten sammeln.
+
+Weitere Informationen zu Zweck und Umfang der Datenerhebung und ihrer Verarbeitung durch YouTube erhalten Sie in den 
+Datenschutzerklärungen des Anbieters, Dort erhalten Sie auch weitere Informationen zu Ihren diesbezüglichen Rechten 
+und Einstellungsmöglichkeiten zum Schutze Ihrer Privatsphäre
+([https://policies.google.com/privacy](https://policies.google.com/privacy)). 
+Google verarbeitet Ihre Daten in den USA und hat sich dem EU-US Privacy Shield unterworfen 
+[https://www.privacyshield.gov/EU-US-Framework](https://www.privacyshield.gov/EU-US-Framework).
+
+### Rechtsgrundlage:
+Rechtsgrundlage für die Einbindung von YouTube und dem damit verbundenen Datentransfer zu Google ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
+
+### Empfänger:
+Der Aufruf von YouTube löst automatisch eine Verbindung zu Google aus.
+
+### Speicherdauer und Widerruf der Einwilligung:
+Wer das Speichern von Cookies für das Google-Ad-Programm deaktiviert hat, wird auch beim Anschauen 
+von YouTube-Videos mit keinen solchen Cookies rechnen müssen. YouTube legt aber auch in anderen Cookies 
+nicht-personenbezogene Nutzungsinformationen ab. Möchten Sie dies verhindern, so müssen Sie das Speichern 
+von Cookies im Browser blockieren.
+
+Weitere Informationen zum Datenschutz bei „YouTube“ finden Sie in der Datenschutzerklärung des Anbieters unter: 
+[https://www.google.de/intl/de/policies/privacy/](https://www.google.de/intl/de/policies/privacy/)
+
+### Drittlandtransfer:
+Google verarbeitet Ihre Daten in den USA und hat sich dem EU_US Privacy Shield unterworfen 
+[https://www.privacyshield.gov/EU-US-Framework](https://www.privacyshield.gov/EU-US-Framework).
 
 ### Bereitstellung vorgeschrieben oder erforderlich:
 Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig, allein auf Basis Ihrer Einwilligung. 

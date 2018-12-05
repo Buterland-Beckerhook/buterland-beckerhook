@@ -19,9 +19,9 @@ resources:
 
 ### Der 429. Schuss entscheidet das spannende Königsschießen
 
-[Zum Bericht des Vogelschießen (WN)](https://short.verst.eu/bbvgs2018)  
-[Zum Bericht des Krönungsball (WN)](https://short.verst.eu/bbschtzf2018)  
-[Königinnen spezial - Eine majestätische Familie (WN)](https://short.verst.eu/bbYvMa)  
+{{< tlink url="https://short.verst.eu/bbvgs2018" text="Zum Bericht des Vogelschießen (WN)" >}}  
+{{< tlink url="https://short.verst.eu/bbschtzf2018" text="Zum Bericht des Krönungsball (WN)" >}}  
+{{< tlink url="https://short.verst.eu/bbYvMa" text="Königinnen spezial - Eine majestätische Familie (WN)" >}}  
 
 {{< imageslide "gallery" >}}
 {{< thronemembers >}}

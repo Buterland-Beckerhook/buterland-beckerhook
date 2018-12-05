@@ -15,11 +15,11 @@ resources:
     title: 'v.l.n.r: B. Doetkotte, A. Falkenberg, H. Verst, J. Frieske, G. Lübbers'
 ---
 
-{{< image name="group" class="uk-width-3-4@m uk-align-center" hl-lightbox="/organization/board/group-photos" >}}
-
 Der Vorstand führt die Geschäfte des Vereins und sorgt dafür, dass die Aufgaben des Schützenvereins 
 Buterland-Beckerhook ordnungsgemäß durchgeführt werden. Insbesondere ist er für die Verwaltung und 
-Überwachung des Vereinsvermögens verantwortlich.
+Überwachung des Vereinsvermögens verantwortlich.<!--more-->
+
+{{< image name="group" class="uk-width-3-4@m uk-align-center" hl-lightbox="/organization/board/group-photos" >}}
 
 Sämtliche Vorstandsmitglieder arbeiten ehrenamtlich und werden von der Mitgliederversammlung gewählt.
 Insgesamt gehören dem Vorstand 19 Mitglieder an.

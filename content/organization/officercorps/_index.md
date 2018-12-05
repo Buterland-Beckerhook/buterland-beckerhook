@@ -11,12 +11,11 @@ resources:
     name: 'group'
     title: 'Offiziere des Vereins zum Schützenfest 2018 (für weitere Gruppenbilder auf das Bild klicken)'
 ---
-
-{{< image name="group" class="uk-width-3-4@m uk-align-center" hl-lightbox="/organization/officercorps/group-photos" >}}
-
 Das Offizierscorps des Schützenvereins Buterland-Beckerhook e.V. besteht zur Zeit aus 19 Offizieren. 
 Chef des Offizierscorps und damit ranghöchster Offizier des Schützenvereins ist der Oberst. 
-Der Oberst ist gleichzeitig Mitglied des Vereinsvorstandes und nimmt an dessen Versammlungen teil.
+Der Oberst ist gleichzeitig Mitglied des Vereinsvorstandes und nimmt an dessen Versammlungen teil.<!--more-->
+
+{{< image name="group" class="uk-width-3-4@m uk-align-center" hl-lightbox="/organization/officercorps/group-photos" >}}
 
 Alle Mitglieder des Offizierscorps werden von der Jahreshauptversammlung gewählt, wobei nur gewählt werden kann, 
 wer mindestens 3 Jahre Mitglied des Schützenvereins ist und seinen Wohnsitz innerhalb der Grenzen des Vereinsbezirkes hat.
