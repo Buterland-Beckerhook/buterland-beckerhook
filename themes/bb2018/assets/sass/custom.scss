@@ -48,6 +48,30 @@ li .bb-navbar-active {
 	margin-left: 0.2em;
 }
 
+/* Textlink without underline
+ ========================================================================== */
+
+a.uk-link-text-nu:not(:hover),
+.uk-link-text a:not(:hover) {
+	color: inherit;
+	text-decoration-line: none;
+	@if(mixin-exists(hook-link-text)) {@include hook-link-text();}
+}
+
+a.uk-link-text-nu:hover,
+.uk-link-text a:hover {
+	color: $link-text-hover-color;
+	text-decoration-line: none;
+	@if(mixin-exists(hook-link-text-hover)) {@include hook-link-text-hover();}
+}
+
+
+.uk-overlay-primary-sm {
+	background: $overlay-primary-background;
+	height: 20px;
+	@if(mixin-exists(hook-overlay-primary)) {@include hook-overlay-primary();}
+}
+
 @import "uikit-theme.scss";
 
 @media (max-width: $breakpoint-small) {

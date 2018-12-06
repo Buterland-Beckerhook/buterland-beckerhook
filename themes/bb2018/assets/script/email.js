@@ -62,7 +62,7 @@ function sendForm() {
 	let r = grecaptcha.getResponse();
 	if (r === undefined || r === '') {
 		ui_alert_title.innerText = 'CAPTCHA nicht gelöst?';
-		ui_alert_text.innerText = 'Sie müssen vor dem Senden des Formulars das Captcha lösen.'
+		ui_alert_text.innerText = 'Sie müssen vor dem Senden das Captcha lösen.'
 		UIkit.modal(ui_alert).show();
 		sending = false;
 		return;
@@ -97,7 +97,7 @@ function sendForm() {
 				console.log(req.responseText);
 			} else {
 				ui_alert_title.innerText = 'Fehler beim Senden!';
-				ui_alert_text.innerText = 'Beim übermitteln Ihrer Nachricht ist leider ein Fehler aufgetreten. Bitte später erneut versuchen.'
+				ui_alert_text.innerText = 'Beim Übermitteln Ihrer Nachricht ist leider ein Fehler aufgetreten.'
 				UIkit.modal(ui_alert).show();
 				resetForm();
 				console.error("request failed", req.readyState, req.status, req.statusText, req.responseText);

@@ -1,20 +1,20 @@
-{{- $data := .Site.Data.officers -}}
+{{- $data := .Site.Data.offiziere -}}
 <div class="uk-overflow-auto uk-width-1-2@m uk-tile-muted uk-padding uk-align-center">
     <table class="uk-table uk-table-small uk-table-middle">
         <tr>
             <td >Oberst:<br><br><br></td>
             <td>
-                {{- index $data.colonel "name" -}}<br>
-                {{- index $data.colonel "street" -}}<br>
-                {{- index $data.colonel "city" -}}
+                {{- index $data.oberst "name" -}}<br>
+                {{- index $data.oberst "street" -}}<br>
+                {{- index $data.oberst "city" -}}
             </td>
         </tr>
         <tr>
             <td>Oberstleutnant:<br><br><br></td>
             <td>
-                {{- index $data.lieutenantColonel "name" -}}<br>
-                {{- index $data.lieutenantColonel "street" -}}<br>
-                {{- index $data.lieutenantColonel "city" -}}
+                {{- index $data.oberstleutnant "name" -}}<br>
+                {{- index $data.oberstleutnant "street" -}}<br>
+                {{- index $data.oberstleutnant "city" -}}
             </td>
         </tr>
         <tr>

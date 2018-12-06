@@ -1,5 +1,0 @@
----
-title: Jahreshauptversammlung
----
-
-asd

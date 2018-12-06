@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//buterland-beckerhook//termine//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+ORGANIZER;CN="Schützenverein Buterland-Beckerhook":mailto:info@buterland-beckerhook.de
+SUMMARY:{{.Title}}
+UID:{{.Title}}
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:{{dateFormat "20060102T150405Z" .Date}}
+DTSTART;TZID=Europe/Berlin:{{dateFormat "20060102T150405" .Date}}
+DTEND;TZID=Europe/Berlin:{{- with .Params.end }}{{dateFormat "20060102T150405" .}}{{ else }}{{dateFormat "20060102T150405" .Date}}{{ end -}}
+LOCATION:{{with .Params.location}}{{.}}{{else}}-{{end}}
+URL:{{ .Permalink }}
+END:VEVENT
+END:VCALENDAR

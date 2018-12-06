@@ -12,33 +12,29 @@ menu:
     name: Der Verein
     url: /
     weight: 1
-  - identifier: events
+  - identifier: termine
     name: Termine
-    url: /events/
+    url: /termine/
     weight: 2
-  - identifier: reports
+  - identifier: aktuell
     name: Aktuelles
-    url: /reports/
+    url: /aktuell/
     weight: 3
-  - identifier: organization
-    name: Gremien
-    url: /organization/
-    weight: 5
-  - identifier: thrones
-    name: Thron
-    url: /thrones/
-    weight: 10
+  - identifier: thron
+    name: Verschiedenes
+    url: /misc/
+    weight: 4
 
   right:
-  - identifier: contact
+  - identifier: kontakt
     name: Kontakt
-    url: /contact/
+    url: /kontakt/
     weight: 1
-  - identifier: privacy-policy
+  - identifier: datenschuzerklaerung
     name: Datenschutz
-    url: /privacy-policy/
+    url: /datenschutzerklaerung/
     weight: 2
-  - identifier: impress
+  - identifier: impressum
     name: Impressum
-    url: /impress/
+    url: /impressum/
     weight: 3

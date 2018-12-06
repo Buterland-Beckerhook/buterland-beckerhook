@@ -1,23 +1,89 @@
-{{- $name := (.Get 0) -}}
-{{- $images := .Page.Resources.Match (printf "%s-*" $name) -}}
-<div uk-slideshow="animation: slide">
-	<div class="uk-position-relative uk-visible-toggle uk-light">
-		<ul class="uk-slideshow-items">
+{{- $class := "" -}}
+{{- with .Get "class" -}}
+  {{- $class = . -}}
+{{- end -}}
 
-		{{- range $images -}}
-			<li>
-			{{- $s := .Fit "800x600" -}}
-			{{- $m := .Fit "800x600" -}}
-			{{- $l := .Fit "800x600" -}}
+{{ $lb := false }}
+{{- with (.Get "lightbox") -}}
+  {{- if or (eq . "1") (eq . "true") -}}
+    {{ $lb = true }}
+  {{- end -}}
+{{- end -}}
 
-			<img data-src="{{ $l.Permalink }}" data-srcset="{{- $l.Permalink }} {{ $s.Width -}}w, {{ $l.Permalink }} {{ $l.Width -}}w, {{ $l.Permalink }}  {{ $l.Width -}}w"
-	        sizes="(max-width: {{ $l.Width -}}px) {{ $l.Width -}}px, (max-width: {{ $l.Width -}}px) {{ $l.Width -}}px 100vw" width="{{- $l.Width -}}" height="{{- $l.Height -}}" alt=""
-	        uk-cover uk-img="target: !.uk-slideshow-items">
-			</li>
-		{{ end }}
-		</ul>
-		<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-		<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-	</div>
-	<ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+{{ $sort := "asc" }}
+{{- with (.Get "sort") -}}
+    {{ $sort = . }}
+{{- end -}}
+
+{{- $id := "" -}}
+{{- $images := "4" -}}
+
+{{- with (.Get "res") -}}
+  {{- $id = (md5 .) -}}
+  {{- $headless := $.Site.GetPage . -}}
+  {{- $images = $headless.Resources.ByType "image" -}}
+{{- end -}}
+
+{{- with (.Get "name") -}}
+  {{- $id = (md5 .) -}}
+  {{- $images = $.Page.Resources.Match (printf "%s-*" .) -}}
+{{- end -}}
+
+<div uk-slideshow="animation: slide" class="{{ $class }}">
+  <div class="uk-position-relative uk-visible-toggle uk-light">
+    <ul class="uk-slideshow-items">
+      {{- range $i, $e := sort $images "Name" $sort -}}
+      <li uk-slider-item="{{ $id }}">
+        {{- $s := .Resize "480x" -}}
+        {{- $m := .Resize "800x" -}}
+        {{- $l := .Resize "1200x" -}}
+        <img data-src="{{ $l.Permalink }}" data-srcset="{{- $l.Permalink }} {{ $s.Width -}}w, {{ $l.Permalink }} {{ $l.Width -}}w, {{ $l.Permalink }}  {{ $l.Width -}}w"
+             sizes="(max-width: {{ $l.Width -}}px) {{ $l.Width -}}px, (max-width: {{ $l.Width -}}px) {{ $l.Width -}}px 100vw" width="{{- $l.Width -}}" height="{{- $l.Height -}}" alt=""
+             {{ if $lb }}onclick="UIkit.lightbox('#lb-{{- $id -}}').show({{ $i }});" style="cursor: pointer"{{ end }} uk-cover uk-img="target: !.uk-slideshow-items">
+        {{- $ov := "" -}}
+        {{- $ovTitle := "" -}}
+        {{- $ovCopy := "" -}}
+        {{- with .Title -}}
+        {{- $ovTitle = . -}}
+        {{- end -}}
+        {{- with .Params.Copy -}}
+        {{- $ovCopy = . -}}
+        {{- end -}}
+        {{- if or $ovTitle $ovCopy -}}
+        {{- $ov = "1" -}}
+        {{- end -}}
+        {{- if $ov -}}
+        <div class="uk-overlay uk-position-bottom uk-overlay-primary uk-padding-small">
+          {{- if $ovTitle -}}<small class="uk-align-left uk-margin-remove uk-text-bold">{{ $ovTitle }}</small>{{- end -}}
+          {{- if $ovCopy -}}<small class="uk-align-right uk-margin-remove">&copy; {{ $ovCopy }}</small>{{- end -}}
+        </div>
+        {{- end -}}
+      </li>
+      {{- end -}}
+    </ul>
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+  </div>
+  <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
 </div>
+
+{{- with $lb -}}
+<div id="lb-{{- $id -}}" uk-lightbox>
+  {{- range sort $images "Name" $sort -}}
+  {{- $ov := "" -}}
+  {{- $ovTitle := "" -}}
+  {{- $ovCopy := "" -}}
+  {{- with .Title -}}
+  {{- $ovTitle = . -}}
+  {{- end -}}
+  {{- with .Params.Copy -}}
+  {{- $ovCopy = . -}}
+  {{- end -}}
+  {{- if or $ovTitle $ovCopy -}}
+  {{- $ov = "1" -}}
+  {{- end -}}
+  <a href="{{ .Permalink }}" {{- if $ov -}}data-caption="{{- if $ovTitle -}}{{ $ovTitle }}{{- end -}}{{- if $ovCopy }} (&copy; {{ $ovCopy }}){{- end -}}"{{- end -}}></a>
+
+  {{- end -}}
+</div>
+{{- end -}}

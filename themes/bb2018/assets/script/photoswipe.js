@@ -17,7 +17,7 @@
 /*>>framework-bridge*/
 /**
  *
- * Set of generic functions used by gallery.
+ * Set of generic functions used by gallerie.
  * 
  * You're free to modify anything here as long as functionality is kept.
  * 
@@ -363,8 +363,8 @@ var _isOpen,
 	_currPanDist = _getEmptyPoint(),
 	_startPanOffset = _getEmptyPoint(),
 	_panOffset = _getEmptyPoint(),
-	_upMoveEvents, // drag move, drag end & drag cancel events array
-	_downEvents, // drag start events array
+	_upMoveEvents, // drag move, drag end & drag cancel termine array
+	_downEvents, // drag start termine array
 	_globalEventHandlers,
 	_viewportSize = {},
 	_currZoomLevel,
@@ -842,7 +842,7 @@ var publicMethods = {
 
 		_setupTransforms();
 
-		// Setup global events
+		// Setup global termine
 		_globalEventHandlers = {
 			resize: self.updateSize,
 
@@ -963,7 +963,7 @@ var publicMethods = {
 			// On all versions of iOS lower than 8.0, we check size of viewport every second.
 			// 
 			// This is done to detect when Safari top & bottom bars appear, 
-			// as this action doesn't trigger any events (like resize). 
+			// as this action doesn't trigger any termine (like resize).
 			// 
 			// On iOS8 they fixed this.
 			// 
@@ -979,7 +979,7 @@ var publicMethods = {
 		framework.addClass(template, 'pswp--visible');
 	},
 
-	// Close the gallery, then destroy it
+	// Close the gallerie, then destroy it
 	close: function() {
 		if(!_isOpen) {
 			return;
@@ -993,7 +993,7 @@ var publicMethods = {
 		_showOrHide(self.currItem, null, true, self.destroy);
 	},
 
-	// destroys the gallery (unbinds events, cleans up intervals and timeouts to avoid memory leaks)
+	// destroys the gallerie (unbinds termine, cleans up intervals and timeouts to avoid memory leaks)
 	destroy: function() {
 		_shout('destroy');
 
@@ -1239,7 +1239,7 @@ var publicMethods = {
 				// update zoom level on items and refresh source (if needsUpdate)
 				item = _getItemAt( hIndex );
 
-				// re-render gallery item if `needsUpdate`,
+				// re-render gallerie item if `needsUpdate`,
 				// or doesn't have `bounds` (entirely new slide object)
 				if( item && (_itemsNeedUpdate || item.needsUpdate || !item.bounds) ) {
 
@@ -1475,7 +1475,7 @@ var _gestureStartTime,
 	},
 
 	
-	// points pool, reused during touch events
+	// points pool, reused during touch termine
 	_ePoint1 = {},
 	_ePoint2 = {},
 	_tempPointsArr = [],
@@ -1504,7 +1504,7 @@ var _gestureStartTime,
 			}
 		} else {
 			_tempCounter = 0;
-			// we can use forEach, as pointer events are supported only in modern browsers
+			// we can use forEach, as pointer termine are supported only in modern browsers
 			_currPointers.forEach(function(p) {
 				if(_tempCounter === 0) {
 					_tempPointsArr[0] = p;
@@ -1534,7 +1534,7 @@ var _gestureStartTime,
 		if(newOffset > _currPanBounds.min[axis] || newOffset < _currPanBounds.max[axis]) {
 			panFriction = _options.panEndFriction;
 			// Linear increasing of friction, so at 1/4 of viewport it's at max value. 
-			// Looks not as nice as was expected. Left for history.
+			// Looks not as nice as was expected. Left for geschichte.
 			// panFriction = (1 - (_panOffset[axis] + delta[axis] + panBounds.min[axis]) / (_viewportSize[axis] / 4) );
 		} else {
 			panFriction = 1;
@@ -2433,7 +2433,7 @@ _registerModule('Gestures', {
 
 		initGestures: function() {
 
-			// helper function that builds touch/pointer/mouse events
+			// helper function that builds touch/pointer/mouse termine
 			var addEventNames = function(pref, down, move, up, cancel) {
 				_dragStartEvent = pref + down;
 				_dragMoveEvent = pref + move;
@@ -2447,7 +2447,7 @@ _registerModule('Gestures', {
 
 			_pointerEventEnabled = _features.pointerEvent;
 			if(_pointerEventEnabled && _features.touch) {
-				// we don't need touch events, if browser supports pointer events
+				// we don't need touch termine, if browser supports pointer termine
 				_features.touch = false;
 			}
 
@@ -2455,7 +2455,7 @@ _registerModule('Gestures', {
 				if(navigator.pointerEnabled) {
 					addEventNames('pointer', 'down', 'move', 'up', 'cancel');
 				} else {
-					// IE10 pointer events are case-sensitive
+					// IE10 pointer termine are case-sensitive
 					addEventNames('MSPointer', 'Down', 'Move', 'Up', 'Cancel');
 				}
 			} else if(_features.touch) {
@@ -2482,7 +2482,7 @@ _registerModule('Gestures', {
 				_globalEventHandlers[_dragCancelEvent] = _globalEventHandlers[_dragEndEvent];
 			}
 
-			// Bind mouse events on device with detected hardware touch support, in case it supports multiple types of input.
+			// Bind mouse termine on device with detected hardware touch support, in case it supports multiple types of input.
 			if(_features.touch) {
 				_downEvents += ' mousedown';
 				_upMoveEvents += ' mousemove mouseup';
@@ -2509,7 +2509,7 @@ _registerModule('Gestures', {
  *
  * Manages initial opening or closing transition.
  *
- * If you're not planning to use transition for gallery at all,
+ * If you're not planning to use transition for gallerie at all,
  * you may set options hideAnimationDuration and showAnimationDuration to 0,
  * and just delete startAnimation function.
  * 
@@ -2558,7 +2558,7 @@ var _showOrHideTimeout,
 			_initialZoomRunning = false;
 		};
 
-		// if bounds aren't provided, just open gallery without animation
+		// if bounds aren't provided, just open gallerie without animation
 		if(!duration || !thumbBounds || thumbBounds.x === undefined) {
 
 			_shout('initialZoom' + (out ? 'Out' : 'In') );
@@ -2691,7 +2691,7 @@ var _showOrHideTimeout,
 /*>>items-controller*/
 /**
 *
-* Controller manages gallery items, their dimensions, and their content.
+* Controller manages gallerie items, their dimensions, and their content.
 * 
 */
 
@@ -3066,7 +3066,7 @@ _registerModule('Controller', {
 
 				item.loadComplete = function(item) {
 
-					// gallery closed before image finished loading
+					// gallerie closed before image finished loading
 					if(!_isOpen) {
 						return;
 					}
@@ -3189,7 +3189,7 @@ _registerModule('Controller', {
 /**
  * tap.js:
  *
- * Displatches tap and double-tap events.
+ * Displatches tap and double-tap termine.
  * 
  */
 
@@ -3442,15 +3442,15 @@ _registerModule('DesktopZoom', {
 
 /*>>desktop-zoom*/
 
-/*>>history*/
+/*>>geschichte*/
 /**
  *
- * history.js:
+ * geschichte.js:
  *
- * - Back button to close gallery.
+ * - Back button to close gallerie.
  * 
  * - Unique URL for each slide: example.com/&pid=1&gid=3
- *   (where PID is picture index, and GID and gallery index)
+ *   (where PID is picture index, and GID and gallerie index)
  *   
  * - Switch URL when slides change.
  * 
@@ -3728,7 +3728,7 @@ _registerModule('History', {
 });
 
 
-/*>>history*/
+/*>>geschichte*/
 	framework.extend(self, publicMethods); };
 	return PhotoSwipe;
 });

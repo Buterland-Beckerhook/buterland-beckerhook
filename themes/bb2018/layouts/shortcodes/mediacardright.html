@@ -7,6 +7,7 @@
 {{- end -}}
 {{- end -}}
 {{- end -}}
+
 <div class="uk-padding-large">
     <div class="uk-card uk-card-default" uk-grid>
         <div class="uk-width-expand@m uk-width-1-2@s">
@@ -19,8 +20,10 @@
             </div>
         </div>
         <div class="uk-card-media-right uk-cover-container uk-width-1-2@s uk-width-1-4@m">
-            <canvas width="{{ $img.Width }}" Height="{{ $img.Height }}"></canvas>
-            <img class="uk-align-center" src="{{ $img.Permalink }}" width="{{ $img.Width }}" Height="{{ $img.Height }}" alt="" uk-cover>
+            {{- with $img -}}
+            <canvas width="{{ $img.Width }}" Height="{{ .Height }}"></canvas>
+            <img class="uk-align-center" src="{{ .Permalink }}" width="{{ .Width }}" Height="{{ .Height }}" alt="" uk-cover>
+            {{- end -}}
         </div>
     </div>
 </div>
