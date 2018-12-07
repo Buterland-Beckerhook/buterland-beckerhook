@@ -72,6 +72,16 @@ a.uk-link-text-nu:hover,
 	@if(mixin-exists(hook-overlay-primary)) {@include hook-overlay-primary();}
 }
 
+.uk-card-border {
+	border: 1px solid $global-border;
+	padding: 5px;
+}
+
+.uk-card-noborder {
+	border: none;
+}
+
+
 @import "uikit-theme.scss";
 
 @media (max-width: $breakpoint-small) {

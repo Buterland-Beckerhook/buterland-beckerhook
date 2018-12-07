@@ -3,7 +3,7 @@
 {{- range where .Sections.Reverse ".Date.Year" now.Year -}}
 <h1 class="uk-margin-top uk-margin-bottom uk-text-center">{{ .Title }}</h1>
 {{ range .Pages.Reverse }}
-<div class="uk-card uk-card-default uk-width-1-1@l uk-margin-bottom">
+<div class="uk-card uk-card-default uk-card-border uk-width-1-1@l uk-margin-bottom">
 	<div class="uk-card-header uk-overflow-hidden">
 		<div class="uk-grid-small uk-flex-middle" uk-grid>
 			<div class="uk-width-auto">
