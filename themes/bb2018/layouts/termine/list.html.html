@@ -1,6 +1,6 @@
 {{- define "main" -}}
 {{- if eq .Type "eventlist" -}}
-{{- range where .Sections.Reverse ".Date.Year" now.Year -}}
+{{- range where .Sections.Reverse ".Date.Year" 2019 -}}
 <h1 class="uk-margin-top uk-margin-bottom uk-text-center">{{ .Title }}</h1>
 {{ range .Pages.Reverse }}
 <div class="uk-card uk-card-default uk-card-border uk-width-1-1@l uk-margin-bottom">
@@ -23,7 +23,18 @@
 		<!--<a class="uk-card-badge uk-label uk-visible@s" {{ with .OutputFormats.Get "calendar" }}href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}"{{ end -}}>abbonieren</a>-->
 	{{- with .Content -}}<p>{{ . }}</p>{{- end -}}
 		<div>{{- if (not (isset .Params "end")) }}ab {{ end -}}{{ with .Date }}{{- . | dateFormat "15:04" -}}&nbsp;Uhr{{ end -}}{{ with .Params.end }} - {{ . | dateFormat "15:04" -}}&nbsp;Uhr{{ end -}}</div>
-		<div>{{- with .Params.location}}{{ . }}{{ end -}}</div>
+		<div>{{- if isset .Params "location" -}}
+			   {{- $loc := "" -}}
+			   {{- if eq .Params.location "platz" -}}{{ $loc = .Site.Data.locations.platz }}{{- end -}}
+			   {{- if eq .Params.location "gleis" -}}{{ $loc = .Site.Data.locations.gleis }}{{- end -}}
+			   {{- if eq .Params.location "dinkelhof" -}}{{ $loc = .Site.Data.locations.dinkelhof }}{{- end -}}
+			   {{- if eq $loc "" -}}
+			      {{ .Params.location }}
+			   {{- else -}}
+			      {{ $loc.name }}
+			   {{- end -}}
+			   {{- end -}}
+		</div>
 	</div>
 	<div class="uk-card-footer uk-hidden@s">
 		<!--<a class="uk-label uk-align-right" {{ with .OutputFormats.Get "calendar" }}href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}"{{ end -}}>abbonieren</a>-->
