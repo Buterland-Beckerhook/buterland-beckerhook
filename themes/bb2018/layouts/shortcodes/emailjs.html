@@ -1,0 +1,46 @@
+<div class="uk-margin uk-text-center">
+    <form id="contact">
+        <fieldset class="uk-fieldset">
+            {{- with .Get "title" -}}
+            <legend class="uk-legend">{{ . }}</legend>
+            {{- end -}}
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-large" type="text" placeholder="Name" id="c_name">
+            </div>
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-large" type="email" placeholder="eMail Adresse" id="c_email">
+            </div>
+            <div class="uk-margin">
+                <input class="uk-input uk-form-width-large" type="tel" placeholder="Telefon" id="c_phone">
+            </div>
+            <div class="uk-margin">
+            <textarea class="uk-textarea uk-form-width-large uk-height-medium" type="text"
+                      placeholder="Ihre Nachricht..." id="c_message"></textarea>
+            </div>
+        </fieldset>
+    </form>
+    <div class="uk-flex uk-flex-center ">
+        <div id="captcha" class="g-recaptcha"></div>
+    </div>
+    <div class="uk-margin-top">
+        <button id="f-send" class="uk-button uk-button-primary" onclick="sendForm()" disabled>Absenden</button>
+        <div id="f-spinner" class="uk-hidden" uk-spinner></div>
+    </div>
+</div>
+<div id="captcha-alert" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 id="alert-title" class="uk-modal-title">Achtung</h2>
+        </div>
+        <div class="uk-modal-body">
+            <span id="alert-text"></span><br><br>
+            <p class="uk-text-right">
+                <button class="uk-button uk-button-default uk-modal-close" type="button">OK</button>
+            </p>
+        </div>
+    </div>
+</div>
+{{- with .Inner -}}
+<div class="uk-alert">{{ . }}</div>
+{{- end -}}

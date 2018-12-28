@@ -1,0 +1,9 @@
+{{ with .Get 0 }}
+{{ with $.Site.GetPage . }}
+<div class="uk-card uk-card-body">
+    <h3 class="uk-card-title"><a class="uk-link-heading" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ .Summary }}
+    <a class="uk-link-muted" href="{{ .RelPermalink }}">... mehr</a>
+</div>
+{{- end -}}
+{{- end -}}

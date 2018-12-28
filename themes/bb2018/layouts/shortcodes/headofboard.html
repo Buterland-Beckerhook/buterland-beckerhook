@@ -1,0 +1,25 @@
+{{- $data := .Site.Data.vorstand -}}
+<div class="uk-overflow-auto uk-tile-muted uk-align-center">
+    <table class="uk-table uk-table-small uk-table-middle">
+    <tr>
+        <td>1. Vorsitzender (Pr&auml;sident)</td>
+        <td>{{- index $data.praesident "name" -}}</td>
+    </tr>
+    <tr>
+        <td>2. Vorsitzender (Vizepr&auml;sident)</td>
+        <td>{{- index $data.vizePraesident "name" -}}</td>
+    </tr>
+    <tr>
+        <td>Gesch&auml;ftsf&uuml;hrer</td>
+        <td>{{- index $data.geschaeftsfuehrer "name" -}}</td>
+    </tr>
+    <tr>
+        <td>Schriftf&uuml;hrer</td>
+        <td>{{- index $data.schriftfuehrer "name" -}}</td>
+    </tr>
+    <tr>
+        <td>Kasierer</td>
+        <td>{{- index $data.kassierer "name" -}}</td>
+    </tr>
+    </table>
+</div>

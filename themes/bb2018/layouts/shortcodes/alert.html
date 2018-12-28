@@ -1,0 +1,11 @@
+<div class="uk-alert">
+    <div uk-grid>
+        {{- with (.Get "icon") -}}
+        <div class="uk-width-1-6">
+            <span class="uk-visible@m uk-margin-top uk-margin-left" uk-icon="icon: {{ . }}; ratio: 3">
+            </span>
+        </div>
+        {{- end -}}
+    <div class="uk-width-expand"><p class="uk-text-small uk-margin-remove-top">{{ .Inner }}</p></div>
+    </div>
+</div>

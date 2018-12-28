@@ -1,0 +1,11 @@
+{{- with (.Get 0) -}}
+{{ $anchor := . }}
+{{- range $.Page.Params.headlines -}}
+{{- if eq $anchor (index . "anchor") -}}
+<h2 id="{{- $anchor -}}" class="uk-h2" >
+    <a class="uk-h2" name="{{- $anchor -}}">{{- index . "title" -}}</a>
+    <a href="#" uk-totop uk-scroll></a>
+</h2>
+{{- end -}}
+{{- end -}}
+{{- end -}}

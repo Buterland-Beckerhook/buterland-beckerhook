@@ -1,0 +1,45 @@
+{{- $data := .Site.Data.vorstand -}}
+<div class="uk-overflow-auto uk-width-1-2@m uk-tile-muted uk-padding uk-align-center">
+    <table class="uk-table uk-table-small uk-table-middle">
+        <tr>
+            <td >Pr&auml;sident:<br><br><br></td>
+            <td>
+                {{- index $data.praesident "name" -}}<br>
+                {{- index $data.praesident "street" -}}<br>
+                {{- index $data.praesident "city" -}}
+            </td>
+        </tr>
+        <tr>
+            <td>Vizepr&auml;sident:<br><br><br></td>
+            <td>
+                {{- index $data.vizePraesident "name" -}}<br>
+                {{- index $data.vizePraesident "street" -}}<br>
+                {{- index $data.vizePraesident "city" -}}
+            </td>
+        </tr>
+        <tr>
+            <td>Gesch&auml;ftsf&uuml;hrer:<br><br><br></td>
+            <td>
+                {{- index $data.geschaeftsfuehrer "name" -}}<br>
+                {{- index $data.geschaeftsfuehrer "street" -}}<br>
+                {{- index $data.geschaeftsfuehrer "city" -}}
+            </td>
+        </tr>
+        <tr>
+            <td>Schriftf&uuml;hrer:<br><br><br></td>
+            <td>
+                {{- index $data.schriftfuehrer "name" -}}<br>
+                {{- index $data.schriftfuehrer "street" -}}<br>
+                {{- index $data.schriftfuehrer "city" -}}
+            </td>
+        </tr>
+        <tr>
+            <td>Kasierer:<br><br><br></td>
+            <td>
+                {{- index $data.kassierer "name" -}}<br>
+                {{- index $data.kassierer "street" -}}<br>
+                {{- index $data.kassierer "city" -}}
+            </td>
+        </tr>
+    </table>
+</div>

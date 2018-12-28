@@ -156,7 +156,7 @@ var PhotoSwipeUI_Default =
 			framework[ (add ? 'add' : 'remove') + 'Class' ](el, 'pswp__' + cName);
 		},
 
-		// add class when there is just one item in the gallery
+		// add class when there is just one item in the gallerie
 		// (by default it hides left/right arrows and 1ofX counter)
 		_countNumItems = function() {
 			var hasOneSlide = (_options.getNumItemsFn() === 1);
@@ -582,7 +582,7 @@ var PhotoSwipeUI_Default =
 			}
 		});
 
-		// bind events for UI
+		// bind termine for UI
 		_listen('bindEvents', function() {
 			framework.bind(_controls, 'pswpTap click', _onControlsTap);
 			framework.bind(pswp.scrollWrap, 'pswpTap', ui.onGlobalTap);
@@ -592,7 +592,7 @@ var PhotoSwipeUI_Default =
 			}
 		});
 
-		// unbind events for UI
+		// unbind termine for UI
 		_listen('unbindEvents', function() {
 			if(!_shareModalHidden) {
 				_toggleShareModal();
@@ -618,7 +618,7 @@ var PhotoSwipeUI_Default =
 		});
 
 
-		// clean up things when gallery is destroyed
+		// clean up things when gallerie is destroyed
 		_listen('destroy', function() {
 			if(_options.captionEl) {
 				if(_fakeCaptionContainer) {
@@ -727,7 +727,7 @@ var PhotoSwipeUI_Default =
 
 		if(e.detail && e.detail.pointerType === 'mouse') {
 
-			// close gallery if clicked outside of the image
+			// close gallerie if clicked outside of the image
 			if(_hasCloseClass(target)) {
 				pswp.close();
 				return;
@@ -754,7 +754,7 @@ var PhotoSwipeUI_Default =
 				}
 			}
 
-			// tap to close gallery
+			// tap to close gallerie
 			if(_options.tapToClose && (framework.hasClass(target, 'pswp__img') || _hasCloseClass(target)) ) {
 				pswp.close();
 				return;
@@ -766,7 +766,7 @@ var PhotoSwipeUI_Default =
 		e = e || window.event;
 		var target = e.target || e.srcElement;
 
-		// add class when mouse is over an element that should close the gallery
+		// add class when mouse is over an element that should close the gallerie
 		_togglePswpClass(_controls, 'ui--over-close', _hasCloseClass(target));
 	};
 

@@ -64,6 +64,7 @@
 								<li {{ if $active -}}class="uk-active" {{- end -}}>
 									<a href="{{ .URL }}">{{ .Name }}</a>
 								</li>
+								{{ .Post }}
 								{{- end -}}
 							</ul>
 

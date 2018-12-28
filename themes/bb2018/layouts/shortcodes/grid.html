@@ -1,0 +1,9 @@
+{{- $class := "" -}}
+{{- with .Get "class" -}}
+{{- $class = . -}}
+{{- end -}}
+{{- $style := "" -}}
+{{- with .Get "style" -}}
+{{- $style = . -}}
+{{- end -}}
+<div class="{{ with $class }} {{ . }}{{- end -}}"{{ with $style }} style="{{ . }}"{{ end }} uk-grid>{{ .Inner }}</div>

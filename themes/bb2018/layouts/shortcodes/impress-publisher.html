@@ -1,0 +1,4 @@
+{{- $data := .Site.Data.vorstand -}}
+<span>Schützenverein Buterland-Beckerhook e.V.</span><br>
+<span>{{- index $data.geschaeftsfuehrer "street" -}}</span><br>
+<span>{{- index $data.geschaeftsfuehrer "city" -}}</span>
