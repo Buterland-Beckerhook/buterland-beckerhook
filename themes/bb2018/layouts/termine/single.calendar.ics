@@ -4,15 +4,29 @@ PRODID:-//buterland-beckerhook//termine//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-ORGANIZER;CN="Schützenverein Buterland-Beckerhook":mailto:info@buterland-beckerhook.de
+ORGANIZER;CN="Schützenverein Buterland-Beckerhook":mailto:Kontakt@Buterland-Beckerhook.de
 SUMMARY:{{.Title}}
 UID:{{.Title}}
 SEQUENCE:0
 STATUS:CONFIRMED
-DTSTAMP:{{dateFormat "20060102T150405Z" .Date}}
+DTSTAMP:{{dateFormat "20060102T150405Z" now}}
+{{- if (gt .Date.Hour 0) }}
 DTSTART;TZID=Europe/Berlin:{{dateFormat "20060102T150405" .Date}}
-DTEND;TZID=Europe/Berlin:{{- with .Params.end }}{{dateFormat "20060102T150405" .}}{{ else }}{{dateFormat "20060102T150405" .Date}}{{ end -}}
-LOCATION:{{with .Params.location}}{{.}}{{else}}-{{end}}
+DTEND;TZID=Europe/Berlin:{{- with .Params.end }}{{dateFormat "20060102T150405" .}}{{ else }}{{ printf "%sT000000" (dateFormat "20060102" (.Date.AddDate 0 0 1)) }}{{ end }}
+{{ else }}
+DTSTART;VALUE=DATE:{{dateFormat "20060102" .Date}}
+DTEND;VALUE=DATE:{{- with .Params.end }}{{dateFormat "20060102" . }}{{ else }}{{dateFormat "20060102" .Date}}{{ end }}
+{{- end }}
+LOCATION:{{- with .Params.location -}}
+  {{- with (index $.Site.Data.locations .) -}}
+  {{- .name }}
+  {{- with .street }}, {{.}}{{ end }}
+  {{- with .zip }}, {{.}}{{ end }}
+  {{- with .city }} {{.}}{{ end }}
+  {{- else }}
+  {{- . -}}
+  {{- end }}
+  {{- end }}
 URL:{{ .Permalink }}
 END:VEVENT
 END:VCALENDAR

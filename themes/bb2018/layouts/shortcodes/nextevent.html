@@ -1,0 +1,56 @@
+{{- $found := 0 -}}
+{{- with $.Site.GetPage "/termine" -}}
+{{- range .Sections.Reverse -}}
+  {{- range .Pages.Reverse -}}
+    {{- if lt $found 1 -}}
+      {{- if gt .Date now -}}
+        {{- $found = (add 1 $found) -}}
+    <div class="uk-card-header uk-overflow-hidden">
+        <div class="uk-grid" uk-grid>
+            <div class="uk-width-auto">
+                <div class="bb-event-day uk-text-center">
+                    <div class="bb-event-day-mon">{{- with .Date }}{{ index $.Site.Data.month_short (printf "%d" .Month)}}.{{ end -}}</div>
+                    <div class="bb-event-day-dom">{{ $endDay := .Date.Day }}{{- if (isset .Params "end") }}{{ $endDay = (time .Params.end).Day }}{{ end }}
+                        {{ if eq $endDay .Date.Day }}{{ .Date.Day }}{{ else }}{{ .Date.Day }}-{{ $endDay }}{{ end -}}</div>
+                </div>
+            </div>
+            <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-card-title-small@s">{{ .Title }}</h3>
+                <p class="uk-text-meta uk-margin-remove-top">
+                    <time datetime="{{ .Date.String }}">{{ .Date.Day }}. {{ index $.Site.Data.month (printf "%d" .Date.Month)}} {{ .Date.Year }}</time>
+                    {{- if (isset .Params "end") }} -
+                    <time datetime="{{ (time .Params.end).String }}">{{ (time .Params.end).Day }}. {{ index $.Site.Data.month (printf "%d" (time .Params.end).Month)}} {{ (time .Params.end).Year }}</time>
+                    {{ end }}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="uk-card-body">
+        <!--<a class="uk-card-badge uk-label uk-visible@s" {{ with .OutputFormats.Get "calendar" }}href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}"{{ end -}}>abbonieren</a>-->
+        {{- with .Content -}}<p>{{ . }}</p>{{- end -}}
+        <div>
+            {{- if (gt .Date.Hour 0) }}
+            {{- if (not (isset .Params "end")) }}ab {{ end -}}
+            {{ with .Date }}{{- . | dateFormat "15:04" -}}&nbsp;Uhr{{ end -}}{{ with .Params.end }} - {{ . | dateFormat "15:04" -}}&nbsp;Uhr{{ end -}}
+            {{ end -}}
+        </div>
+        <div>
+            {{- with .Params.location -}}
+              {{ with (index $.Site.Data.locations .) }}
+                {{ .name}}
+                {{ with .street }}, {{.}}{{ end }}
+                {{ with .maps }}<a href="{{.}}" target="_blank" uk-icon="location"></a>{{ end }}
+              {{- else -}}
+                {{ . }}
+              {{- end -}}
+            {{- end -}}
+        </div>
+    </div>
+    <div class="uk-card-footer">
+     <a class="uk-label uk-align-right" href="/termine" type="{{ .MediaType.Type }}">Zu den Terminen</a>
+    </div>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- end -}}

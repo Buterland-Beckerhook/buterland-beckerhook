@@ -1,8 +1,7 @@
-{{- with $.Site.GetPage "/thron" -}}
-{{- range first 1 .Pages -}}
+{{ range first 1 (.Site.Taxonomies.tags.thron)  }}
 {{- $title := .Title -}}
-<a class="uk-link-text" href="/thrones">
-{{ range first 1 (.Resources.Match "gallery-*") }}
+<a class="uk-link-text" href="{{ .Permalink }}">
+{{ range first 1 (.Resources.Match "thron-*") }}
 {{- $s := .Resize "480x" -}}
 {{- $m := .Resize "800x" -}}
 {{- $l := .Resize "1200x" -}}
@@ -14,5 +13,4 @@
 </figure>
 {{- end -}}
 </a>
-{{- end -}}
 {{- end -}}

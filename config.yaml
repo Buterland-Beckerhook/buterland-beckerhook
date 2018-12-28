@@ -6,6 +6,10 @@ theme: bb2018
 params:
   description: Website/App des Schützenvereins Buterland-Beckerhook e.V. von 1909 aus Gronau (Westf.)
 
+outputFormats:
+  Calendar:
+    protocol: https://
+
 menu:
   main:
   - identifier: home
@@ -20,10 +24,10 @@ menu:
     name: Aktuelles
     url: /aktuell/
     weight: 3
-  - identifier: thron
-    name: Verschiedenes
-    url: /misc/
-    weight: 4
+#  - identifier: thron
+#    name: Verschiedenes
+#    url: /misc/
+#    weight: 4
 
   right:
   - identifier: kontakt
