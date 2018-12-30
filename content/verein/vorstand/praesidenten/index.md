@@ -51,5 +51,5 @@ Seit dem 28. November 1987 Mitglied im Vorstand
 {{< /mediacardright >}}
 
 {{< mediacardright image="jfrieske" title="Jörg Frieske" subtitle="" >}} 
-Amtierender Präsident seit de, 24. November 2018<br>  
+Amtierender Präsident seit dem, 24. November 2018<br>  
 {{< /mediacardright >}}
