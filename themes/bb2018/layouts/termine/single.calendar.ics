@@ -27,6 +27,6 @@ LOCATION:{{- with .Params.location -}}
   {{- . -}}
   {{- end }}
   {{- end }}
-URL:{{ .Permalink }}
+URL:{{ .Site.BaseURL }}/termine
 END:VEVENT
 END:VCALENDAR
