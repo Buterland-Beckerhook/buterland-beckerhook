@@ -1,5 +1,6 @@
 ---
 title: Über uns
+draft: true
 menu:
   main:
     parent: home

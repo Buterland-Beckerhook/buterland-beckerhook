@@ -1,4 +1,4 @@
-baseURL: https://bb.verst.eu/
+baseURL: https://buterland-beckerhook.de/
 languageCode: de-DE
 title: Buterland-Beckerhook
 theme: bb2018
@@ -6,27 +6,39 @@ theme: bb2018
 params:
   description: Website/App des Schützenvereins Buterland-Beckerhook e.V. von 1909 aus Gronau (Westf.)
 
+outputFormats:
+  Calendar:
+    protocol: https://
+
 menu:
   main:
   - identifier: home
     name: Der Verein
     url: /
     weight: 1
-  - identifier: organization
-    name: Gremien
-    url: /organization/
-    weight: 5
-  - identifier: thrones
-    name: Thron
-    url: /thrones/
-    weight: 10
+  - identifier: termine
+    name: Termine
+    url: /termine/
+    weight: 2
+  - identifier: aktuell
+    name: Aktuelles
+    url: /aktuell/
+    weight: 3
+#  - identifier: thron
+#    name: Verschiedenes
+#    url: /misc/
+#    weight: 4
 
   right:
-  - identifier: privacy-policy
-    name: Datenschutz
-    url: /privacy-policy/
+  - identifier: kontakt
+    name: Kontakt
+    url: /kontakt/
     weight: 1
-  - identifier: impress
-    name: Impressum
-    url: /impress/
+  - identifier: datenschuzerklaerung
+    name: Datenschutz
+    url: /datenschutzerklaerung/
     weight: 2
+  - identifier: impressum
+    name: Impressum
+    url: /impressum/
+    weight: 3

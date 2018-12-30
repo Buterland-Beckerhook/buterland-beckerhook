@@ -1,14 +1,17 @@
 {{- $scss := resources.Get "sass/custom.scss" -}}
 {{- $options := (dict "targetPath" "/css/style.min.css" "outputStyle" "compressed" "enableSourceMap" true) -}}
 {{- $style := $scss | resources.ToCSS $options -}}
-<!-- todo: minify scripts -->
+<!-- todo: minify script -->
 {{- $script := resources.Get "script/main.js" -}}
 {{- $secScript := $script | resources.Fingerprint "sha512" -}}
 {{- $secScriptMin := $script | resources.Minify | resources.Fingerprint "sha512" -}}
 {{- $uikit := resources.Get "script/uikit.js" -}}
 {{- $uikitIcons := resources.Get "script/uikit-icons.js" -}}
 {{- $secUikit := slice $uikit $uikitIcons | resources.Concat "script/uikit-bundle.js" | resources.Fingerprint "sha256" -}}
-{{ $secUikitMin := slice $uikit $uikitIcons | resources.Concat "script/uikit-bundle-min.js" | resources.Minify | resources.Fingerprint "sha256" }}
+{{- $secUikitMin := slice $uikit $uikitIcons | resources.Concat "script/uikit-bundle-min.js" | resources.Minify | resources.Fingerprint "sha256" -}}
+{{- $email := resources.Get "script/email.js" -}}
+{{- $secEmail := $email | resources.Fingerprint "sha512" -}}
+{{- $secEmailMin := $email | resources.Minify | resources.Fingerprint "sha512" -}}
 <head>
 	<meta charset="UTF-8">
 	<title>{{ .Title }}</title>
@@ -35,6 +38,9 @@
 	{{- range .AlternativeOutputFormats -}}
 	{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
 	{{- end -}}
-	<script type="text/javascript" src="{{ $secUikit.Permalink }}" integrity="{{ $secUikit.Data.Integrity }}" async></script>
-	<script type="text/javascript" src="{{ $secScript.Permalink }}" integrity="{{ $secScript.Data.Integrity }}" async></script>
+	<script type="text/javascript" src="{{ $secUikitMin.Permalink }}" integrity="{{ $secUikitMin.Data.Integrity }}" async></script>
+	<script type="text/javascript" src="{{ $secScriptMin.Permalink }}" integrity="{{ $secScriptMin.Data.Integrity }}" async></script>
+	{{ if .Page.HasShortcode "emailjs" -}}
+	<script type="text/javascript" src="{{ $secEmailMin.Permalink }}" integrity="{{ $secEmailMin.Data.Integrity }}" async></script>
+	{{- end -}}
 </head>

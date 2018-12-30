@@ -1,0 +1,17 @@
+{{- define "main" -}}
+  {{ range .Pages }}
+<div>
+    <div class="uk-card uk-card-hover uk-card-body" onclick="window.location = '{{ .RelPermalink }}';" style="cursor: pointer">
+        <h3 class="uk-card-title">{{ .Title }}</h3>
+        <small class="uk-text-muted">{{- dateFormat "02. January 2006" .Date }}{{ with .Params.meta }} - {{ . }}{{ end }}</small>
+        <p>{{ .Summary }}</p>
+        {{ if .Truncated }}
+        <div class="uk-align-right">
+            <a class="uk-link-reset" href="{{ .RelPermalink }}">mehr lesen…</a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+  {{- end -}}
+{{- end -}}
