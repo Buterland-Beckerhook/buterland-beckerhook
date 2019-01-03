@@ -9,7 +9,7 @@ SUMMARY:{{.Title}}
 UID:{{.Title}}
 SEQUENCE:0
 STATUS:CONFIRMED
-DTSTAMP:{{dateFormat "20060102T150405Z" now}}
+DTSTAMP:{{- with .Params.publishdate }}{{dateFormat "20060102T150405Z" . }}{{ else }}{{dateFormat "20060102T150405Z" now}}{{ end }}
 {{- if (gt .Date.Hour 0) }}
 DTSTART;TZID=Europe/Berlin:{{dateFormat "20060102T150405" .Date}}
 DTEND;TZID=Europe/Berlin:{{- with .Params.end }}{{dateFormat "20060102T150405" .}}{{ else }}{{ printf "%sT000000" (dateFormat "20060102" (.Date.AddDate 0 0 1)) }}{{ end }}
