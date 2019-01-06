@@ -69,3 +69,4 @@ fabric.properties
 public/
 resources/
 \.idea/
+deploy.sh
