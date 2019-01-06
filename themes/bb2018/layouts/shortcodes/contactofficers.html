@@ -2,27 +2,48 @@
 <div class="uk-overflow-auto uk-width-1-2@m uk-tile-muted uk-padding uk-align-center">
     <table class="uk-table uk-table-small uk-table-middle">
         <tr>
-            <td >Oberst:<br><br><br></td>
+            {{- $on := index $data.oberst "name" -}}
+            {{- $os := index $data.oberst "street" -}}
+            {{- $oc := index $data.oberst "city" -}}
+            <td>Oberst:
+                {{- with $on -}}<br>{{- end -}}
+                {{- with $os -}}<br>{{- end -}}
+                {{- with $oc -}}<br>{{- end -}}
+            </td>
             <td>
-                {{- index $data.oberst "name" -}}<br>
-                {{- index $data.oberst "street" -}}<br>
-                {{- index $data.oberst "city" -}}
+                {{- with $on -}}{{ . }}<br>{{- end -}}
+                {{- with $os -}}{{ . }}<br>{{- end -}}
+                {{- with $oc -}}{{ . }}{{- end -}}
             </td>
         </tr>
         <tr>
-            <td>Oberstleutnant:<br><br><br></td>
+            {{- $ln := index $data.oberstleutnant "name" -}}
+            {{- $ls := index $data.oberstleutnant "street" -}}
+            {{- $lc := index $data.oberstleutnant "city" -}}
+            <td>Oberstleutnant:
+                {{- with $ln -}}<br>{{- end -}}
+                {{- with $ls -}}<br>{{- end -}}
+                {{- with $lc -}}<br>{{- end -}}
+            </td>
             <td>
-                {{- index $data.oberstleutnant "name" -}}<br>
-                {{- index $data.oberstleutnant "street" -}}<br>
-                {{- index $data.oberstleutnant "city" -}}
+                {{- with $ln -}}{{ . }}<br>{{- end -}}
+                {{- with $ls -}}{{ . }}<br>{{- end -}}
+                {{- with $lc -}}{{ . }}{{- end -}}
             </td>
         </tr>
         <tr>
-            <td>Major:<br><br><br></td>
+            {{- $mn := index $data.major "name" -}}
+            {{- $ms := index $data.major "street" -}}
+            {{- $mc := index $data.major "city" -}}
+            <td>Major:
+                {{- with $mn -}}<br>{{- end -}}
+                {{- with $ms -}}<br>{{- end -}}
+                {{- with $mc -}}<br>{{- end -}}
+            </td>
             <td>
-                {{- index $data.major "name" -}}<br>
-                {{- index $data.major "street" -}}<br>
-                {{- index $data.major "city" -}}
+                {{- with $mn -}}{{ . }}<br>{{- end -}}
+                {{- with $ms -}}{{ . }}<br>{{- end -}}
+                {{- with $mc -}}{{ . }}{{- end -}}
             </td>
         </tr>
     </table>

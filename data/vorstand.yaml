@@ -4,11 +4,11 @@ praesident:
   city: 48599 Gronau
 vizePraesident:
   name: Bernd Lewing
-  street: Flörbachweg
+  street: Alstätter Str. 46
   city: 48599 Gronau
 geschaeftsfuehrer:
   name: Gerd Lübbers
-  street: Sanddornweg
+  street: Sanddornweg 25
   city: 48599 Gronau
 schriftfuehrer:
   name: Berthold Doetkotte
@@ -16,5 +16,5 @@ schriftfuehrer:
   city: 48599 Gronau
 kassierer:
   name: Markus Busen
-  street: Am Forstgarten
+  street: Am Forstgarten 42
   city: 48599 Gronau

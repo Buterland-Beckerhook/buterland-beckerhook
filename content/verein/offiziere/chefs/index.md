@@ -68,6 +68,6 @@ Oberst vom 09. November 2002 bis zum 24. November 2018, Offizier seit 1987, lang
 der Königsadjudanten.
 {{< /mediacardright >}}
 
-{{< mediacardright image="ndroste" title="Norber Droste" subtitle="" >}} 
+{{< mediacardright image="ndroste" title="Norbert Droste" subtitle="" >}} 
 Oberst seit dem 24. November 2018.
 {{< /mediacardright >}}

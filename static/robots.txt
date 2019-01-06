@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /datenschutzerklaerung
+Disallow: /impressum
+Disallow: /kontakt
