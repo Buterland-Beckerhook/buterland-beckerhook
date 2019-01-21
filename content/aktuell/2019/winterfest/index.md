@@ -1,38 +1,45 @@
 ---
-title: Buterländer Schützen treffsicher ins neue Jahr
-subtitle: Der Schützenpokal ging mit 30 Ringen an Markus Terhalle
-date: 2019-01-06T16:00:00+01:00
+title: „Fit for Schützenfest“ im Buterland
+subtitle: Winterfest im Buterland-Beckerhook
+date: 2019-01-21T09:40:00+01:00
 tags:
-  - Pokal- und Preisschießen
+  - Winterfest
 resources:
-  - src: '158_0439.jpg'
+  - src: '158_0471.jpg'
     name: 'bild-1'
+    title: 'v.l.n.r. Präsident Jörg Frieske, Königin Yvonne Arnzen, König Björn Wielens, Torsten Arnzen, Jan Achteresch, Markus Terhalle, Norbert Wülker'
+    params:
+      copy: 'Buterland-Beckerhook'
+  - src: '158_0479.jpg'
+    name: 'fit-1'
     title:
     params:
       copy: 'Buterland-Beckerhook'
-  - src: '158_0446.jpg'
-    name: 'bild-2'
+  - src: '158_0482.jpg'
+    name: 'fit-2'
     title:
     params:
       copy: 'Buterland-Beckerhook'      
 ---
 
-Der Schützenverein Buterland-Beckerhook beging das Jahr 2019 mit dem traditionellen Pokal- und Preisschießen.
-Am Samstag, den 05. Januar, trafen sich die Schützen im Gasthof “Gleis“, um ihre Treffsicherheit unter 
-Beweis zu stellen. <!--more-->
-
-{{< imagegrid name="bild" lightbox="1">}}
-
-
-Mit 30 Ringen errang Markus Terhalle den begehrten Schützenpokal. Der Seniorenpokal ging mit 28 Ringen an 
-Norbert Wülker. Bei den Junioren konnte sich mit 27 Ringen Jan Achteresch durchsetzen und 
-erhielt dafür den Juniorenpokal. Mit 29 Ringen brachte sich Thorsten Arnzen in den Besitz des Königspokals.
-
-
-Gute Schießleistungen wurden auch beim Preisschießen erreicht. Bernd Schmeing hatte mit 29 Ringen die 
-freie Auswahl bei den Sachpreisen. Nach dem Wettbewerb beglückwünschte Präsident Jörg Frieske die 
-erfolgreichen Schützen, die auch unter Gratulation des amtierenden Königspaars, Yvonne Arnzen und Björn Wielens,
-die Preise entgegennahmen.
-Die offizielle Übergabe der Pokale erfolgt auf dem [Winterfest](../../termine) am Samstag den 19. Januar ab 20:00 Uhr 
-in der Gaststätte “Dinkelhof “. Hierzu laden der Vorstand, der Festausschuss und der amtierende Thron herzlich 
-ein. 
+Die Buterländer und Beckerhooker Schützen feierten mit dem Winterfest nach dem Pokal - und Preisschießen ihre erste 
+große Veranstaltung im neuen Jahr. Der Festausschuss und der Thron boten ein stimmungsvolles Programm im Saal des 
+„Dinkelhof“. <!--more-->
+ 
+{{< image name="bild-1" lightbox="1">}}
+ 
+Präsident Jörg Frieske begrüßte zunächst die anwesende Schützenfamilie. Er freute sich sehr, dass er zahlreiche Mitglieder 
+und Interessierte begrüßen durfte. Mit Hilfe vom Oberstleutnant Norbert Wülker und dem amtierenden Königspaar Yvonne Arnzen 
+und Björn Wielens, wurden dann die Sieger des Pokal - und Preisschießens geehrt. Sieger des Schützenpokals wurde Markus Terhalle, 
+den Seniorenpokal gewann Norbert Wülker und Jan Achteresch erhielt den Juniorenpokal. Den Königspokal übergab Jörg Frieske 
+an Thorsten Arnzen.
+ 
+Nach der Pokalübergabe, kam der Höhepunkt des Abends. Der amtierende Thron bestieg die Bühne, um sein Schützenvolk zu 
+unterhalten, was ihnen auch bestens gelang!
+Unter dem Motto „ Fit for Schützenfest“ durfte das Publikum erleben, wie sich die Damen und Herren des Throns sich auf 
+das Schützenfest vorbereiten. Die Darbietung erheiterte die Anwesenden und trugen zur guten Stimmung bei.
+ 
+{{< imagegrid name="fit" lightbox="1">}}
+ 
+Einige Mitglieder konnten sich dann noch über schöne Preise bei der anschließenden  Tombola freuen. 
+Bei Tanz und bester Stimmung mit DJ Markus wurde bis in den frühen Morgen gefeiert.  
