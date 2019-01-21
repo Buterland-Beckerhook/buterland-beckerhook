@@ -37,7 +37,7 @@
                      sizes="(max-width: {{ $s.Width -}}px) {{ $s.Width -}}px, (max-width: {{ $m.Width -}}px) {{ $m.Width -}}px 100vw" width="{{- $l.Width -}}" height="{{- $l.Height -}}"
                      alt="{{- with .Title }}{{ . }}{{- end -}}"
                      {{- if $lb -}}onclick="UIkit.lightbox('#pic-{{- $name -}}').show({{- $i -}});" style="cursor: pointer" {{- end -}} uk-img>
-              {{- if $ov -}}<figcaption>{{- if $ovTitle -}}{{ $ovTitle }}{{- end -}}{{- if $ovCopy }} (&copy; {{ $ovCopy }}){{- end -}}</figcaption>{{- end -}}
+              {{- if $ov -}}<figcaption><small>{{- if $ovTitle -}}{{ $ovTitle }}{{- end -}}{{- if $ovCopy }} (&copy; {{ $ovCopy }}){{- end -}}</small></figcaption>{{- end -}}
             </figure>
         </div>
     </div>
