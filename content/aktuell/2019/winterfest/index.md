@@ -22,8 +22,8 @@ resources:
       copy: 'Buterland-Beckerhook'      
 ---
 
-Die Buterländer und Beckerhooker Schützen feierten mit dem Winterfest nach dem Pokal - und Preisschießen ihre erste 
-große Veranstaltung im neuen Jahr. Der Festausschuss und der Thron boten ein stimmungsvolles Programm im Saal des 
+Die Buterländer und Beckerhooker Schützen feierten mit dem Winterfest am 19. Januar 2019, nach dem Pokal- und Preisschießen
+ihre erste große Veranstaltung im neuen Jahr. Der Festausschuss und der Thron boten ein stimmungsvolles Programm im Saal des 
 „Dinkelhof“. <!--more-->
  
 {{< image name="bild-1" lightbox="1">}}
@@ -43,3 +43,5 @@ das Schützenfest vorbereiten. Die Darbietung erheiterte die Anwesenden und trug
  
 Einige Mitglieder konnten sich dann noch über schöne Preise bei der anschließenden  Tombola freuen. 
 Bei Tanz und bester Stimmung mit DJ Markus wurde bis in den frühen Morgen gefeiert.  
+
+{{< bottomspace >}}

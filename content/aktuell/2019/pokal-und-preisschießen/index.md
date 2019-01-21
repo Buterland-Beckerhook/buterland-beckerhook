@@ -36,3 +36,5 @@ die Preise entgegennahmen.
 Die offizielle Übergabe der Pokale erfolgt auf dem [Winterfest](../../termine) am Samstag den 19. Januar ab 20:00 Uhr 
 in der Gaststätte “Dinkelhof “. Hierzu laden der Vorstand, der Festausschuss und der amtierende Thron herzlich 
 ein. 
+
+{{< bottomspace >}}
