@@ -1,0 +1,13 @@
+{{- with $.Site.GetPage "/aktuell" -}}
+{{- range first 1 .Pages -}}
+<div>{{.Title}}</div>
+<small class="uk-text-muted">{{ .Date.Day }}. {{ index $.Site.Data.month (printf "%d" .Date.Month)}} {{ .Date.Year }}{{ with .Params.meta }} - {{ . }}{{ end }}</small>
+<p>{{ .Summary }}</p>
+{{ if .Truncated }}
+<div class="uk-align-right">
+    <a class="uk-link-reset" href="{{ .RelPermalink }}">mehr lesen…</a>
+</div>
+{{ end }}
+
+{{- end -}}
+{{- end -}}

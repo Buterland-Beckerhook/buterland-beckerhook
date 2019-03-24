@@ -7,6 +7,10 @@ verfügbar. Bis zur Fertigstellung sind alle Daten auch weiterhin unter der Addr
 {{< tlink url="http://www.Buterland-Beckerhook.de" target="_blank"  >}} verfügbar.
 {{% /card %}}
 
+{{% card title="Aktuelles" class="uk-card-border uk-width-1-2@m" %}}
+{{% latestnews %}}
+{{% /card %}}
+
 {{% card title="Nächster Termin" class="uk-card-border uk-width-1-2@m" %}}
 {{% nextevent %}}
 {{% /card %}}
