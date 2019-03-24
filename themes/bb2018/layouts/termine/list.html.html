@@ -58,6 +58,7 @@
 	<p class="uk-text-small uk-margin-remove-top">Du kannst einzelne Termine einfach deinem Kalender hinzufügen, indem du auf den Abbonieren-Button des Termin klickst.
 		Oder	<a target="_blank" {{ with .OutputFormats.Get "calendar" }}href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}"{{ end }}>hier, um alle Termine aus {{ .Date.Year }} zu abbonieren.</a></p>
 </div>
+<div class="uk-visible@m uk-margin-xlarge-bottom"></div>
 {{- end -}}
 {{- end -}}
 {{- end -}}
