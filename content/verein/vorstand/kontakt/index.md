@@ -15,7 +15,7 @@ resources:
 {{% alert icon="info" %}}
 Sie können uns auch per eMail unter 
 [Vorstand@Buterland-beckerhook.de](mailto:Vorstand@Buterland-beckerhook.de) erreichen.    
-Am bequemsten nutzen die zur Kontaktaufnahme einfach unser [Kontaktformular](/contact).
+Am bequemsten nutzen die zur Kontaktaufnahme einfach unser [Kontaktformular](/kontakt).
 {{% /alert %}}
 
 {{< bottomspace >}}
