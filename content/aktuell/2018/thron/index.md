@@ -1,5 +1,5 @@
 ---
-title: Björn Wielens regiert das Buteland-Beckerhook!
+title: Björn Wielens regiert das Buterland-Beckerhook!
 date: 2018-07-30T14:23:22+02:00
 subtitle: Der 429. Schuss entscheidet das spannende Königsschießen 
 tags:
