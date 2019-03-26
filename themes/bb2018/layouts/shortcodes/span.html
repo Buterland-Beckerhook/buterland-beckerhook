@@ -1,0 +1,6 @@
+{{- $class := "" -}}
+{{- with .Get "class" -}}
+{{- $class = . -}}
+{{- end -}}
+
+<span class="{{ $class }}">{{ .Inner }}</span>

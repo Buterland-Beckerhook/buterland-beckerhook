@@ -4,7 +4,7 @@ date: 2018-11-02T00:00:00+01:00
 menu:
   main:
     parent: home
-    weight: 1
+    weight: 2
 headline: Der Vorstand des Vereins
 ---
 
