@@ -4,7 +4,7 @@ date: 2019-01-03T16:00:00+01:00
 menu:
   main:
     parent: home
-    weight: 2
+    weight: 3
 headline: Die Offiziere im Schützenverein
 resources:
   - src: 'officers_2018.jpg'

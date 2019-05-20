@@ -7,36 +7,23 @@
 {{- end -}}
 {{- end -}}
 {{- end -}}
-{{ $lb := false }}
-{{- with (.Get "lightbox") -}}
-{{- if eq . "true" -}}
-{{ $lb = true }}
-{{- end -}}
-{{- end -}}
 
 <div class="uk-padding-large">
     <div class="uk-card uk-card-default" uk-grid>
-        <div class="uk-card-media-left uk-cover-container uk-width-1-2@s uk-width-1-4@m">
-            <canvas width="{{ $img.Width }}" Height="{{ $img.Height }}"></canvas>
-            <img src="{{ $img.Permalink }}" width="{{ $img.Width }}" Height="{{ $img.Height }}"
-                 {{- if $lb }} onclick="UIkit.lightbox('#{{- $img.Name -}}').show(0);" style="cursor: pointer" {{ end -}}
-                 alt="" uk-cover>
-        </div>
-        <div class="uk-width-expand@m ">
+        <div class="uk-width-expand@m uk-width-1-2@s">
             <div class="uk-card-body">
-                {{- with (.Get "title") }}
                 <div class="uk-card-header">
-                    <h3 class="uk-card-title">{{ . }}</h3>
+                    {{- with (.Get "title") }}<h3 class="uk-card-title">{{ . }}</h3>{{ end -}}
                     {{- with (.Get "subtitle") }}{{ . }}{{ end -}}
                 </div>
-                {{ end -}}
                 <p>{{ .Inner }}</p>
             </div>
         </div>
+        <div class="uk-card-media-right uk-cover-container uk-width-1-2@s uk-width-1-4@m">
+            {{- with $img -}}
+            <canvas width="{{ $img.Width }}" Height="{{ .Height }}"></canvas>
+            <img class="uk-align-center" src="{{ .Permalink }}" width="{{ .Width }}" Height="{{ .Height }}" alt="" uk-cover>
+            {{- end -}}
+        </div>
     </div>
-    {{- if $lb -}}
-    <div id="{{ $img.Name }}" uk-lightbox>
-        <a href="{{ $img.Permalink }}" {{- with $img.Title -}}data-caption="{{ . }}"{{- end -}}></a>
-    </div>
-    {{- end -}}
 </div>
