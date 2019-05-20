@@ -1,7 +1,7 @@
 ---
 title: Biwak
 subtitle: Buterländer und Beckerhooker Schützen ziehen ins Biwak 
-date: 2019-05-20T06:00:00+02:00
+date: 2019-05-20T08:00:00+02:00
 tags:
   - Biwak
 resources:
