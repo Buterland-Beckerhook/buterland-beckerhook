@@ -39,7 +39,7 @@ resources:
 
 
 Am vergangenen Samstag, den 18.05.2019, fand das diesjährige Biwak statt.
-Unter der musikalischen Begleitung des Spielmannzugs KAB Epe zogen viele
+Unter der musikalischen Begleitung des Spielmannszug KAB Epe zogen viele
 Schützen bei bestem Wetter zunächst zur Flörbachkapelle. Dorthin hatter der Thron 
 zu einem Umtrunk eingeladen. <!--more-->
 
