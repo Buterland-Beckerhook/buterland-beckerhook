@@ -1,6 +1,6 @@
 ---
 title: Schützenfest 2019
-subtitle: Wer wird der Nachfolger von König Björn Wielens
+subtitle: Wer wird der Nachfolger von König Björn Wielens?
 date: 2019-07-18T08:00:00+02:00
 author: Gerd Lübbers
 tags:
