@@ -42,9 +42,9 @@ Auch für das leibliche Wohl der Erwachsenen wird gesorgt.
 Um *19:45 Uhr* treten die Schützen auf dem Hof der Buterlandschule an, um *20:00 Uhr* marschieren sie zum Festplatz. 
 Nach dem Schmücken der Vogelstange und der Ausgabe der Parole, werden die Jungschützen ihren König ausschießen.
 Dazu begleitet die
-{{< tlink text="Stadtkapelle" url="https://www.stadtkapelle-gronau.de" target="_blank" >}} Gronau.  
+{{< tlink class="green" text="Stadtkapelle" url="https://www.stadtkapelle-gronau.de" target="_blank" >}} Gronau.  
 Im Anschluss an das Schießen wird im Festzelt zum Tanz eingeladen. Das DJ Team 
-{{< tlink text="Two for the Beat" url="https://www.facebook.com/twoforthebeat/" target="_blank" >}},
+{{< tlink class="green" text="Two for the Beat" url="https://www.facebook.com/twoforthebeat/" target="_blank" >}},
  wird für Partystimmung sorgen.
  
 Der Sonntag beginnt mit einem ökumenischen Gottesdienst um *9:30 Uhr* im Festzelt. Dem schließt sich das große 
@@ -55,7 +55,7 @@ Hose und Holzgewehr auf dem Schulhof an um S.M. Björn I. mit Königin Yvonne I.
 
 Nach der Ehrung der Opfer beider Weltkriege und Kranzniederlegung am Ehrenmal auf dem Festplatz wird der Festumzug durch 
 den Vereinsbezirk beginnen. Begleitet vom 
-{{< tlink text="Spielmannszug KAB Epe" url="http://www.spzg-kab-epe.de" target="_blank" >}}
+{{< tlink class="green" text="Spielmannszug KAB Epe" url="http://www.spzg-kab-epe.de" target="_blank" >}}
 und der Stadtkapelle Gronau, wird der Umzug folgende Route nehmen:  
 Ab Festplatz, Buterlandstraße ,Masurenstraße, Flörbachweg, 
 Moorblick, Flörbachweg, Buterlandstraße, Sonnenstraße, Gleis-Preister-Straße, Doetkottenweg, Zum Hovesaatstein, Am Forstgarten, 
@@ -64,11 +64,11 @@ Nach einer kurzen Pause am Dinkelhof, dann über die Alstätter Straße, Sandweg
 Die Anlieger der genannten Straßen werden ganz besonders gebeten zu flaggen.  
 Zum Abschluß des Tages beginnt um *20.00 Uhr* 
 der Große Festball für Mitglieder und geladene Gäste. Für die Musik sorgt an diesem Abend die Band 
-{{< tlink text="Spotlight" url="https://spotlight-epe.chayns.net" target="_blank" >}}.
+{{< tlink class="green" text="Spotlight" url="https://spotlight-epe.chayns.net" target="_blank" >}}.
 
 Der Montagmorgen beginnt um *6:00 Uhr* mit dem Großen Wecken durch die Mitglieder des Offizierskorps und der Stadtkapelle Gronau. 
 Nach dem Antreten am Vereinslokal
-{{< tlink text="Dinkelhof" url="https://dinkelhof.chayns.net" target="_blank" >}} 
+{{< tlink class="green" text="Dinkelhof" url="https://dinkelhof.chayns.net" target="_blank" >}} 
 marschieren die Schützen gegen *12.30 Uhr* zum Vogelschießen auf dem Festplatz. Zum Höhepunkt der Festtage erwartet der
 Verein auch in diesem Jahr ein spannendes Vogelschießen. Wer wird neuer Regent des Schützenvereins Buterland-Beckerhook? 
 Nach dem Königsschuß wird der neue Hofstaat ausgerufen. Die Krönung des neuen Königspaares findet um *20.00* Uhr im Festzelt statt. 
@@ -78,7 +78,7 @@ Dienstag ab *12:00* Uhr laden wir zum traditionellen „Spanferkelessen“ im Di
 Der Kehraus bildet am Dienstagabend, in der beliebt lockeren Atmosphäre, den Abschluß des Schützenfestes. 
 Den musikalischen Part übernimmt, wie auch schon im vergangenem Jahr, „Mike´s Musikexpress & DJ Pfanny“.
 Unser Festwirt ist auch in diesem Jahr die Firma
-{{< tlink text="Seifer Getränke Service" url="http://www.seifer.de" target="_blank" >}}.
+{{< tlink class="green" text="Seifer Getränke Service" url="http://www.seifer.de" target="_blank" >}}.
 
 Vielen Dank!
 Mit freundlichen Grüßen
