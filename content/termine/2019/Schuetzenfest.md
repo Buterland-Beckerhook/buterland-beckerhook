@@ -9,3 +9,4 @@ outputs:
 - html
 - calendar
 ---
+[Zur Einladung 2019]({{< ref "/aktuell/2019/einladung" >}})
