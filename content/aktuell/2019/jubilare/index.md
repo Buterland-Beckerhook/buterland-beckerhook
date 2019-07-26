@@ -13,7 +13,7 @@ resources:
 ---
 
 Am Schützenfest Sonntag durfte der noch amtierende König Björn zusammen mit seiner
-Königin Yvonne, zahlreichen Mitgliedern unseres Vereins einen Ordern für eine langjährige Treue
+Königin Yvonne, zahlreichen Mitgliedern unseres Vereins einen Orden für eine langjährige Treue
 zum Schützenverein Buterland-Beckerhook e.V. überreichen.<!--more-->
 
 {{< imageslide name="bild" lightbox="1">}}
@@ -28,6 +28,6 @@ Theo Franke, Gerhard Frericks, Manfred Wielens und August Witte.
 Für sogar 65-jährige Mitgliedschaft wurde Wilhelm Kottig ausgezeichnet. 
 
 Stellvertretend wurde Maria Oude Lansink und Renate Frieske
-für die Arbeit der Offiziers- bzw. Vorstandsdamen mit einem Blumenstraus gedankt.
+für die Arbeit der Offiziers- bzw. Vorstandsdamen mit einem Blumenstrauß gedankt.
 
 {{< bottomspace >}}

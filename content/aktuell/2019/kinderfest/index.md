@@ -37,18 +37,18 @@ resources:
       copy: 'Buterland-Beckerhook e.V.'                                                             
 ---
 
-Auch in diesem Jahr wurde das Schützenfest am Samstag wieder mit einem Kinderfest bekonnen.
+Auch in diesem Jahr wurde das Schützenfest am Samstag wieder mit einem Kinderfest begonnen.
 Das Fest stand in diesem Jahr unter dem Motto "Cowboy und Indianer" und so bekamen alle Kinder
 am Eingang neben ihrer "Spielkarte" auch entsprechenden Schmuck in Form von Cowboyhut bzw.
 Federschmuck.<!--more-->  
-Passend zum Motto durfte dann z.B. Lasso geworfen werden oder ein täuschend echt aussehnder Bulle
+Passend zum Motto durfte dann z.B. Lasso geworfen werden oder ein täuschend echt aussehender Bulle
 im Bullenreiten bezwungen werden.
 Aber auch bekannte Spiele und Attraktionen wie Glücksrad, Hüpfburg, Krabbelsack, "Hau den Lukas" oder 
-der Luftballonkünstler bereiteten dem Nachwuchs des Vereins große Freude. Für die großen gab es zur stärkung
+der Luftballonkünstler bereiteten dem Nachwuchs des Vereins große Freude. Für die großen gab es zur Stärkung
 Kaffee und Kuchen.  
 
 Das finale Highlight des Kinderfestes fand dann glücklicherweise im Zelt statt, wurde es doch von einem
-Wolkendruch begleitet: Die diesjährige Tombola. Hier wurden wieder tolle Preise gewonnen, die die Augen
+Wolkenbruch begleitet: die diesjährige Tombola. Hier wurden wieder tolle Preise gewonnen, die die Augen
 der Kinder groß werden ließen.
 
 {{< imageslide name="bild" lightbox="1">}}
