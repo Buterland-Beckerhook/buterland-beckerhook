@@ -20,6 +20,8 @@ resources:
     name: 'whoff'
   - src: 'mterhalle.jpg'
     name: 'mterhalle'
+  - src: 'ndroste.jpg'
+    name: 'ndroste'
 ---
 
 {{< mediacardright image="asundag" title="Anton Sundag" subtitle="* 06. Mai 1847 Kirchspiel Epe , † 16. März 1929 in Gronau" >}} 

@@ -4,9 +4,9 @@ date: 2018-11-02T00:00:00+01:00
 weight: 2
 anchor: contact
 resources:
-  - src: 'headofficers_2016.jpg'
+  - src: 'headofficers_2019.jpg'
     name: 'head'
-    title: 'vlnr: N. Droste, M. Terhalle, A. Verst'
+    title: 'vlnr: M. Schreiber, N. Droste, N. Wülker'
 ---
 
 {{< image name="head" class="uk-width-3-4@m uk-align-center" >}}

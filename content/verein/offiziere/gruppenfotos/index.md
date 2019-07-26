@@ -3,6 +3,11 @@ title: Gruppenfotos
 date: 2018-11-02T00:00:00+01:00
 headless: true
 resources:
+  - src: '2019.jpg'
+    name: 2019
+    title: "Die Offiziere zum Schützenfest 2019"
+    params:
+      copy: "Buterland-Beckerhook e.V."
   - src: '2018.jpg'
     name: 2018
     title: "Die Offiziere zum Schützenfest 2018"
