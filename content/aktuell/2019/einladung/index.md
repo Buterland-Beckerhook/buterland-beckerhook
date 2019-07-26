@@ -17,19 +17,19 @@ wir laden herzlich ein zu unserem
 das wir vom 20.-23. Juli 2019 im Festzelt feiern.  <!--more-->
 
 Die Musik wird in diesem Jahr von der 
-{{< tlink text="Stadtkapelle Gronau" url="https://www.stadtkapelle-gronau.de" target="_blank" >}} 
+{{< tlink class="green" text="Stadtkapelle Gronau" url="https://www.stadtkapelle-gronau.de" target="_blank" >}} 
 unter Leitung ihres Dirigenten Gert van Huizen sowie vom 
-{{< tlink text="Spielmannszug KAB Epe" url="http://www.spzg-kab-epe.de" target="_blank" >}} 
+{{< tlink class="green" text="Spielmannszug KAB Epe" url="http://www.spzg-kab-epe.de" target="_blank" >}} 
 unter der Leitung von Tambourmajor Bernd Huesmann ausgeführt. 
 
 Am Samstagabend legt das DJ-Team 
-{{< tlink text="Two for the Beat" url="https://www.facebook.com/twoforthebeat/" target="_blank" >}}
+{{< tlink class="green" text="Two for the Beat" url="https://www.facebook.com/twoforthebeat/" target="_blank" >}}
 insbesondere für die Jugend auf. 
 Am Sonntag und am Montagabend spielt die Band 
-{{< tlink text="Spotlight" url="https://spotlight-epe.chayns.net" target="_blank" >}} zum Tanz auf. 
+{{< tlink class="green" text="Spotlight" url="https://spotlight-epe.chayns.net" target="_blank" >}} zum Tanz auf. 
 Am Dienstagabend übernimmt "Mike's Musik Express & DJ Pfanny" die musikalische Unterhaltung.
   
-Für Speisen und Getränke sorgt die {{< tlink text="Firma Johannes Seifer" url="http://www.seifer.de" target="_blank" >}}
+Für Speisen und Getränke sorgt die {{< tlink class="green" text="Firma Johannes Seifer" url="http://www.seifer.de" target="_blank" >}}
  als Festwirt.
   
 Zu allen Veranstaltungen erwarten wir eine rege Beteiligung aller Mitglieder. 
@@ -67,7 +67,7 @@ Gronau, im Juli 2019
 | Montag, 22. Juli 2019   |   |
 |--------------------------|-----|
 | 06:00 Uhr | Großes Wecken |
-| 10:30 Uhr | Antreten der Schützen am Vereinslokal {{< tlink text="Dinkelhof" url="https://dinkelhof.chayns.net" target="_blank" >}} mit geschmücktem Spazierstock, {{< br >}} Jungschützen mit Holzgewehr. |
+| 10:30 Uhr | Antreten der Schützen am Vereinslokal {{< tlink class="green" text="Dinkelhof" url="https://dinkelhof.chayns.net" target="_blank" >}} mit geschmücktem Spazierstock, {{< br >}} Jungschützen mit Holzgewehr. |
 | 12:30 Uhr | Abmarsch zum Königsschießen auf dem Festplatz. |
 | 20:00 Uhr | Krönung des neuen Königspaares und großer Festball. |
 
@@ -75,5 +75,5 @@ Gronau, im Juli 2019
 
 | Dienstag, 23. Juli 2019   |   |
 |--------------------------|-----|
-| 12:00 Uhr | "Spanferkelessen" im Vereinslokal {{< tlink text="Dinkelhof" url="https://dinkelhof.chayns.net" target="_blank" >}}. |
+| 12:00 Uhr | "Spanferkelessen" im Vereinslokal {{< tlink class="green" text="Dinkelhof" url="https://dinkelhof.chayns.net" target="_blank" >}}. |
 | 20:00 Uhr | Kehraus für alle Mitglieder im Festzelt. |
