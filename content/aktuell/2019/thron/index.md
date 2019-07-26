@@ -22,7 +22,7 @@ resources:
 ---
 
 Bei strahlendem Sonnenschein lieferten sich die Buterländer und Beckerhooker Schützen auch in diesem Jahr wieder 
-ein spannendes Schießen. Nach der Feuerpause traten noch drei Reflektanten unter die Vogelstange, um dem Federvieh
+ein spannendes Schießen. <!--more--> Nach der Feuerpause traten noch drei Reflektanten unter die Vogelstange, um dem Federvieh
 den Rest zu geben: Michael Albers, Tobias Bußjan und Andreas Schmeing. Michael konnte sich am Ende durchsetzen und holte
 schließlich mit dem 374. Schuss den Vogel von der Stange. Zu seiner Königin erkor er Hanna Lübbers.<!--more-->
 
