@@ -31,8 +31,8 @@ resources:
       copy: 'Klaus Wiedau (WN)'    
 ---
 
-Bei bestem Wetter lieferten sich die buterländer und beckerhooker Schützen ein spannendes Schießen. Von den vier 
-Reflektanten: Matthias Rövekamp, Patrick Buss, Björn Wielens und Torsten Arnzen, die sich nach der Feuerpause zur
+Bei bestem Wetter lieferten sich die Buterländer und Beckerhooker Schützen ein spannendes Schießen. Von den vier 
+Reflektanten: Matthias Rövekamp, Patrick Buß, Björn Wielens und Torsten Arnzen, die sich nach der Feuerpause zur
 Finalrunde unter der Vogestange versammelten, konnte sich schließlich Björn Wielens durchsetzen und regiert nun im
 kommenden Jahr, neben seiner Königin Yvonne Arnzen, den Schützenverein.<!--more-->
 
