@@ -47,7 +47,7 @@ Als Heinrich I. 1928/29 König. Ehrenmitglied seit 1966. Er war Landwirt auf dem
 (später umbenannt in Alstätter Straße 206), der Eigentum der Familie van Delden war und heute von Theo Stenau bewohnt wird.
 {{< /mediacardright >}}
 
-{{< mediacardright image="hlammers" title="Heinrich Lammers" subtitle="* 12. August 1922 in Gronau" >}} 
+{{< mediacardright image="hlammers" title="Heinrich Lammers" subtitle="* 12. August 1922 in Gronau † 25. Oktober 2019 in Gronau" >}} 
 Oberst vom 01. Dezember 1955 bis 02. Dezember 1978. Offizier seit 1949. Ehrenmitglied seit 1978. 
 Als Bundesbahn-Lok-Betriebsinspektor 1980 pensioniert.
 {{< /mediacardright >}}
