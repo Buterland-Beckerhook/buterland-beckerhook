@@ -33,7 +33,7 @@ resources:
 ---
 
 Der Schützenverein Buterland-Beckerhook startet das Jahr 2020 mit dem traditionellen Pokal- und Preisschießen.
-Am Samstag, dem 04. Januar, trafen sich die Schützen im Vereinslokal Dinkelhof, um ihre Treffsicherheit unter Beweis zu 
+Am Samstag, den 04. Januar, trafen sich die Schützen im Vereinslokal Dinkelhof, um ihre Treffsicherheit unter Beweis zu 
 stellen. <!--more-->
 
 Den begehrten Schützenpokal errang mit 29 Ringen Heiko Oude-Lansink. Der Seniorenpokal ging mit 26 Ringen an
