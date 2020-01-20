@@ -30,16 +30,6 @@ resources:
     title:
     params:
       copy: 'Buterland-Beckerhook'  
-  - src: 'IMG_0176.jpg'
-    name: 'malle-5'
-    title:
-    params:
-      copy: 'Buterland-Beckerhook'
-  - src: 'IMG_0179.jpg'
-    name: 'malle-6'
-    title:
-    params:
-      copy: 'Buterland-Beckerhook'    
 ---
 
 Am vergangenen Samstag fand das traditionelle Winterfest des Schützenvereins Buterland-Beckerhook im Dinkelhof statt.
