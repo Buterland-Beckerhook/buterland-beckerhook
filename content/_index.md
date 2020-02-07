@@ -1,5 +1,6 @@
 ---
-title: Work in Progress
+title: Schützenverein Buterland-Beckerhook e.V.
+subtitle: Work in Progress
 ---
 
 Diese Seite wird aktuell komplett neu aufgebaut. Daher sind noch nicht alle Bereiche und Funktionen wie gewohnt
