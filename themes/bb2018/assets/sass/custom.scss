@@ -105,8 +105,23 @@ a.uk-link-text-nu:hover,
 
 @import "uikit-theme.scss";
 
+.head_logo {
+	width: 50%;
+	max-width: 700px;
+}
+
 @media (max-width: $breakpoint-small) {
 	.uk-card-title-small\@s {
 		font-size: 1.2rem;
+	}
+
+	.head_logo {
+		width: 70%;
+	}
+
+	.uk-position-bottom {
+		bottom: 0;
+		left: 0;
+		right: 0;
 	}
 }
