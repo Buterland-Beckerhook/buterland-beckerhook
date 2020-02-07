@@ -70,7 +70,7 @@ function sendForm() {
 
 	if (message.value === '') {
 		ui_alert_title.innerText = 'Keine Nachricht?';
-		ui_alert_text.innerText = 'Sie müssen uns zumindest eine Nachricht hinterlasen.'
+		ui_alert_text.innerText = 'Sie müssen uns zumindest eine Nachricht hinterlassen.'
 		UIkit.modal(ui_alert).show();
 		sending = false;
 		return;

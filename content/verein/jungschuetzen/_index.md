@@ -4,7 +4,7 @@ date: 2018-11-02T00:00:00+01:00
 menu:
   main:
     parent: home
-    weight: 3    
+    weight: 4  
     post: <li class="uk-nav-divider"></li>
 headline: Jungschützen Buterland-Beckerhook e.V.
 subhead: > 
