@@ -8,9 +8,9 @@
 
 <div class="uk-text-left" uk-grid>
     <div>
-        <div class="uk-card uk-card-default uk-card-body uk-padding-remove">
+        <div class="uk-card uk-card-default uk-card-body uk-padding-remove" style="box-shadow: none;">
             <div class="uk-grid" uk-grid>
-            <div class="uk-width-auto">
+            <div class="uk-width-auto" >
                 <div class="bb-event-day uk-text-center">
                     <div class="bb-event-day-mon">{{- with .Date }}{{ index $.Site.Data.month_short (printf "%d" .Month)}}.{{ end -}}
                     </div>
@@ -33,7 +33,7 @@
         </div>
     </div>
     <div>
-        <div class="uk-card uk-card-default uk-card-body uk-padding-remove uk-margin-left uk-visible@m">
+        <div class="uk-card uk-card-default uk-card-body uk-padding-remove uk-margin-left uk-visible@m" style="box-shadow: none;">
 
                 {{- with .Content -}}<p>{{ . }}</p>{{- end -}}
                 <div>
