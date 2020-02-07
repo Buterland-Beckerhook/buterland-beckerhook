@@ -1,0 +1,16 @@
+{{- $title := "" -}}
+{{ with .Params.Subtitle }}
+{{ $title = . }}
+{{- end -}}
+
+
+{{- with .Content }}
+<div class="uk-child-width-expand uk-grid-small uk-grid-match" uk-grid>
+    <div>
+        <div class="uk-card uk-card-border uk-card-primary uk-card-body">
+        {{- if $title }}<h3 class="uk-card-title uk-card-title-small@s">{{ $title }}</h3>{{ end -}}
+            <p>{{ . }}</p>
+        </div>
+    </div>
+</div>
+{{ end }}

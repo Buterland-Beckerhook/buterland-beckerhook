@@ -1,23 +1,27 @@
 {{- define "main" }}
-<div>
-    <article class="uk-article">
-        <h1 class="uk-article title">{{- with .Params.headline -}}{{ . }}{{- else -}}{{ .Title }}{{- end -}}</h1>
-        {{- with .Params.subhead -}}<p class="uk-article-meta">{{ . }}</p>{{- end -}}
-        <p>{{ .Content }}</p>
-    </article>
-</div>
-{{ range .Pages }}
-<div>
-    <article class="uk-article">
-        {{- $anchor := "" -}}
-        {{- with .Params.anchor -}}{{- $anchor = . -}}{{- end -}}
-        <h1 id="{{- $anchor -}}" class="uk-article title">
-            <a class="uk-h2" name="{{- $anchor -}}"> {{- with .Params.headline -}}{{ . }}{{- else -}}{{ .Title }}{{- end -}}</a>
-            <a href="#" uk-totop uk-scroll></a>
-        </h1>
-        {{- with .Params.subhead -}}<p class="uk-article-meta">{{ . }}</p>{{- end -}}
-        <p>{{ .Content }}</p>
-    </article>
-</div>
+<ul uk-accordion="collapsible: true">
+    <li class="uk-open">
+        <a class="uk-accordion-title" href="#">{{- with .Params.headline -}}{{ . }}{{- else -}}{{ .Title }}{{- end -}}</a>
+        <div class="uk-accordion-content">
+            {{- with .Params.subhead -}}<p class="uk-article-meta">{{ . }}</p>{{- end -}}
+            <p>{{ .Content }}</p>
+        </div>
+    </li>
+
+    {{ range .Pages }}
+    <li>
+        <a class="uk-accordion-title" href="#">{{- with .Params.headline -}}{{ . }}{{- else -}}{{ .Title }}{{- end -}}</a>
+        <div class="uk-accordion-content">
+            {{- with .Params.subhead -}}<p class="uk-article-meta">{{ . }}</p>{{- end -}}
+            <p>{{ .Content }}</p>
+        </div>
+    </li>
+
+    {{- end -}}
+
+
+</ul>
+<br />
+<br />
 {{- end -}}
-{{- end -}}
+
