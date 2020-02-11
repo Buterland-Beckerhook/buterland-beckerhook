@@ -122,6 +122,42 @@ Buchstabe f Datenschutz-Grundverordnung. Es besteht ein berechtigtes Interesse a
 Datenverarbeitung, die Sicherheit unserer Webseite zu gewährleisten und uns vor automatisierten Eingaben (Angriffen) 
 zu schützen.
 
+## Verwendung von Matomo
+### Art und Zweck der Verarbeitung:
+Diese Website benutzt Matomo (ehemals Piwik), eine Open-Source-Software zur statistischen Auswertung von 
+Besucherzugriffen. Anbieter der Software Matomo ist die InnoCraft Ltd., 150 Willis St, 6011 Wellington, Neuseeland.
+Wir verwenden Matomo ohne sog. Cookies, also Textdateien, die auf Ihrem Computer gespeichert werden.  
+Die Informationen über Ihre Nutzung des Internetangebotes werden auf einem von uns selbst betriebenen Server in 
+Deutschland gespeichert. Ihre IP-Adresse wird unmittelbar nach der Verarbeitung und vor deren Speicherung anonymisiert. 
+
+Weiter ist Matomo bei uns so konfiguriert, dass der der sog. 
+["DoNotTrack"-Header respektiert wird](https://de.wikipedia.org/wiki/Do_Not_Track_(Software)).  
+Sie können also selber entscheiden, ob Sie uns die Erfassung und Analyse verschiedener Daten ermöglichen. So etwa durch
+einschalten der sog. "DoNotTrack"-Funktion in ihrem Browser oder durch setzten eines Cookies durch Matomo.
+
+{{< matomo_opt_out >}}
+
+Nähere Informationen zu den Privatsphäre-Einstellungen der Matomo Software finden Sie unter folgendem Link: 
+[https://matomo.org/docs/privacy/](https://matomo.org/docs/privacy/).
+
+### Rechtsgrundlage:
+Die Verarbeitung der Daten erfolgt auf Grundlage einer Einwilligung des Nutzers (Art. 6 Abs. 1 lit. a DSGVO).
+
+### Empfänger:
+Empfänger der Daten sind wir als Betreiber der Website
+
+### Speicherdauer:
+Die Löschung der Daten erfolgt, sobald diese für unsere Aufzeichnungszwecke nicht mehr erforderlich sind.
+In unserem Fall geschieht die nach folgendem Zeitraum: 365 Tage.
+
+### Bereitstellung vorgeschrieben oder erforderlich:
+Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig, allein auf Basis Ihrer Einwilligung. Sofern Sie den
+Zugriff unterbinden, kann es hierdurch zu Funktionseinschränkungen auf der Website kommen.
+
+### Profiling:
+Mit Hilfe des Tracking-Tools Matomo kann das Verhalten der Besucher der Webseite bewertet und die Interessen analysiert
+werden. Hierzu erstellen wir ein pseudonymes Nutzerprofil.
+
 ## Verwendung von Google Maps
 ### Art und Zweck der Verarbeitung:
 Auf dieser Webseite nutzen wir das Angebot von Google Maps. Google Maps wird von Google LLC, 1600 Amphitheatre Parkway, 
