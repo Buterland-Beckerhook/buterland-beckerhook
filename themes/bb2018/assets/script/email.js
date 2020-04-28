@@ -10,7 +10,7 @@ let email = document.getElementById('c_email');
 let phone = document.getElementById('c_phone');
 let message = document.getElementById('c_message');
 let data = {
-	service_id: 'default_service',
+	service_id: 'mailcow_bb',
 	template_id: 'bb_contact_form',
    user_id: 'user_kE7Jv1VRmENZb4wCxu718',
 	template_params: {
