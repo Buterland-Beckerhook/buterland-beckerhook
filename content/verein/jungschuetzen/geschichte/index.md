@@ -28,24 +28,25 @@ weiße Hose, weißes Hemd, Holzgewehr mit Blume und Schützenhut. In diesem „O
 am Festumzug im Jahre 1956 teil.
 {{< /mediacardleft >}}
 
-{{% mediacardleft image="proto2" lightbox="true" %}}
+{{< mediacardleft image="proto2" lightbox="true" >}}
 Initiatoren der Gründung der Jungschützenabteilung waren Anton de Boer, Bernhard Schreiber und Heinrich Lammers. 
 An der ersten Versammlung 1956 nahmen insgesamt folgend aufgeführte 14 Jugendliche teil: 
-   
-1) Bernh. de Boer  
-2) Herm. de Boer  
-3) Heinz Achteresch  
-4) Bernh. Achteresch   
-5) Rudi Gründken   
-6) Alf.Gründken  
-7) Herm. Banken  
-8) Herm. Grundmann   
-9) Martin Hoffjann  
-10) Berni Dropmann  
-11) Hans Schreiber  
-12) Jos. Schreiber  
-13) Lamb. Reinermann   
-14) Alf. Kühlkamp   
-{{% /mediacardleft %}}
+  <ol>
+   <li>Bernhard de Boer</li>
+   <li>Hermann de Boer</li>
+   <li>Heinz Achteresch</li>
+   <li>Bernhard Achteresch</li>
+   <li>Rudi Gründken</li>
+   <li>Alfons Gründken</li>
+   <li>Hermann Banken</li>
+   <li>Hermann Grundmann</li>
+   <li>Martin Hoffjann</li>
+   <li>Berni Dropmann</li>
+   <li>Hans Schreiber</li>
+   <li>Joseph Schreiber</li>
+   <li>Lambert Reinermann</li>
+   <li>Alfons Kühlkamp</li>
+  </ol>
+{{< /mediacardleft >}}
 
 {{< imagegrid name="grid" lightbox="true" >}}

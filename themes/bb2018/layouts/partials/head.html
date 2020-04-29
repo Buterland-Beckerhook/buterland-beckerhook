@@ -12,6 +12,10 @@
 {{- $email := resources.Get "script/email.js" -}}
 {{- $secEmail := $email | resources.Fingerprint "sha512" -}}
 {{- $secEmailMin := $email | resources.Minify | resources.Fingerprint "sha512" -}}
+{{- $matomo := resources.Get "script/matomo.js" -}}
+{{- $secMatomo := $matomo | resources.Fingerprint "sha512" -}}
+{{- $secMatomoMin := $matomo | resources.Minify | resources.Fingerprint "sha512" -}}
+
 <head>
 	<meta charset="UTF-8">
 	<title>{{ .Title }}</title>
@@ -43,4 +47,6 @@
 	{{ if .Page.HasShortcode "emailjs" -}}
 	<script type="text/javascript" src="{{ $secEmailMin.Permalink }}" integrity="{{ $secEmailMin.Data.Integrity }}" async></script>
 	{{- end -}}
+	<script type="text/javascript" src="{{ $secMatomoMin.Permalink }}" integrity="{{ $secMatomoMin.Data.Integrity }}" async></script>
+	<noscript><p><img src="//matomo.verst.eu/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 </head>

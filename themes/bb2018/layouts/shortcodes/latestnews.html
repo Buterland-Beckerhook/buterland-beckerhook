@@ -1,12 +1,15 @@
 {{- with $.Site.GetPage "/aktuell" -}}
 {{- range first 1 .Pages -}}
 <div class="uk-card-body">
-  <div class="uk-overflow-hidden uk-h4">{{.Title}}</div>
-  <p>{{ .Summary }}</p>
-  <div class="uk-card-footer">
-    <small class="uk-text-muted uk-align-left">{{ .Date.Day }}. {{ index $.Site.Data.month (printf "%d" .Date.Month)}} {{ .Date.Year }}{{ with .Params.meta }} - {{ . }}{{ end }}</small>
-    <a class="uk-label uk-align-right" href="{{ .RelPermalink }}" >zum Artikel</a>
-  </div>
+    <div>
+        <div class="uk-text-lead uk-overflow-hidden uk-margin-remove-bottom ">{{.Title}}</div>
+        {{- with .Params.subtitle -}}<div class="uk-overflow-hidden uk-text-emphasis uk-margin-remove">{{.}}</div>{{- end -}}
+        <small class="uk-text-meta uk-align-left uk-margin-remove-bottom" style="">{{ .Date.Day }}. {{ index $.Site.Data.month (printf "%d" .Date.Month)}} {{ .Date.Year }}{{ with .Params.meta }} - {{ . }}{{ end }}</small>
+    </div>
+    <p class="uk-clearfix">{{ .Summary }}</p>
+    <div class="uk-card-footer">
+        <a class="uk-label uk-align-right" href="{{ .RelPermalink }}">zum Artikel</a>
+    </div>
 </div>
 {{- end -}}
 {{- end -}}

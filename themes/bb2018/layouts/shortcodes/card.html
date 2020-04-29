@@ -7,7 +7,14 @@
 {{- $class = . -}}
 {{- end -}}
 
-<div class="uk-card uk-card-body {{ with $class }} {{ . }}{{- end -}}">
-{{- with $title -}}<h3 class="uk-card-title">{{ . }}</h3>{{- end -}}
-{{ .Inner }}
+<div>
+    <div class="uk-card  uk-card-default uk-card-border {{ with $class }} {{ . }}{{- end -}}">
+        {{- with $title -}}<h3 class="uk-card-title">{{ . }}</h3>{{- end -}}
+        {{ .Inner }}
+    </div>
 </div>
+
+<!--<div class="uk-card uk-card-default uk-padding-small {{ with $class }} {{ . }}{{- end -}}" style="text-align: left">-->
+<!--{{- with $title -}}<h3 class="uk-card-title uk-text-primary uk-text-bold uk-margin-small-bottom uk-text-center" style="text-align: left;">{{ . }}</h3>{{- end -}}-->
+<!--{{ .Inner }}-->
+<!--</div>-->

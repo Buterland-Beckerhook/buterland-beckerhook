@@ -10,7 +10,7 @@ Angaben gemäß § 5 TMG
 ### Kontakt:
 eMail-Adresse: {{< maillink >}}Vorstand{{< /maillink >}}  
 
-Link zum Impressum: [{{< ref "/datenschutzerklaerung.md" >}}]({{< ref "/datenschutzerklaerung.md" >}})
+Link zur Datenschutzerklärung: [{{< ref "/datenschutzerklaerung.md" >}}]({{< ref "/datenschutzerklaerung.md" >}})
 
 ### Haftungsausschluss: 
 

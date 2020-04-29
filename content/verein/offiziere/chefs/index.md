@@ -72,4 +72,7 @@ der Königsadjudanten.
 
 {{< mediacardright image="ndroste" title="Norbert Droste" subtitle="" >}} 
 Oberst seit dem 24. November 2018.
+{{< br >}} 
+{{< br >}} 
+{{< br >}}  
 {{< /mediacardright >}}

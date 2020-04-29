@@ -6,14 +6,19 @@ anchor: presidents
 resources:
   - src: 'teimann.jpg'
     name: 'teimann'
+    title: 'Theodor Eimann'
   - src: 'fdropmann.jpg'
-    name: 'fdropmann'    
+    name: 'fdropmann'
+    title: 'Friedrich Dropmann'    
   - src: 'hlewing.jpg'
     name: 'hlewing'
+    title: 'Hermann Lewing'
   - src: 'gpreister.jpg'
     name: 'gpreister'
+    title: 'Gerhard Gleis-Preister'
   - src: 'hverst.jpg'
     name: 'hverst'
+    title: 'Heinz Verst'
 ---
 
 {{< mediacardright image="teimann" title="Theodor Eimann" subtitle="* 09. Mai 11862 in Warendorf, † 24. Februar 1930 in Gronau" >}} 
