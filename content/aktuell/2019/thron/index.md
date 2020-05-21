@@ -1,6 +1,7 @@
 ---
 title: Michael Albers ist neuer König im Buterland-Beckerhook!
 date: 2019-07-26T11:00:00+02:00
+lastmodified: 2020-05-21T12:00:00+02:00
 subtitle: Der 374. Schuss entscheidet ein spannendes Königsschießen 
 tags:
   - Thron
@@ -14,8 +15,13 @@ throne:
   cupbearer: Rene Lepping
   courtmarshal: Patrick Buß
 resources:
-  - src: 'king_and_queen.jpg'
+  - src: 'thron.jpg'
     name: 'thron-1'
+    title: 'Thron 2019'
+    params:
+      copy: 'Buterland-Beckerhook e.V.'
+  - src: 'king_and_queen.jpg'
+    name: 'thron-2'
     title: 'König und Königin 2019'
     params:
       copy: 'Buterland-Beckerhook e.V.' 

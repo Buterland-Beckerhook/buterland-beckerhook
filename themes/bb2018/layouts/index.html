@@ -3,8 +3,6 @@
 
 <div class="uk-child-width-1-1@m" style="min-width: 400px;" uk-grid>
 
-    {{ partial "home/top_card.html" . }}
-
     <div class="uk-child-width-expand uk-grid-small uk-grid-match" uk-grid>
         <div>
             <a href="/termine" type="{{ .MediaType.Type }}" style="display: block;">
@@ -39,6 +37,8 @@
             </div>
         </div>
     </div>
+
+    {{ partial "home/top_card.html" . }}
 
 </div>
 

@@ -3,7 +3,7 @@ title: Biwak 2020 entfällt
 subtitle: Das Biwak kann in diesem Jahr nicht stattfinden
 date: 2020-05-04T10:00:00+02:00
 tags:
-  - Biwak
+  - Biwak, Corona
 ---
 
 Das geplante Biwak, vom Schützenverein Buterland-Beckerhook e.V.,
