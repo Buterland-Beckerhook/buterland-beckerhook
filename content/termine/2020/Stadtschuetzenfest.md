@@ -1,7 +1,7 @@
 ---
 title: "Stadtschützenfest"
 publishdate: 2019-12-10T06:00:00+01:00
-lastmodified: 2020-01-09T08:10:00+01:00
+lastmodified: 2020-07-16T14:20:00+02:00
 date: 2020-08-28
 end: 2020-08-30
 location: unknown
@@ -10,4 +10,5 @@ outputs:
 - html
 - calendar
 ---
-Einzelheiten werden noch bekannt gegeben
+Auch das Stadtschützenfest kann in diesem Jahr aufgrund der anhaltenden
+Corona-Pandemie leider nicht stattfinden.
