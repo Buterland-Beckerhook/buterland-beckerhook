@@ -11,7 +11,7 @@ resources:
     params:
       copy: 'Buterland-Beckerhook e.V.'
   - src: 'pic_02.jpg'
-    name: 'bild-3'
+    name: 'bild-2'
     title: 'Kinderfest 2019'
     params:
       copy: 'Buterland-Beckerhook e.V.'  
