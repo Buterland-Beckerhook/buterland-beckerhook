@@ -1,12 +1,12 @@
 ---
 title: "Frauenfest"
 publishdate: 2019-12-10T06:00:00+01:00
-lastmodified: 2020-01-09T08:10:00+01:00
+lastmodified: 2020-08-17T07:20:00+02:00
 date: 2020-11-08
-location: dinkelhof
+location: none
 draft: false
 outputs:
 - html
 - calendar
 ---
-Einzelheiten werden noch bekannt gegeben
+Auch das Frauenfest muss in diesem Jahr Situationsbedingt leider ausfallen.

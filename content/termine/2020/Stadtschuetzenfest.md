@@ -1,10 +1,10 @@
 ---
 title: "Stadtschützenfest"
 publishdate: 2019-12-10T06:00:00+01:00
-lastmodified: 2020-07-16T14:20:00+02:00
+lastmodified: 2020-08-17T07:20:00+02:00
 date: 2020-08-28
 end: 2020-08-30
-location: unknown
+location: none
 draft: false
 outputs:
 - html
