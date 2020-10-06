@@ -1,11 +1,40 @@
-{{- define "main" }}
-	{{- range .Pages }}{{ $name := printf "t_%d" .Date.Year }}{{  $.Scratch.Set $name .Params.throne.king }}{{ end -}}
-	{{- $paginator := .Paginate .Data.Pages 1 -}}
-	{{- range $paginator.Pages -}}
-	<article class="uk-article">
-		<h1 class="uk-article-title">{{ .Title }}</h1>
-		{{ .Content }}
-	</article>
-	{{ end }}
-	{{ partial "thronenav.html" . }}
-{{ end -}}
+{{- define "main" -}}
+
+{{ $paginator := .Paginate (.Site.Taxonomies.tags.thron) 1 }}
+{{ range $paginator.Pages }}
+
+{{- $title := .Title -}}
+<h3 class="uk-card-title uk-card-title-small@s">Thron {{ .Date.Year }}</h3>
+<a class="uk-link-text" href="{{ .Permalink }}">
+  {{ range first 1 (.Resources.Match "thron-*") }}
+  {{- $s := .Resize "480x" -}}
+  {{- $m := .Resize "800x" -}}
+  {{- $l := .Resize "1200x" -}}
+  <figure class="">
+    <img data-src="{{ $l.Permalink }}" data-srcset="{{- $s.Permalink }} {{ $s.Width -}}w, {{ $m.Permalink }} {{ $m.Width -}}w, {{ $l.Permalink }}  {{ $l.Width -}}w"
+         sizes="(max-width: {{ $s.Width -}}px) {{ $s.Width -}}px, (max-width: {{ $m.Width -}}px) {{ $m.Width -}}px 100vw" width="{{- $l.Width -}}" height="{{- $l.Height -}}"
+         alt="{{- with .Title }}{{ . }}{{- end -}}"  uk-img>
+    {{- with $title }}<figcaption>{{ . }}</figcaption>{{- end -}}
+  </figure>
+  {{- end -}}
+</a>
+
+{{- with .Params.throne }}
+<div class="uk-overflow-auto">
+  <table class="uk-table uk-table-small uk-table-middle">
+    <tbody>
+    <tr><td>K&ouml;nig</td><td>{{- .king -}}</td></tr>
+    <tr><td>K&ouml;nigin</td><td>{{- .queen -}}</td></tr>
+    <tr><td>Ehrenpaare</td><td>{{- .moh1 }} und {{ .loh1 -}}</td></tr>
+    <tr><td></td><td>{{- .moh2 }} und {{ .loh2 -}}   </td></tr>
+    <tr><td>Oberhofmarschall</td><td>{{- .courtmarshal -}}</td></tr>
+    <tr><td>Mundschenk</td><td>{{- .cupbearer -}}</td></tr>
+    </tbody>
+  </table>
+</div>
+
+{{ end }}
+{{ end }}
+
+{{ template "throne_pagination.html" . }}
+{{- end -}}
