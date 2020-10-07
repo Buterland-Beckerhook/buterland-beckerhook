@@ -5,6 +5,8 @@ subtitle: Der 429. Schuss entscheidet das spannende Königsschießen
 tags:
   - Thron
 throne:
+  years: 2018/2019
+  king_title: Björn I.
   king: Björn Wielens
   queen: Yvonne Arnzen
   loh1: Torsten Arnzen
@@ -42,5 +44,4 @@ kommenden Jahr, neben seiner Königin Yvonne Arnzen, den Schützenverein.<!--mor
 
 {{< imageslide name="thron" lightbox="true" >}}
 {{< thronemembers >}}
-
-
+{{< bottomspace >}}

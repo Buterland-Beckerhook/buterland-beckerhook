@@ -1,5 +1,6 @@
 {{- define "main" -}}
-  {{ range .Pages }}
+{{ range .Pages  }}
+{{ if gt .Date.Year 2017 }}
 <div>
     <div class="uk-card uk-card-hover uk-card-body" onclick="window.location = '{{ .RelPermalink }}';" style="cursor: pointer">
         <h3 class="uk-card-title">{{ .Title }}</h3>
@@ -13,5 +14,6 @@
     </div>
 </div>
 
-  {{- end -}}
+{{- end -}}
+{{- end -}}
 {{- end -}}

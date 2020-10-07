@@ -19,7 +19,7 @@
 
   {{ if $p.HasPrev }}
   {{$pp := index ($p.Prev.Pages) 0}}
-  <li><a href="#"><span class="uk-margin-small-right" uk-pagination-previous></span> {{ $pp.Date.Year }} - {{ $pp.Params.throne.king }}</a></li>
+  <li><a href="{{ $p.Prev.URL }}"><span class="uk-margin-small-right" uk-pagination-previous></span> {{ $pp.Date.Year }} - {{ $pp.Params.throne.king }}</a></li>
   {{ end }}
 
 
@@ -27,7 +27,7 @@
 
   {{ if $p.HasNext }}
   {{$np := index ($p.Next.Pages) 0}}
-  <li class="uk-margin-auto-left"><a href="#">{{ $np.Params.throne.king }} - {{ $np.Date.Year }}
+  <li class="uk-margin-auto-left"><a href="{{ $p.Next.URL }}">{{ $np.Params.throne.king }} - {{ $np.Date.Year }}
   <span class="uk-margin-small-left" uk-pagination-next></span></a></li>
 
   {{ end }}

@@ -1,10 +1,12 @@
 ---
 title: Bernd Lewing regiert
 date: 2017-07-30T14:23:22+02:00
-subtitle: Der 429. Schuss entscheidet das spannende Königsschießen 
+subtitle: Der 462. Schuss entscheidet das Königsschießen im Buterland
 tags:
   - Thron
 throne:
+  years: 2017/2018
+  king_title: Bernd XII.
   king: Bernd Lewing
   queen: Sandra Lübbers
   loh1: Gerhard Ort
@@ -14,21 +16,40 @@ throne:
   cupbearer: Hubert Subgang
   courtmarshal: Berthold Doetkotte
 resources:
-  - src: 'thron2018-01.jpg'
+  - src: 'thron1.jpg'
     name: 'thron-1'
-    title: 'Der Thron 2018'
+    title: 'Der Thron 2017/2018'
     params:
-      copy: 'Klaus Wiedau (WN)'
+      copy: 'Sandra Doetkotte'
+  - src: 'thron2.jpg'
+    name: 'thron-2'
+    title: 'Der Thron 2017/2018'
+    params:
+      copy: 'Sandra Doetkotte'
+  - src: 'thron3.jpg'
+    name: 'thron-3'
+    title: 'Der Thron 2017/2018'
+    params:
+      copy: 'Sandra Doetkotte'
+  - src: 'bernd1.jpg'
+    name: 'thron-4'
+    title: 'König Bernd'
+    params:
+      copy: 'Sandra Doetkotte'
+  - src: 'bernd2.jpg'
+    name: 'thron-5'
+    title: 'König Bernd'
+    params:
+      copy: 'Sandra Doetkotte'
+  - src: 'bernd3.jpg'
+    name: 'thron-6'
+    title: 'König Bernd und Königin Sandra'
+    params:
+      copy: 'Sandra Doetkotte'
 ---
 
-Bei bestem Wetter lieferten sich die Buterländer und Beckerhooker Schützen ein spannendes Schießen. Von den vier 
-Reflektanten: Matthias Rövekamp, Patrick Buß, Björn Wielens und Torsten Arnzen, die sich nach der Feuerpause zur
-Finalrunde unter der Vogestange versammelten, konnte sich schließlich Björn Wielens durchsetzen und regiert nun im
-kommenden Jahr, neben seiner Königin Yvonne Arnzen, den Schützenverein.<!--more-->
+{{< tlink url="http://m.wn.de/Muensterland/Kreis-Borken/Gronau/2912530-Bernd-Lewing-regiert-das-Buterland-Vogel-flog-nach-462.-Schuss" text="Zum Bericht des Vogelschießen (WN)" >}}  
 
-* {{< tlink url="https://short.verst.eu/bbvgs2018" text="Zum Bericht des Vogelschießen (WN)" >}}  
-* {{< tlink url="https://short.verst.eu/bbschtzf2018" text="Zum Bericht des Krönungsball (WN)" >}}  
-* {{< tlink url="https://short.verst.eu/bbYvMa" text="Königinnen spezial - Eine majestätische Familie (WN)" >}}  
 
 {{< imageslide name="thron" lightbox="true" >}}
 {{< thronemembers >}}
