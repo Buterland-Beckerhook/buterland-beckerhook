@@ -42,11 +42,11 @@
 	{{- range .AlternativeOutputFormats -}}
 	{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
 	{{- end -}}
-	<script type="text/javascript" src="{{ $uikit.Permalink }}" async></script>
-	<script type="text/javascript" src="{{ $script.Permalink }}" async></script>
+	<script type="text/javascript" src="{{ $secUikitMin.Permalink }}" integrity="{{ $secUikitMin.Data.Integrity }}" async></script>
+	<script type="text/javascript" src="{{ $secScriptMin.Permalink }}" integrity="{{ $secScriptMin.Data.Integrity }}" async></script>
 	{{ if .Page.HasShortcode "emailjs" -}}
-	<script type="text/javascript" src="{{ $email.Permalink }}" async></script>
+	<script type="text/javascript" src="{{ $secEmailMin.Permalink }}" integrity="{{ $secEmailMin.Data.Integrity }}" async></script>
 	{{- end -}}
-	<script type="text/javascript" src="{{ $matomo.Permalink }}" async></script>
+	<script type="text/javascript" src="{{ $secMatomoMin.Permalink }}" integrity="{{ $secMatomoMin.Data.Integrity }}" async></script>
 	<noscript><p><img src="//matomo.verst.eu/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 </head>
