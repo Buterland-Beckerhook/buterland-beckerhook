@@ -1,7 +1,12 @@
+DefaultContentLanguage: de
 baseURL: https://buterland-beckerhook.de/
 languageCode: de-DE
 title: Buterland-Beckerhook
 theme: bb2018
+timeout: 30000
+
+build:
+  writeStats: true
 
 params:
   description: Website des Schützenvereins Buterland-Beckerhook e.V. von 1909 aus Gronau (Westf.)
