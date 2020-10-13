@@ -41,7 +41,7 @@ kommenden Jahr, neben seiner Königin Yvonne Arnzen, den Schützenverein.<!--mor
 * {{< tlink url="https://short.verst.eu/bbvgs2018" text="Zum Bericht des Vogelschießen (WN)" >}}  
 * {{< tlink url="https://short.verst.eu/bbschtzf2018" text="Zum Bericht des Krönungsball (WN)" >}}  
 * {{< tlink url="https://short.verst.eu/bbYvMa" text="Königinnen spezial - Eine majestätische Familie (WN)" >}}  
-
+ 
 {{< imageslide name="thron" lightbox="true" >}}
 {{< thronemembers >}}
 {{< bottomspace >}}
