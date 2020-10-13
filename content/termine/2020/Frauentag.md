@@ -9,4 +9,4 @@ outputs:
 - html
 - calendar
 ---
-Auch das Frauenfest muss in diesem Jahr Situationsbedingt leider ausfallen.
+Auch das Frauenfest muss in diesem Jahr situationsbedingt leider ausfallen.
