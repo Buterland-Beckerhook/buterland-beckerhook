@@ -1,37 +1,31 @@
 {{ $p := .Paginator }}
-
 {{$cp := index ($p.Pages) 0}}
 
-<div class="uk-width-expand uk-flex uk-flex-center">
-  <button class="uk-button uk-button-default" type="button">{{ $cp.Date.Year }} - {{ $cp.Params.throne.king }}</button>
-  <div uk-dropdown="pos: bottom-justify">
-    <ul class="uk-nav uk-dropdown-nav">
-      <!--        <li class="uk-nav-divider"></li>-->
+<div class="uk-child-width-1-3@s uk-margin-large-top uk-text-center" uk-grid>
+
+  <div>
+    {{ if $p.HasPrev }}
+    {{$pp := index ($p.Prev.Pages) 0}}
+    <a href="{{ $p.Prev.URL }}" class="uk-button uk-button-default">
+      <span class="uk-text-nowrap">{{ $pp.Date.Year }} - {{ $pp.Params.throne.king }}</span></a>
+    {{ end }}
+  </div>
+
+  <div>
+    <select name="thrones" id="thrones" class="uk-select" onchange="location.href = this.value;">
       {{ range $p.Pagers }}
       {{$ppp := index (.Pages) 0}}
-
-      <li class="{{ if eq $ppp.Date.Year $cp.Date.Year }}uk-active{{ end }}" ><a href="{{ .URL }}">{{ $ppp.Date.Year }} - {{ $ppp.Params.throne.king }}</a></li>
+      <option value="{{ .URL }}" {{ if eq $cp.Date.Year $ppp.Date.Year }} selected{{ end }}>{{ $ppp.Date.Year }} - {{ $ppp.Params.throne.king }}</option>
       {{ end }}
-    </ul>
+    </select>
   </div>
+
+  <div>
+    {{ if $p.HasNext }}
+    {{$np := index ($p.Next.Pages) 0}}
+    <a href="{{ $p.Next.URL }}" class="uk-button uk-button-default">
+      <span class="uk-text-nowrap">{{ $np.Params.throne.king }} - {{ $np.Date.Year }}</span></a>
+    {{ end }}
+  </div>
+
 </div>
-<ul class="uk-pagination uk-flex-center">
-
-  {{ if $p.HasPrev }}
-  {{$pp := index ($p.Prev.Pages) 0}}
-  <li><a href="{{ $p.Prev.URL }}"><span class="uk-margin-small-right" uk-pagination-previous></span> {{ $pp.Date.Year }} - {{ $pp.Params.throne.king }}</a></li>
-  {{ end }}
-
-
-
-
-  {{ if $p.HasNext }}
-  {{$np := index ($p.Next.Pages) 0}}
-  <li class="uk-margin-auto-left"><a href="{{ $p.Next.URL }}">{{ $np.Params.throne.king }} - {{ $np.Date.Year }}
-  <span class="uk-margin-small-left" uk-pagination-next></span></a></li>
-
-  {{ end }}
-
-
-</ul>
-
