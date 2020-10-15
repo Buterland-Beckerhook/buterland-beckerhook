@@ -1,5 +1,6 @@
 {{ $data := .Site.Data.month_de }}
   <div class="uk-child-width-1-3@s uk-section-primary uk-margin-large-top" uk-grid>
+<<<<<<< HEAD
     <div>
       <div class="uk-panel uk-padding-large uk-text-small">
         Fragen oder Anregungen? Nutzen Sie unser <a href="/kontakt">Kontaktformular</a>
@@ -18,6 +19,26 @@
             <br><hr><small><a href="https://github.com/Buterland-Beckerhook/hugo-ci">Built</a> with
             <a href="https://gohugo.io">hugo</a> and <a href="https://github.com/Buterland-Beckerhook/buterland-beckerhook" uk-icon="icon: heart; ratio: 0.7"></a></small>
               <small class="small-italic"><br>on {{ now.Format "2006-01-02 15:04 (MST)" }}</small>
+=======
+    <div>
+      <div class="uk-panel uk-padding-large uk-text-small">
+        Fragen oder Anregungen? Nutzen Sie unser <a href="/kontakt">Kontaktformular</a>
+        oder schreiben Sie uns eine
+        E-Mail: {{ with .Site.GetPage "/mail" }}{{ .Content }}{{ end }}
+      </div>
+    </div>
+
+    <div>
+        <div class="uk-panel uk-padding-large">
+            Copyright © {{ now.Year }}
+            <nobr>Buterland-Beckerhook e.V.</nobr>
+            <br><small>All rights reserved.</small>
+            <br>
+            <br><small>Zuletzt geändert am {{ with .Site.LastChange }}{{ .Day }}. {{ index $data.long (sub .Month 1) }} {{ .Year }}{{ end }}.</small>
+            <br><small><a href="https://github.com/Buterland-Beckerhook/hugo-ci">Built</a> with <a
+                href="https://gohugo.io">hugo</a> and <a href="https://github.com/Buterland-Beckerhook/buterland-beckerhook" uk-icon="icon: heart; ratio: 0.7"></a></small>
+              <small class="small-italic"><br>on {{ now.Format "2006-01-03 15:04 (MST)" }}</small>
+>>>>>>> develop
         </div>
     </div>
 
