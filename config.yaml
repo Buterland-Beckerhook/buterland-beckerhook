@@ -36,7 +36,7 @@ menu:
 
   right:
   - identifier: kontakt
-    name: Kontakt
+    name: Kontaktformular
     url: /kontakt/
     weight: 1
   - identifier: datenschuzerklaerung
