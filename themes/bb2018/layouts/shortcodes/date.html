@@ -1,0 +1,7 @@
+{{ $data := .Site.Data.month_de.long }}
+{{ $date := .Get 0 }}
+{{ if eq "de" .Language }}
+  {{ .date.Day }}. {{ index .date (printf "%d" .date.Month) }} {{ .date.Year }}
+{{ else }}
+  {{ .date.Format "January 2, 2006"}}
+{{ end }}
