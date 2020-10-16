@@ -1,5 +1,6 @@
 ---
-title: Thron 2002/2003 - Bernd XI.
+title: Bernd Borgert regiert im Buterland-Beckerhook!
+subtitle: Der 326. Schuss brachte um 16:07 Uhr die Entscheidung.
 date: 2002-07-21T20:00:00+02:00
 tags:
   - Thron
@@ -20,4 +21,34 @@ resources:
     title: 'Der Thron 2002/2003'
     params:
       copy: 'Buterland-Beckerhook e.V.'
+  - src: 'besucher.jpg'
+    name: 'zuschauer'
+    title: ''
+  - src: 'bernd.jpg'
+    name: 'bernd'
+    title: 'König Bernd XI.'
 ---
+
+{{< image name="zuschauer" class="image-medium uk-margin-left uk-float-right" >}}
+{{< br >}} 
+Mehreren hundert Zuschauer standen unter der Vogelstange auf dem Festplatz
+an der Buterlandstraße und verfolgten den spannenden Wettkampf, der
+insgesamt vier Anwärter, um die Königsehre.
+Kurz nach 16 Uhr hängt der Vogel im wahrsten Sinn des Wortes nur noch am
+seidenen Faden. Bei jedem weiteren Versuch der Anwärter
+(Bernd Borgert, Bernd Schmeing, Heinrich Thebelt und Heinz Verst) geht ein
+Raunen durch die Menge.
+
+{{< br >}} 
+{{< image name="bernd" class="image-small uk-margin-right uk-float-left" >}}
+{{< br >}} 
+Der 326. Schuss gibt dem hölzernen Federvieh dann endgültig den Rest.
+Die Schießmeister Josef Blömer und Theo Gründken geben das Zeichen:
+*Der Vogel ist runter*.
+Jubelnd reißt Bernd Borgert die Arme in die Höhe und eine Vielzahl
+an Schützenbrüdern stürmt herbei, um dem frisch gebackenen König zu
+gratulieren
+
+{{< clear >}}
+{{< imageslide name="thron" lightbox="true" >}}
+{{< thronemembers >}}
