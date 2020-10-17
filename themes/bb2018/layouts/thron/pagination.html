@@ -12,7 +12,7 @@
   </div>
 
   <div>
-    <select name="thrones" id="thrones" class="uk-select" onchange="location.href = this.value;">
+    <select name="thrones" id="thrones" class="uk-select uk-button uk-button-default" onchange="location.href = this.value;">
       {{ range $p.Pagers }}
       {{$ppp := index (.Pages) 0}}
       <option value="{{ .URL }}" {{ if eq $cp.Date.Year $ppp.Date.Year }} selected{{ end }}>{{ $ppp.Date.Year }} - {{ $ppp.Params.throne.king }}</option>
