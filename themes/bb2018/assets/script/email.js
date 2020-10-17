@@ -27,10 +27,6 @@ let captchaParams = {
 };
 let sending = false;
 
-window.onload = function () {
-	loadScript();
-};
-
 function loadScript() {
 	let script = document.createElement('script');
 	script.type = 'text/javascript';
@@ -112,3 +108,5 @@ function sendForm() {
 var onloadCallback = function () {
 	initForm();
 };
+
+loadScript();

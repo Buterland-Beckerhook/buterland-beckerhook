@@ -6,6 +6,8 @@ subtitle: Der 374. Schuss entscheidet ein spannendes Königsschießen
 tags:
   - Thron
 throne:
+  years: 2019-2021
+  king_title: Michael IV.
   king: Michael Albers
   queen: Hanna Lübbers
   loh1: Frank Diekmann

@@ -2,6 +2,18 @@
 
 let drawer = document.getElementById('drawer');
 
+function init() {
+  document.body.onload = function () {
+    let links = document.getElementsByClassName("maillink");
+    for (let l of links) {
+      let ma = unveilMail(l.getAttribute('data-src'));
+      l.href = 'mailto:' + ma;
+      l.innerText = ma;
+      l.classList.remove('uk-hidden');
+    }
+  }
+}
+
 function toggleMenu() {
 	drawer.classList.toggle('drawer-open');
 }
@@ -21,5 +33,7 @@ function unveilMail(rec) {
 		}
 	}
 	l = l.replace(l.substr(0,4), atob(rec))
-	document.write('<a href="mailto://' + l + '">' + l + '</a>');
+  return l
 }
+
+init();

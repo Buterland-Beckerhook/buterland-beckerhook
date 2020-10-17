@@ -66,7 +66,9 @@
   </div>
   <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
 </div>
-
+{{ if lt (len $images) 2 }}
+<div class="uk-margin-large-bottom"></div>
+{{ end }}
 {{- with $lb -}}
 <div id="lb-{{- $id -}}" uk-lightbox>
   {{- range sort $images "Name" $sort -}}

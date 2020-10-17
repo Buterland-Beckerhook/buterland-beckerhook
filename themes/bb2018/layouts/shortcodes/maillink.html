@@ -1,6 +1,4 @@
-<script>
-    unveilMail({{ .Inner | base64Encode }})
-</script>
+<a href="" class="maillink uk-hidden" data-src="{{ .Inner | base64Encode }}"></a>
 <noscript>
     {{- with .Get 0 -}}{{- safeHTML (printf "<%s>" .) -}}{{- end -}}
     Die eMail-Adresse ist vor Spam-Bots geschützt. Um sie zu sehen,

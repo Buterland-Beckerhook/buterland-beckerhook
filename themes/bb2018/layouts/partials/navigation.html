@@ -31,17 +31,17 @@
 				{{- end -}}
 			</ul>
 		</div>
-		<div class="uk-navbar-right uk-visible@s">
-			<ul class="uk-navbar-nav">
-				{{- $currentPage := . -}}
-				{{- range .Site.Menus.right }}
-				{{- $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
-				<li {{ if $active -}}class="uk-active" {{- end -}}>
-					<a href="{{ .URL }}">{{ .Name }}</a>
-				</li>
-				{{- end -}}
-			</ul>
-		</div>
+<!--		<div class="uk-navbar-right uk-visible@s">-->
+<!--			<ul class="uk-navbar-nav">-->
+<!--				{{- $currentPage := . -}}-->
+<!--				{{- range .Site.Menus.right }}-->
+<!--				{{- $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}-->
+<!--				<li {{ if $active -}}class="uk-active" {{- end -}}>-->
+<!--					<a href="{{ .URL }}">{{ .Name }}</a>-->
+<!--				</li>-->
+<!--				{{- end -}}-->
+<!--			</ul>-->
+<!--		</div>-->
 
 		<!-- mobile off canvas menu -->
 		<div class="uk-padding uk-hidden@s">

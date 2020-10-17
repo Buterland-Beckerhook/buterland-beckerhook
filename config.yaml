@@ -1,7 +1,12 @@
+DefaultContentLanguage: de
 baseURL: https://buterland-beckerhook.de/
 languageCode: de-DE
 title: Buterland-Beckerhook
 theme: bb2018
+timeout: 30000
+
+build:
+  writeStats: true
 
 params:
   description: Website des Schützenvereins Buterland-Beckerhook e.V. von 1909 aus Gronau (Westf.)
@@ -24,14 +29,14 @@ menu:
     name: Aktuelles
     url: /aktuell/
     weight: 3
-#  - identifier: thron
-#    name: Verschiedenes
-#    url: /misc/
-#    weight: 4
+  - identifier: thron
+    name: Thron
+    url: /thron/
+    weight: 4
 
   right:
   - identifier: kontakt
-    name: Kontakt
+    name: Kontaktformular
     url: /kontakt/
     weight: 1
   - identifier: datenschuzerklaerung
