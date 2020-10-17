@@ -21,3 +21,5 @@ resources:
     params:
       copy: 'Buterland-Beckerhook e.V.'
 ---
+{{< imageslide name="thron" lightbox="true" >}}
+{{< thronemembers >}}
