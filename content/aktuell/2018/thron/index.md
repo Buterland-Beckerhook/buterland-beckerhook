@@ -44,4 +44,3 @@ kommenden Jahr, neben seiner Königin Yvonne Arnzen, den Schützenverein.<!--mor
  
 {{< imageslide name="thron" lightbox="true" >}}
 {{< thronemembers >}}
-{{< bottomspace >}}

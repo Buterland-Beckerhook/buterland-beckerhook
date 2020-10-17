@@ -76,7 +76,5 @@ Zu seiner Königin wählte Gregor Verst Kerstin Häring. Ehrendamen sind Anne Br
 Ehrenherren Stefan Dirks und Marius Rösner. Zum Oberhofmarschall wurde Kai Overesch ernannt,
 während Christjan Thebelt die Aufgabe des Mundschenk übertragen wurde.
 
-
 {{< imageslide name="thron" lightbox="true" >}}
 {{< thronemembers >}}
-{{< bottomspace >}}
