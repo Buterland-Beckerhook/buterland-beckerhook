@@ -35,7 +35,7 @@ diesjähriges Schützenfest. Hunderte von Besuchern waren am Montagnachmittag
 zum Festplatz gekommen um bei sommerlichen Temperaturen das Vogelschießen
 mit zu verfolgen. Wer würde dieses Mal wohl den Vogel abschießen und damit
 die Nachfolge von König Michael III. (Terhalle) und Königin Renate (Büscher)
-antreten ?
+antreten?
 
 {{< imagegrid name="bild" >}}
 
