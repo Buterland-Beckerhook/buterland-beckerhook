@@ -50,8 +50,5 @@ resources:
 
 {{< tlink url="http://m.wn.de/Muensterland/Kreis-Borken/Gronau/2912530-Bernd-Lewing-regiert-das-Buterland-Vogel-flog-nach-462.-Schuss" text="Zum Bericht des Vogelschießen (WN)" >}}  
 
-
 {{< imageslide name="thron" lightbox="true" >}}
 {{< thronemembers >}}
-
-
