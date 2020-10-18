@@ -44,7 +44,7 @@ von Michael Terhalle.
 
 {{< imagegrid name="bild" >}}
 
-Michael und RenateAuf den Schultern seiner Schützenbrüder sitzend, präsentierte
+Auf den Schultern seiner Schützenbrüder sitzend, präsentierte
 er seine Trophäe, ließ sich feiern und wurde von der Stadtkapelle, die musikalisch
 auf dem Schützenplatz für Stimmung gesorgte hatte, ins Festzelt geleiten.
 Dort wurde die neue Thronzusammenstellung bekannt gegeben. An der Seite der neuen
