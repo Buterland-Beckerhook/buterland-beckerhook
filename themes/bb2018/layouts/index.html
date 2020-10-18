@@ -13,24 +13,11 @@
         </div>
     </div>
 
-    <div class="uk-child-width-1-2@s uk-grid-small uk-grid-match" uk-grid>
-
-        <div>
-            <div class="uk-card uk-card-border uk-card-default">
-                {{ partial "home/latest_news.html" . }}
-            </div>
-        </div>
-
-
-        <div>
-            <div class="uk-card uk-card-border uk-card-default">
-                {{ partial "home/second_latest_news.html" . }}
-            </div>
-        </div>
-
+    <div>
+      {{ partial "home/latest_news.html" . }}
     </div>
 
-    <div class="uk-child-width-expand uk-grid-small uk-grid-match" uk-grid>
+  <div class="uk-child-width-expand uk-grid-small uk-grid-match" uk-grid>
         <div>
             <div class="uk-card uk-card-border uk-card-default uk-card-body">
                 {{ partial "home/current_throne.html" . }}

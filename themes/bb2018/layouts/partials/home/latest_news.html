@@ -1,27 +1,27 @@
 {{- with $.Site.GetPage "/aktuell" -}}
-{{- range first 1 .Pages -}}
+<div class="uk-grid-small uk-child-width-expand@s" uk-grid>
+{{- range $i, $e :=  first 2 .Pages -}}
 
-<div class="uk-card-header">
-    <div class="uk-grid-small uk-flex-middle" uk-grid>
-        <div class="uk-width-expand">
-            <h3 class="uk-card-title uk-card-title-small@s uk-margin-remove-bottom">{{ .Title }}</h3>
-            {{- with .Params.subtitle -}}<div class="uk-overflow-hidden uk-margin-remove">{{.}}</div>{{- end -}}
-            <p class="uk-text-meta uk-margin-remove-top">{{ .Date.Day }}. {{ index $.Site.Data.month (printf "%d" .Date.Month)}} {{ .Date.Year }}{{ with .Params.meta }} - {{ . }}{{ end }}</p>
-        </div>
-    </div>
-</div>
-<div class="uk-card-body">
-    <p>
-        {{ with .Resources.ByType "image" }}
-        {{ range first 1 . }}
+  <div class="uk-margin-left {{ if eq $i 1 }} uk-margin-right{{ end }} uk-card uk-card-border uk-card-body" onclick="window.location = '{{ .RelPermalink }}';"
+       style="cursor: pointer">
+    <h3 class="uk-card-title">{{ $e.Title }}</h3>
+    <small class="uk-text-muted">{{ $e.Date.Day }}. {{ index $.Site.Data.month (printf "%d" .Date.Month)}} {{ .Date.Year }}{{ with .Params.meta }} - {{ . }}{{ end }}</small>
+    {{ with $e.Resources.ByType "image" }}
+    {{ range first 1 . }}
     <div class="uk-card-media-right">
-        <img src="{{ .RelPermalink }}" width="35%" class="uk-float-left uk-padding-small" style="min-width: 160px;" uk-img>
+      <img src="{{ .RelPermalink }}" width="35%" class="uk-float-left uk-padding-small" style="min-width: 160px;" uk-img>
     </div>
     {{ end }}
     {{ end }}
-    {{ .Summary }}</p>
-    <a href="{{ .RelPermalink }}" class="uk-button uk-button-text uk-align-right">Weiter lesen</a>
-</div>
-
+    {{ if not $e.Params.noarticle }}
+    <p>{{ $e.Summary }}</p>
+    {{ if $e.Truncated }}
+    <div class="uk-align-right">
+      <a class="uk-link-reset" href="{{ $e.RelPermalink }}">mehr lesen…</a>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
 {{- end -}}
+</div>
 {{- end -}}
