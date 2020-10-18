@@ -1,7 +1,7 @@
 ---
 title: Das Federvieh war zäh, verdammt zäh!
 subtitle: Norbert Droste regiert die Buterland-Beckerhook-Schützen
-date: 2009-07-19T20:00:00+02:00
+date: 2009-07-20T20:00:00+02:00
 tags:
   - Thron
 throne:
