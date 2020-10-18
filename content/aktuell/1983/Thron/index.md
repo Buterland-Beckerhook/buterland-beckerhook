@@ -3,6 +3,7 @@ title: Thron 1983/1984 - Karlheinz I.
 date: 1983-07-17T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1983/1984
   king_title: Karlheinz I.

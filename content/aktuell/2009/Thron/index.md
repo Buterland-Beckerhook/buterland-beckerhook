@@ -42,7 +42,7 @@ resources:
 Mit dem 495. Schuss, genau um 16.45 Uhr, hat Norbert Droste ihn dann doch von der
 Stange geholt. „Ich hab ihn, Männer“, rief er den Schützenbrüdern aus dem
 Buterland und Beckerhook zu. Und gleich darauf: „Gebt mir meine Königin!“ Die kam
-flugs aus der jubelnden Menge und nahm ihren Norbert in die Arme.
+flugs aus der jubelnden Menge und nahm ihren Norbert in die Arme.<!--more-->
 
 {{< imagegrid name="vogel" >}}
 

@@ -3,6 +3,7 @@ title: Thron 1949/1950 - Hubert II.
 date: 1949-07-17T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1949/1950
   king_title: Hubert II.

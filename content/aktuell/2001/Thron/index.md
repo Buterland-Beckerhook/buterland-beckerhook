@@ -27,9 +27,9 @@ resources:
 ---
 Auf diesen Augenblick hatte er jahrelang gewartet: Georg Doetkotte heißt der neue
 Regent des Schützenvereins Buterland-Beckerhook. Bevor Offizier und Kameraden ihn
-hochheben lassen konnten, hatte "Bauer" jedoch mit dem Vogel seine liebe Müh.
+hochheben lassen konnten, hatte "Bauer" jedoch mit dem Vogel seine liebe Müh. <!--more-->
 Anfänglich unterstützt durch Ulrich Wissing und Hauptmann Norbert Droste,
-hatten ihm die Beiden zum Schluss freie Bahn gewährt.  
+hatten ihm die Beiden zum Schluss freie Bahn gewährt.
 Doch das hölzerne Federvieh wollte zur Freude des Festwirtes partout nicht fallen.
 Letztlich zeigten die fachlich versierten Ratschläge der beiden Schießmeister
 Theo Gründken und Josef Blömer aber doch ihre Wirkung: Mit dem 478. Schuss fiel

@@ -35,7 +35,7 @@ Schon am Mittag zerrissen immer wieder peitschende Geräusche die Stille,
 die über dem Buterland lag. Schuss auf Schuss gaben die Schützen auf den
 hölzernen Vogel ab. Schließlich - um Punkt 16:02 Uhr - segelte der noch
 beachtliche Rest des "Adlers" zu Boden - und Michael Terhalle war neuer
-Schützenkönig des Vereines Buterland-Beckerhook.
+Schützenkönig des Vereines Buterland-Beckerhook.<!--more-->
 Die beiden Schießmeister Theo Gründken und Josef Blömer hatten genau
 mitgezählt: 338 Schuss waren gefallen. Terhalles schärfste Kontrahenten
 Hubert Winking und Thomas Krotzek hatten mit gezielten Schüssen den Vogel

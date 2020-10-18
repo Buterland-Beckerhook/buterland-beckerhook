@@ -3,6 +3,7 @@ title: Thron 1912/1913 - Bernhard II.
 date: 1912-07-21T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1912/1913
   king_title: Bernhard II.

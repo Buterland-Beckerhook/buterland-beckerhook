@@ -3,6 +3,7 @@ title: Thron 1961/1962 - Josef II.
 date: 1961-07-16T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1961/1962
   king_title: Josef II.

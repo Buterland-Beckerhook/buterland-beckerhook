@@ -37,7 +37,7 @@ Buterland vor lauter Regen am liebsten im Taucheranzug unter der Vogelstange
 gestanden. Und in diesem Jahr „knallte“ die Sonne so, dass Sonnenmilch gefragter
 war als Bier und Sekt. Kurzum: Petrus meinte es gut mit den Schützen im
 Stadtwesten – es hatte fast den Anschein, als wolle er sich für die Panne im
-letzten Jahr entschuldigen.
+letzten Jahr entschuldigen.<!--more-->
 
 {{< imagegrid name="bild" >}}
 

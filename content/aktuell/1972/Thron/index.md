@@ -3,6 +3,7 @@ title: Thron 1972/1973 - Hans I.
 date: 1972-07-16T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1972/1973
   king_title: Hans I.

@@ -3,6 +3,7 @@ title: Thron 1980/1981 - Wilhelm VII.
 date: 1980-07-20T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1980/1981
   king_title: Wilhelm VII.

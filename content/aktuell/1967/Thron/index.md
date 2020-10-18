@@ -3,6 +3,7 @@ title: Thron 1967/1968 - Josef III.
 date: 1967-07-16T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1967/1968
   king_title: Josef III.

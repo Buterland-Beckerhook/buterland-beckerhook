@@ -39,7 +39,8 @@ resources:
 
 Das nennt man Führungsqualitäten: Seine erst Amtshandlung nahm König Heinz Verst
 unter der Vogelstange der Buterländer Schützen vor, noch bevor sich der
-Pulverdampf seines letzten Schusses verzogen hatte. Heinz Verst nahm sich selbst
+Pulverdampf seines letzten Schusses verzogen hatte.<!--more-->
+Heinz Verst nahm sich selbst
 die Amtskette des Präsidenten ab und hängte Sie seinem Stellvertreter
 Gerd Düsmann um den Hals. "Für ein Jahr bist Du jetzt meine Stellvertreter".
 Augenblicke zuvor hatte Heinz Verst den Vogel in der Gluthitze des Buterländer

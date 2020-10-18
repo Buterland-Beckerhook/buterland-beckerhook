@@ -3,6 +3,7 @@ title: Thron 1971/1972 - Heinrich VII.
 date: 1971-07-18T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1971/1972
   king_title: Heinrich VII.

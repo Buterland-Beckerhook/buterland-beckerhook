@@ -44,7 +44,7 @@ resources:
 Heiko Oude Lansink steht im Regen - und strahlt. In der einen Hand hält er ein
 Glas Sekt, in der anderen das Reststück des Vogels, das er vor wenigen Minuten
 abgeschossen hat. "Ist das schön", sagt er halb zu sich selbst, dann strömt die
-nächste Welle der Gratulanten auf ihn ein.
+nächste Welle der Gratulanten auf ihn ein.<!--more-->
 
 Wenn es darum ginge, in Gronau Experte für den Klimawandel und Wetterextreme zu
 finden, wäre es sicher eine gute Idee, mit der Suche bei den Buterländern anzufangen.

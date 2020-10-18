@@ -3,6 +3,7 @@ title: Thron 1954/1955 - Wilhelm III.
 date: 1954-07-18T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1954/1955
   king_title: Wilhelm III.

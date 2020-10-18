@@ -3,6 +3,7 @@ title: Thron 1964/1965 - Gerhard VI.
 date: 1964-07-19T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1964/1965
   king_title: Gerhard VI.

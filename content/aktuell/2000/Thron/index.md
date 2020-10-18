@@ -3,6 +3,7 @@ title: Thron 2000/2001 - Wilhelm VIII.
 date: 2000-07-16T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 2000/2001
   king_title: Wilhelm VIII.

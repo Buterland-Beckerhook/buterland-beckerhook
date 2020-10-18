@@ -55,7 +55,7 @@ resources:
 
 Es dauerte ganz schön lange, bis die Buterländer endlich über ihren neuen König
 jubeln konnten: Erst um 18.03 Uhr mit dem 530. Schuss holte Burkhard Büscher den
-Vogel von der Stange.
+Vogel von der Stange.<!--more-->
 
 {{< imagegrid name="vogel" >}}
 

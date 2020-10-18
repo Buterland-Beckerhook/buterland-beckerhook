@@ -3,6 +3,7 @@ title: Thron 1936/1937 - Otto I.
 date: 1936-07-19T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1936/1937
   king_title: Otto I.

@@ -59,10 +59,9 @@ resources:
 
 Der neue Schützenkönig im Buterland-Beckerhook heißt Gregor Verst. 
 In einem spannenden Schießen setzte er sich am Montag gegen seine Mitstreiter Yannik Wolf,
-Thomas Blömer und Christjan Thebelt durch. <!-- more -->
 
+<!--more-->
 {{< imagegrid name="aspirant" lightbox="true" >}}
-
 
 Um kurz vor 17 Uhr war er der glückliche Sieger:
 397 Mal hatte Schießmeister Ingo Elsbernd nachgeladen, mit dem 398. Schuss holte

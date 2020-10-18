@@ -3,6 +3,7 @@ title: Thron 1962/1963 - Heinrich VII.
 date: 1962-07-22T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1962/1963
   king_title: Heinrich VII.

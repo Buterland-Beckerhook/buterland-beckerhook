@@ -3,6 +3,7 @@ title: Thron 1999/2000 - Martin I.
 date: 1999-07-18T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1999/2000
   king_title: Martin I.

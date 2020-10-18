@@ -58,7 +58,7 @@ Beckerhook ein kühles Erwachen. Während sie im vergangenen Jahr bei Temperatur
 über 30 Grad den Vogel ins Visier genommen hatten, bekamen die Schützen diesmal
 am Abzug kalte Finger. Grau in grau dräute der Himmel über dem grün-weißen
 Festplatz im Westen der Stadt, das Quecksilber hatte sich auf magere 15 Grad
-eingependelt.
+eingependelt.<!--more-->
 
 {{< imagegrid name="aspiranten1" >}}
 

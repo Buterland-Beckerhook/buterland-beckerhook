@@ -3,6 +3,7 @@ title: Thron 1997/1998 - Heinrich X.
 date: 1997-07-20T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1997/1998
   king_title: Heinrich X.

@@ -53,7 +53,7 @@ Stadtwesten, denn das traditionelle Königschießen der Schützengesellschaft
 Buterland-Beckerhook stand am Nachmittag auf dem Programm. Hunderte von
 Besuchern hatten sich unter der Vogelstange eingefunden, um mitzuerleben,
 wer wohl die Nachfolge von Bernhard Schmeing und Margret Kernebeck antreten
-würde.
+würde.<!--more-->
 
 {{< imagegrid name="aspirant" >}}
 

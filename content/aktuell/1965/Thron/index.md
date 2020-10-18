@@ -3,6 +3,7 @@ title: Thron 1965/1966 - Bernhard VI.
 date: 1965-07-18T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1965/1966
   king_title: Bernhard VI.

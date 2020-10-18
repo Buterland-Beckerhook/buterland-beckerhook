@@ -3,6 +3,7 @@ title: Thron 1935/1036 - Franz I.
 date: 1935-07-21T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1935/1936
   king_title: Franz I.

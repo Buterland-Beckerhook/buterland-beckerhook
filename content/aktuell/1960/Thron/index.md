@@ -3,6 +3,7 @@ title: Thron 1960/1961 - Gerhard V.
 date: 1960-07-17T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1960/1961
   king_title: Gerhard V.

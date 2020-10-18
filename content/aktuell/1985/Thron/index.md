@@ -3,6 +3,7 @@ title: Thron 1985/1986 - Franz IV.
 date: 1985-07-21T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1985/1986
   king_title: Franz IV.

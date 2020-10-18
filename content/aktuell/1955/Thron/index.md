@@ -3,6 +3,7 @@ title: Thron 1955/1956 - Wilhelm IV.
 date: 1955-07-17T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1955/1956
   king_title: Wilhelm IV.

@@ -3,6 +3,7 @@ title: Thron 1998/1999 - Bernhard X .
 date: 1998-07-19T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1998/1999
   king_title: Bernhard X .

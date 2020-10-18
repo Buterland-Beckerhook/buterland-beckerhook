@@ -3,6 +3,7 @@ title: Thron 1963/1964 - Johann III.
 date: 1963-07-21T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1963/1964
   king_title: Johann III.

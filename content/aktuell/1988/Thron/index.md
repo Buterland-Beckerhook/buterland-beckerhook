@@ -3,6 +3,7 @@ title: Thron 1988/1989 - Bernhard IX.
 date: 1988-07-17T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1988/1989
   king_title: Bernhard IX.

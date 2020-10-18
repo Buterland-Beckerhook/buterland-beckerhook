@@ -18,7 +18,7 @@ resources:
 ---
 
 Zur diesjährigen Jahreshauptversammlung des Schützenvereins Buterland-Beckerhook, fanden sich die Mitglieder im 
-Vereinslokal „Dinkelhof" ein.
+Vereinslokal „Dinkelhof" ein.<!--more-->
 
 Präsident Heinz Verst begrüßte den amtierenden König Björn I und ganz herzlich auch die anwesenden Ehrenmitglieder. 
 Schriftführer Berthold Doetkotte las das Protokoll der letzten Mitgliederversammlung vor. Der Geschäftsbericht über die 

@@ -3,6 +3,7 @@ title: Thron 1981/1982 - Josef IV.
 date: 1981-07-19T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1981/1982
   king_title: Josef IV.

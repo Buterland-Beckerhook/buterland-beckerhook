@@ -3,6 +3,7 @@ title: Thron 1952/1953 - Heinrich VI.
 date: 1952-07-20T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1952/1953
   king_title: Heinrich VI.

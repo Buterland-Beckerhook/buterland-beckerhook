@@ -3,6 +3,7 @@ title: Thron 1957/1958 - Friedrich-Wilhelm I.
 date: 1957-07-21T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1957/1958
   king_title: Friedrich-Wilhelm I.

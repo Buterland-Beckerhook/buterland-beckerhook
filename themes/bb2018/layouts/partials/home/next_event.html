@@ -33,7 +33,7 @@
         </div>
     </div>
     <div>
-        <div class="uk-card uk-card-default uk-card-body uk-padding-remove uk-margin-left uk-visible@m" style="box-shadow: none;">
+        <div class="uk-card uk-card-default uk-card-body uk-padding-remove uk-margin-left" style="box-shadow: none;">
 
                 {{- with .Content -}}<p>{{ . }}</p>{{- end -}}
                 <div>
@@ -46,13 +46,8 @@
 <!--                todo: add map link-->
                     {{- with .Params.location -}}
                     {{ with (index $.Site.Data.locations .) }}
-
-
                         {{ .name}}
                         {{ with .street }}, {{.}} {{ end }}
-
-
-
                     {{- end -}}
                     {{- end -}}
                 </div>

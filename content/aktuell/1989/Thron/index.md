@@ -3,6 +3,7 @@ title: Thron 1989/1990 - Robert I.
 date: 1989-07-16T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1989/1990
   king_title: Robert I.

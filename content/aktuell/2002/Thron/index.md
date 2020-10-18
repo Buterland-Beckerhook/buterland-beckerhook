@@ -22,26 +22,23 @@ resources:
     params:
       copy: 'Buterland-Beckerhook e.V.'
   - src: 'besucher.jpg'
-    name: 'zuschauer'
+    name: 'bild-1'
     title: ''
   - src: 'bernd.jpg'
-    name: 'bernd'
+    name: 'bild-2'
     title: 'König Bernd XI.'
 ---
 
-{{< image name="zuschauer" class="image-medium uk-margin-left uk-float-right" >}}
-{{< br >}} 
 Mehreren hundert Zuschauer standen unter der Vogelstange auf dem Festplatz
 an der Buterlandstraße und verfolgten den spannenden Wettkampf, der
-insgesamt vier Anwärter, um die Königsehre.
+insgesamt vier Anwärter, um die Königsehre.<!--more-->
 Kurz nach 16 Uhr hängt der Vogel im wahrsten Sinn des Wortes nur noch am
 seidenen Faden. Bei jedem weiteren Versuch der Anwärter
 (Bernd Borgert, Bernd Schmeing, Heinrich Thebelt und Heinz Verst) geht ein
 Raunen durch die Menge.
 
-{{< br >}} 
-{{< image name="bernd" class="image-small uk-margin-right uk-float-left" >}}
-{{< br >}} 
+{{< imagegrid name="bild">}}
+
 Der 326. Schuss gibt dem hölzernen Federvieh dann endgültig den Rest.
 Die Schießmeister Josef Blömer und Theo Gründken geben das Zeichen:
 *Der Vogel ist runter*.

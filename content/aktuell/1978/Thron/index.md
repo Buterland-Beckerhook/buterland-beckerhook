@@ -3,6 +3,7 @@ title: Thron 1978/1979 - Günther I.
 date: 1978-07-16T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1978/1979
   king_title: Günther I.

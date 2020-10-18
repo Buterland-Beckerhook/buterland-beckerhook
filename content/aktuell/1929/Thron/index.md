@@ -3,6 +3,7 @@ title: Thron 1929/1930 - Johann I.
 date: 1929-07-21T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1929/1930
   king_title: Johann I.

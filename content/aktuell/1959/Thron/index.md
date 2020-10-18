@@ -3,6 +3,7 @@ title: Thron 1959/1960 - Josef I.
 date: 1959-07-19T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1959/1960
   king_title: Josef I.

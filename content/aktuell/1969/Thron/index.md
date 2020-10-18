@@ -3,6 +3,7 @@ title: Thron 1969/1970 - Franz II.
 date: 1969-07-20T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1969/1970
   king_title: Franz II.
