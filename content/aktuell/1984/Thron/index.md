@@ -1,6 +1,6 @@
 ---
 title: Thron 1984/1985 - Gerd I.
-date: 1984-07-22T20:00:00+02:00
+date: 1984-07-23T20:00:00+02:00
 tags:
   - Thron
 noarticle: true

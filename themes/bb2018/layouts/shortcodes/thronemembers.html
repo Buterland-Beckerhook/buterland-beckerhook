@@ -3,8 +3,13 @@
 <table class="uk-table uk-table-small uk-table-middle">
 	<caption>Der Thron setzt sich wie folgt zusammen:</caption>
 	<tbody>
-	<tr><td>K&ouml;nig</td><td>{{- .king -}}</td></tr>
+  {{ if in $.Page.Params.tags "Kaiserthron" }}
+  <tr><td>Kaiser</td><td>{{- .king -}}</td></tr>
+  <tr><td>Kaiserin</td><td>{{- .queen -}}</td></tr>
+	{{ else }}
+  <tr><td>K&ouml;nig</td><td>{{- .king -}}</td></tr>
 	<tr><td>K&ouml;nigin</td><td>{{- .queen -}}</td></tr>
+  {{ end }}
   {{ if .moh1 }}
 	<tr><td>Ehrenpaare</td><td>{{- .moh1 }} und {{ .loh1 -}}</td></tr>
 	<tr><td></td><td>{{- .moh2 }} und {{ .loh2 -}}   </td></tr>
