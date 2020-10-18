@@ -3,6 +3,7 @@ title: Thron 1982/1983 - Alois I.
 date: 1982-07-18T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1982/1983
   king_title: Alois I.

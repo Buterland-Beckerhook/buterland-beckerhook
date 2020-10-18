@@ -3,6 +3,7 @@ title: Thron 1995/1996 - Ludger I.
 date: 1995-07-16T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1995/1996
   king_title: Ludger I.

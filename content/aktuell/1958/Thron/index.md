@@ -3,6 +3,7 @@ title: Thron 1958/1959 - Bernhard V.
 date: 1958-07-20T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1958/1959
   king_title: Bernhard V.

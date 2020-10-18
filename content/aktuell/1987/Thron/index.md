@@ -3,6 +3,7 @@ title: Thron 1987/1988 - Karl-Heinz II.
 date: 1987-07-19T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1987/1988
   king_title: Karl-Heinz II.

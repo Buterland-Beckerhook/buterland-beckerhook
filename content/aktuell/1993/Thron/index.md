@@ -3,6 +3,7 @@ title: Thron 1993/1994 - Hermann VI.
 date: 1993-07-18T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1993/1994
   king_title: Hermann VI.

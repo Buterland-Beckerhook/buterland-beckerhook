@@ -3,6 +3,7 @@ title: Thron 1973/1974 - Franz III.
 date: 1973-07-22T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1973/1974
   king_title: Franz III.

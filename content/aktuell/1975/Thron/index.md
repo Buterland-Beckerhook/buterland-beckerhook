@@ -3,6 +3,7 @@ title: Thron 1975/1976 - Theodor I.
 date: 1975-07-20T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1975/1976
   king_title: Theodor I.

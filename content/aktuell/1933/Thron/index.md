@@ -3,6 +3,7 @@ title: Thron 1933/1934 - Friedrich I.
 date: 1933-07-16T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1933/1934
   king_title: Friedrich I.

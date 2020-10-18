@@ -3,6 +3,7 @@ title: Thron 1996/1997 - Michael II.
 date: 1996-07-21T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1996/1997
   king_title: Michael II.

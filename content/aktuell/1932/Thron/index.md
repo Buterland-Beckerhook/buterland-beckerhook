@@ -3,6 +3,7 @@ title: Thron 1932/1933 - Hermann II.
 date: 1932-07-17T20:00:00+01:00 
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1932/1933
   king_title: Hermann II/

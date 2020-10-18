@@ -3,6 +3,7 @@ title: Thron 1990/1991 - Rudolf I.
 date: 1990-07-22T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1990/1991
   king_title: Rudolf I.

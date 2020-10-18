@@ -1,0 +1,46 @@
+
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 -}}
+<ul class="uk-pagination uk-flex-center">
+  {{ with $pag.First -}}
+  <li class="page-item">
+    <a href="{{ .URL }}"><span >&laquo;&laquo;</span></a>
+  </li>
+  {{ end -}}
+  <li class="{{ if not $pag.HasPrev }} uk-disabled{{ end }}">
+    <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }}><span>&laquo;</span></a>
+  </li>
+  {{- $ellipsed := false -}}
+  {{- $shouldEllipse := false -}}
+  {{- range $pag.Pagers -}}
+  {{- $right := sub .TotalPages .PageNumber -}}
+  {{- $showNumber := or (le .PageNumber 4) (eq $right 0) -}}
+  {{- $showNumber := or $showNumber (le .TotalPages 6) -}}{{/* Issue #7523 */}}
+  {{- $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 3)) (lt .PageNumber (add $pag.PageNumber 2))) -}}
+  {{- if $showNumber -}}
+  {{- $ellipsed = false -}}
+  {{- $shouldEllipse = false -}}
+  {{- else -}}
+  {{- $shouldEllipse = not $ellipsed -}}
+  {{- $ellipsed = true -}}
+  {{- end -}}
+  {{- if $showNumber }}
+  <li class="{{ if eq . $pag }}uk-active{{ end }}">
+    <a href="{{ .URL }}">{{ .PageNumber }}</a>
+  </li>
+  {{- else if $shouldEllipse }}
+  <li class="uk-disabled">
+    <span>&nbsp;&hellip;&nbsp;</span>
+  </li>
+  {{- end -}}
+  {{- end }}
+  <li class="{{ if not $pag.HasNext }}uk-disabled{{ end }}">
+    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }}><span>&raquo;</span></a>
+  </li>
+  {{- with $pag.Last }}
+  <li class="page-item">
+    <a href="{{ .URL }}"><span>&raquo;&raquo;</span></a>
+  </li>
+  {{- end }}
+</ul>
+{{ end }}

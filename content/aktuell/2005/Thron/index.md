@@ -33,8 +33,8 @@ resources:
 Spannender kann ein Vogelschießen kaum sein: Bereits kurz vor vier rechneten
 die Buterländer gestern Nachmittag damit, dass mit dem nächsten Schuss der
 Holzadler fallen würde. Pustekuchen ! Der Vogel erwies sich als verdammt zäh
-und brachte fünf heiße Kandidaten mächtig ins Schwitzen. Jörg Frieske,
-Thomas Krotzek, Mike Suckau, Thomas Wolter und Hubert Winking griffen
+und brachte fünf heiße Kandidaten mächtig ins Schwitzen.<!--more-->  
+Jörg Frieske, Thomas Krotzek, Mike Suckau, Thomas Wolter und Hubert Winking griffen
 allesamt mutig zur Schrotflinte und zielten - die Königskette schon
 vor Augen - ganz genau.
 Die für rund 1000 ungeduldige Zaungäste erlösende Schrotladung jagte dann

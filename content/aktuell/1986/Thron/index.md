@@ -3,6 +3,7 @@ title: Thron 1986/1987 - Gerd II.
 date: 1986-07-20T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1986/1987
   king_title: Gerd II.

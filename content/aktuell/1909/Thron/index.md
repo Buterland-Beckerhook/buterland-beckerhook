@@ -3,6 +3,7 @@ title: Thron 1909/1910 - Bernhard I.
 date: 1909-07-18T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1909/1910
   king_title: Bernhard I.

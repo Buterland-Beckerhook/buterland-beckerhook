@@ -3,6 +3,7 @@ title: Thron 1992/1993 - Andreas I.
 date: 1992-07-19T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1992/1993
   king_title: Andreas I.

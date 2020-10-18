@@ -3,6 +3,7 @@ title: Thron 1970/1971 - Wilhelm VI.
 date: 1970-07-19T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1970/1971
   king_title: Wilhelm VI.

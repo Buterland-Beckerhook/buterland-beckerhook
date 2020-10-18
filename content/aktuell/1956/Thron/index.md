@@ -3,6 +3,7 @@ title: Thron 1956/1957 - Bernhard IV.
 date: 1956-07-22T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1956/1957
   king_title: Bernhard IV.

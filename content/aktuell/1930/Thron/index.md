@@ -3,6 +3,7 @@ title: Thron 1930/1931 - Heinrich II.
 date: 1930-07-20T20:00:00+01:00 
 tags:
   - Thron
+noarticle: true
 throne:
   years:
   king_title: Heinrich II.

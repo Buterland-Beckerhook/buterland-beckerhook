@@ -1,0 +1,32 @@
+{{- define "main" -}}
+{{ range $i, $e := .Paginator.Pages }}
+{{ if eq (mod $i 2) 0 }}
+<div class="uk-grid-small uk-child-width-expand@s" uk-grid>
+  {{ end }}
+  <div class="uk-card uk-card-hover uk-card-body" onclick="window.location = '{{ .RelPermalink }}';"
+       style="cursor: pointer">
+    <h3 class="uk-card-title">{{ $e.Title }}</h3>
+    <small class="uk-text-muted">{{ $e.Date.Day }}. {{ index $.Site.Data.month (printf "%d" .Date.Month)}} {{ .Date.Year }}{{ with .Params.meta }} - {{ . }}{{ end }}</small>
+    {{ with $e.Resources.ByType "image" }}
+    {{ range first 1 . }}
+    <div class="uk-card-media-right">
+      <img src="{{ .RelPermalink }}" width="35%" class="uk-float-left uk-padding-small" style="min-width: 160px;" uk-img>
+    </div>
+    {{ end }}
+    {{ end }}
+    {{ if not $e.Params.noarticle }}
+      <p>{{ $e.Summary }}</p>
+      {{ if $e.Truncated }}
+      <div class="uk-align-right">
+        <a class="uk-link-reset" href="{{ .RelPermalink }}">mehr lesen…</a>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ if eq (mod $i 2) 1 }}
+</div>
+{{ end }}
+{{- end -}}
+
+{{ template "aktuell/pagination.html" . }}
+{{- end -}}

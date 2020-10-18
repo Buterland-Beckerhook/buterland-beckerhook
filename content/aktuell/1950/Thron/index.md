@@ -3,6 +3,7 @@ title: Thron 1950/1951 - Heinrich V.
 date: 1950-07-16T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1950/1951
   king_title: Heinrich V.

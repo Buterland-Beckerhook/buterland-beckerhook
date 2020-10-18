@@ -3,6 +3,7 @@ title: Thron 1991/1992 - Joachim I.
 date: 1991-07-21T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1991/1992
   king_title: Joachim I.

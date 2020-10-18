@@ -34,7 +34,7 @@ resources:
 
 Wie in jedem Jahr fanden sich hunderte Besucher auf dem Festplatz unter der
 Vogelstange ein, um das traditionelle Königsschießen live mitzuerleben.
-
+<!--more-->
 {{< imagegrid name="zuschauer" >}}
 
 Mit Burkhard Büscher und Jörg Frieske hatten zwei Aspiranten den Kampf um die

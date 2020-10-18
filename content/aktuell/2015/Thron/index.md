@@ -29,6 +29,9 @@ resources:
   - src: 'vogel.jpg'
     name: 'vogel'
     title: ''
+  - src: 'gerd_petra.png'
+    name: 'bild-2'
+    title: 'König Gerd und Königin Petra'
   - src: 'asp_yannik.jpg'
     name: 'aspiranten_1-1'
     title: 'Yannik Wolff'
@@ -59,22 +62,17 @@ resources:
   - src: 'gerd.jpg'
     name: 'bild-1'
     title: 'König Gerd IX.'
-  - src: 'gerd_petra.png'
-    name: 'bild-2'
-    title: 'König Gerd und Königin Petra'
   - src: 'einmarsch.jpg'
     name: 'einmarsch-1'
     title: ''
     
 ---
 
-{{< image name="vogel" class="image-small uk-margin-right uk-float-left" >}}
-{{< br >}}
 Fast drei Jahrzehnte hat er Anlauf genommen, jetzt hat es geklappt:
 Gerd IX. Schmeing ist König im Buterland. „Hast du es nach 27 Jahren endlich
 geschafft“, waren denn auch die ersten Worte, die er nach Glückwunsch und
-Küsschen von seiner Königin, Petra Doetkotte, zu hören bekam. Und sie
-setzte noch einen drauf: „Dass ich das noch erleben darf!“ Sie darf. Und die
+Küsschen von seiner Königin, Petra Doetkotte, zu hören bekam. <!--more-->
+Und sie setzte noch einen drauf: „Dass ich das noch erleben darf!“ Sie darf. Und die
 große Zahl der Gratulanten direkt unter der Vogelstange zeigte, dass die
 Buterländer es ihrer neuen Majestät von Herzen gönnen.
 {{< clear >}}

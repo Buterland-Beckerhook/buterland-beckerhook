@@ -3,6 +3,7 @@ title: Thron 1977/1978 - Hermann V.
 date: 1977-07-17T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1977/1978
   king_title: Hermann V.

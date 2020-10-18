@@ -3,6 +3,7 @@ title: Thron 1953/1954 - Johann II.
 date: 1953-07-19T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1953/1954
   king_title: Johann II.

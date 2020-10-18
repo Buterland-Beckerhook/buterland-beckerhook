@@ -1,5 +1,6 @@
 ---
-title: Thron 2004/2005 - Berthold I.
+title: Berthold Vöcking neuer Schützenkönig vom Buterland-Beckerhook!
+subtitle: Zäher Vogel hielt insgesamt 365 Schüssen stand
 date: 2004-07-18T20:00:00+02:00
 tags:
   - Thron
@@ -31,7 +32,8 @@ Was gibt es schöneres für alle Schützenbrüder, als die Zeit der
 Schützenfeste zu genießen? Am Wochenende (17. - 20.Juli 2004)
 präsentierte sich der Gronauer Stadtwesten in einem grün-weißen
 Fahnenmeer, denn der Schützenverein Buterland-Beckerhook feierte sein
-diesjähriges Schützenfest. Hunderte von Besuchern waren am Montagnachmittag
+diesjähriges Schützenfest.<!--more-->  
+Hunderte von Besuchern waren am Montagnachmittag
 zum Festplatz gekommen um bei sommerlichen Temperaturen das Vogelschießen
 mit zu verfolgen. Wer würde dieses Mal wohl den Vogel abschießen und damit
 die Nachfolge von König Michael III. (Terhalle) und Königin Renate (Büscher)

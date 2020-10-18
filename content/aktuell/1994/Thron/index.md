@@ -3,6 +3,7 @@ title: Thron 1994/1995 - Michael I.
 date: 1994-07-17T20:00:00+02:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1994/1995
   king_title: Michael I.

@@ -3,6 +3,7 @@ title: Thron 1939-1949 - Hermann III.
 date: 1939-07-16T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1939-1949
   king_title: Hermann III.

@@ -47,7 +47,9 @@ resources:
     params:
       copy: 'Sandra Doetkotte'
 ---
-
+ Buterländer sind hart im Nehmen. Und im Austeilen. Das weiß jetzt auch der Schützenvogel,
+ der am Montagmittag noch stolz auf der Stange thronte, am Ende aber in Einzelteilen
+ darunter endete. <!--more-->
 {{< tlink url="http://m.wn.de/Muensterland/Kreis-Borken/Gronau/2912530-Bernd-Lewing-regiert-das-Buterland-Vogel-flog-nach-462.-Schuss" text="Zum Bericht des Vogelschießen (WN)" >}}  
 
 {{< imageslide name="thron" lightbox="true" >}}

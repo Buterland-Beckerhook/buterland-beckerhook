@@ -3,6 +3,7 @@ title: Thron 1928/1929 - Heinrich I.
 date: 1928-07-22T20:00:00+01:00 
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1928/1929
   king_title: Heinrich I.

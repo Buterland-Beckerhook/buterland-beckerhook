@@ -40,7 +40,8 @@ resources:
 Schießmeister Theo Gründken kam richtig in Schweiß - und daran war nicht nur
 das heiße Wetter schuld. 434 Mal mussten er und sein Kollege Josef Blömer
 beim Schießen des Schützenvereins Buterland-Beckerhook die Gewehre laden,
-bis sich der zähe Vogel endlich geschlagen gab. Bernhard Schmeing war
+bis sich der zähe Vogel endlich geschlagen gab. <!--more-->
+Bernhard Schmeing war
 schließlich der Glückliche, der sich gegen die Konkurrenz von nicht weniger
 als acht Mitbewerbern durchsetzen konnte. Zur Königin erkor er sich
 Margret Kernebeck.

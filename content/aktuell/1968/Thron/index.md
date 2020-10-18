@@ -3,6 +3,7 @@ title: Thron 1968/1969 - Bernhard VII.
 date: 1968-07-21T20:00:00+01:00
 tags:
   - Thron
+noarticle: true
 throne:
   years: 1968/1969
   king_title: Bernhard VII.
