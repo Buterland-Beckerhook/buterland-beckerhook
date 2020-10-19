@@ -6,7 +6,7 @@ menu:
   main:
     parent: thron
     weight: 3
-    name: 'Kaisethron 2009'
+    name: 'Kaiserthron 2009'
 tags:
   - Kaiserthron
 throne:
