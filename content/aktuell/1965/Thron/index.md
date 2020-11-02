@@ -18,7 +18,7 @@ throne:
 resources:
   - src: '1965.jpg'
     name: 'thron-1'
-    title: 'Der Thron 1965/1966'
+    title: 'Der Thron 1965/1966 (dritter von links auf dem Foto ist Bernhard Doetkotte, er ist 1966 als "Ersatzehrenherr" für J. Banken eingesprungen.)'
     params:
       copy: 'Buterland-Beckerhook e.V.'
 ---

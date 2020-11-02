@@ -14,7 +14,7 @@ throne:
   moh1: Carsten Rauer
   moh2: Stephan Busmann
   cupbearer: Albert Falkenberg
-  courtmarshal: Berthold Doetkote
+  courtmarshal: Berthold Doetkotte
 resources:
   - src: 'thron_2013_1.png'
     name: 'thron-1'

@@ -14,7 +14,7 @@ throne:
   moh1: Alfons Gründken
   moh2: Bernahrd de Boer
   cupbearer: Hermann Grundmann
-  courtmarshal: ermann Thebelt
+  courtmarshal: Hermann Thebelt
 resources:
   - src: '1966.jpg'
     name: 'thron-1'
