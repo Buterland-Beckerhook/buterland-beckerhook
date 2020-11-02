@@ -16,7 +16,7 @@ throne:
   loh1: Annette Duesmann
   loh2: Maria Gleis-Preister
   moh1: Franz Doetkotte
-  moh2: Bernd Achtersch
+  moh2: Bernd Achteresch
   cupbearer: Heinz Achteresch
   courtmarshal: Martin Hoffjan
 resources:
