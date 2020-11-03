@@ -1,0 +1,32 @@
+{{ $p := .Paginator }}
+{{$cp := index ($p.Pages) 0}}
+
+<table class="uk-table">
+    <thead>
+    <tr>
+        <th class="uk-text-left uk-width-small">
+            {{ if $p.HasNext }}
+            {{$np := index ($p.Next.Pages) 0}}
+            <a class="uk-link uk-link-text-nu" href="{{ $p.Next.URL }}"><span uk-icon="arrow-left"></span>{{ $np.Params.Year }}</a>
+            {{ end }}
+        </th>
+        <th class="uk-text-center">
+            <span class="uk-text-center uk-text-nowrap uk-h2">{{ $cp.Params.Title }}</span>
+        </th>
+        <th class="uk-text-right uk-width-small">
+            {{ if $p.HasPrev }}
+            {{$pp := index ($p.Prev.Pages) 0}}
+            <a class="uk-link uk-link-text-nu" href="{{ $p.Prev.URL }}">
+                {{ $pp.Params.Year }}<span uk-icon="arrow-right"></span></a>
+            {{ end }}
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>

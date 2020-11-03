@@ -1,10 +1,11 @@
 ---
 title: "Jubiläum Nienborg"
-publishdate: 2019-12-10T06:00:00+01:00
-lastmodified: 2020-05-04T10:00:00+02:00
-date: 2020-08-02
-location: none
+date: 2019-12-10T06:00:00+01:00
+lastmod: 2020-05-04T10:00:00+02:00
+start: 2020-08-02
+location: unknown
 draft: false
+canceled: true
 outputs:
 - html
 - calendar

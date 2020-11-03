@@ -1,2 +1,74 @@
 {{- define "main" -}}
+{{ $start := time .Params.start }}
+{{ $end := time .Params.end }}
+{{ $hasEnd := false }}
+{{ if isset .Params "end" }}{{ $hasEnd = true }}{{ end }}
+{{ $was := lt $start now }}
+{{ $canceled := false }}
+{{ with.Params.canceled }}{{ $canceled = . }}{{ end }}
+
+
+<div uk-grid>
+    <div class="uk-width-1-2@m">
+        <h2>{{ .Title }}</h2>
+        <time class="{{ if $canceled }} text-strikethrough{{ end }}" datetime="{{ $start.String }}">{{ $start.Day }}. {{ index $.Site.Data.month_short (printf "%d" $start.Month) }} {{ $start.Year }}
+            {{ if (gt $start.Hour 0) }}
+            ab {{ $start | dateFormat "15:04" }} Uhr
+            {{ end }}
+        </time>
+        {{ if $canceled }}<span class="uk-text-warning">&nbsp;{{ with .Params.cancelReason }}{{ . }}{{ else }}Abgesagt{{ end }}</span>{{ end }}
+        {{ if $hasEnd }}
+        <br><span class="{{ if $canceled }} text-strikethrough{{ end }}">
+    bis <time datetime="{{ $end.String }}">{{ $end.Day }}. {{ index $.Site.Data.month_short (printf "%d" $end.Month) }} {{ $end.Year }}</time>
+</span>{{ end }}
+
+        <p>{{ .Content }}</p>
+    </div>
+        {{ with .Params.location }}
+        {{ with (index $.Site.Data.locations . ) }}
+        {{ if and (isset . "lat") (isset . "lng") }}
+        <div class="uk-width-2-2@m">
+            <div id="map" style="min-height: 300px;"></div>
+            <script src="//www.openlayers.org/api/OpenLayers.js"></script>
+            <script>
+                'use strict';
+                const token = '{{ $.Site.Params.mapboxtoken }}';
+                const lat = {{ .lat }};
+                const lng = {{ .lng }};
+
+                if (token !== '') {
+
+                    console.log(token);
+
+                    let map = L.map('map').setView([lng, lat], 14);
+                    L.tileLayer('https://api.mapbox.com/styles/v1/rverstbb/ckh22s77e1am31amt3ygaiho6/tiles/{z}/{x}/{y}?access_token=' + token, {
+                        attribution: '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+                        tileSize: 512,
+                        zoomOffset: -1
+                    }).addTo(map);
+
+                    let markerOptions = {
+                        title: '{{ .name }}'
+                    }
+
+                    L.marker([lng, lat], markerOptions).addTo(map)
+                        .bindPopup('{{ .name }}<br>{{ .street }}')
+                        .openPopup();
+                } else {
+                   console.log("mapbox token not set")
+                }
+
+
+            </script>
+        </div>
+
+        {{ end }}
+        {{ end }}
+        {{ end }}
+</div>
+
+<a href="{{ relURL "/termine" }}">Zurück zur Terminübersicht</a>
+
+
+
 {{ end }}

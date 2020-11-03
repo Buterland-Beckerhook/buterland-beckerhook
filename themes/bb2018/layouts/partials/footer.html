@@ -1,10 +1,16 @@
 {{ $data := .Site.Data.month_de }}
   <div class="uk-child-width-1-3@s uk-section-primary uk-margin-large-top" uk-grid>
     <div>
-      <div class="uk-panel uk-padding-large uk-text-small">
+        {{ if .Site.BuildDrafts}}
+      <div class="uk-panel uk-padding-large uk-text-small uk-text-warning">
+          Dies ist die beta-Version der Website. <a href="https://buterland-beckerhook.de" target="_self">
+          Hier klicken</a> um zur ofiziellen Version zu gelangen.
+        {{ else }}
+          <div class="uk-panel uk-padding-large uk-text-small">
         Fragen oder Anregungen? Nutzen Sie unser <a href="/kontakt">Kontaktformular</a>
         oder schreiben Sie uns eine
         E-Mail: {{ with .Site.GetPage "/mail" }}{{ .Content }}{{ end }}
+        {{ end }}
       </div>
     </div>
 
@@ -14,8 +20,7 @@
             <span class="uk-text-nowrap">Buterland-Beckerhook e.V.</span>
             <br><small>All rights reserved.</small>
             <br>
-          <br><small>Zuletzt geändert am <span class="uk-text-nowrap">{{ with now }}{{ .Day }}. {{ index $data.short (sub .Month 1) }} {{ .Year }}{{ end }}</span>.</small>
-<!--            <br><small>Zuletzt geändert am <span class="uk-text-nowrap">{{ with .Site.LastChange }}{{ .Day }}. {{ index $data.short (sub .Month 1) }} {{ .Year }}{{ end }}</span>.</small>-->
+            <br><small>Zuletzt geändert am <span class="uk-text-nowrap">{{ with .Site.LastChange }}{{ .Day }}. {{ index $data.short (sub .Month 1) }} {{ .Year }}{{ end }}</span>.</small>
             <br><hr><small><a href="https://github.com/Buterland-Beckerhook/hugo-ci">Built</a> with
             <a href="https://gohugo.io">hugo</a> and <a href="https://github.com/Buterland-Beckerhook/buterland-beckerhook" uk-icon="icon: heart; ratio: 0.7"></a></small>
               <small class="small-italic"><br>on {{ now.Format "2006-01-02 15:04 (MST)" }}</small>
