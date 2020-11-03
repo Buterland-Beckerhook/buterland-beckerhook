@@ -1,7 +1,7 @@
 {{ $paginator := .Paginate .Sections 1 }}
 {{ template "termine/pagination.html" . }}
 {{- range $paginator.Pages -}}
-<table class="uk-table uk-table-responsive">
+<table class="uk-table uk-table-small">
     <caption></caption>
     <thead>
     <tr>

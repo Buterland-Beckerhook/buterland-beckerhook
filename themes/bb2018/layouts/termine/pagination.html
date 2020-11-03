@@ -7,7 +7,7 @@
         <th class="uk-text-left uk-width-small">
             {{ if $p.HasNext }}
             {{$np := index ($p.Next.Pages) 0}}
-            <a class="uk-link uk-link-text-nu" href="{{ $p.Next.URL }}"><span uk-icon="arrow-left"></span>{{ $np.Params.Year }}</a>
+            <a class="uk-link uk-link-text-nu uk-text-large" href="{{ $p.Next.URL }}"><span uk-icon="icon: arrow-left; ratio 2.0"></span>{{ $np.Params.Year }}</a>
             {{ end }}
         </th>
         <th class="uk-text-center">
@@ -16,8 +16,8 @@
         <th class="uk-text-right uk-width-small">
             {{ if $p.HasPrev }}
             {{$pp := index ($p.Prev.Pages) 0}}
-            <a class="uk-link uk-link-text-nu" href="{{ $p.Prev.URL }}">
-                {{ $pp.Params.Year }}<span uk-icon="arrow-right"></span></a>
+            <a class="uk-link uk-link-text-nu uk-text-large" href="{{ $p.Prev.URL }}">
+                {{ $pp.Params.Year }}<span uk-icon="icon: arrow-right; ratio 2.0"></span></a>
             {{ end }}
         </th>
     </tr>
