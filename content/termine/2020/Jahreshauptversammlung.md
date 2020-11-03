@@ -6,7 +6,6 @@ start: 2020-11-14T20:00:00+01:00
 location: dinkelhof
 draft: false
 canceled: true
-cancelReason: Corana-bedingt abgesagt
 outputs:
 - html
 - calendar
