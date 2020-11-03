@@ -1,6 +1,10 @@
 <div class="head_logo">
 	<a href="/">
+    {{ if $.Site.BuildDrafts }}
+    <img src="/images/logo_lng_beta.svg" alt="" class="uk-preserve">
+    {{ else }}
 		<img src="/images/logo_lng.svg" alt="" class="uk-preserve">
+    {{ end }}
 	</a>
 </div>
 
