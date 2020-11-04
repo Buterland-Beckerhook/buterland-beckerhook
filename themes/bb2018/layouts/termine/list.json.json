@@ -1,6 +1,21 @@
-{{- $l := sub (len .Sections) 1 -}}
-{"years": [
-  {{- range $i, $v := .Sections -}}
-  {{ int $v.Params.year }}
-  {{- if lt $i $l }}, {{ end -}}
-  {{- end -}}]}
+{{- $l := sub (len .Pages) 1 -}}
+[{{- range $i, $v := .Pages -}}
+{{ $year := .Date.Year }}
+{{ with .Params.start }}{{ $year := dateFormat "2006" $v.Params.start | int}}{{ end }}
+{
+  "id": {{ with .Params.start }}{{ add $year (add 10000 $i) }}{{ else }}0{{ end }},
+  "name": "{{ $v.Title }}",
+  "startDate": {{ with .Params.start }}{{ mul 1000 (time .).Unix }}{{ else }}null{{ end }},
+  "endDate": {{ with .Params.end }}{{ sub 4 (mul 1000 (time .).Unix) }}{{ else }}{{ with .Params.start }}{{ mul 1000 (time .).Unix }}{{ else }}null{{ end }} {{ end }},
+  "endHalfDate": true,
+  "color": "green",
+{{ with $v.Params.location }}
+"location":{{- with (index $.Site.Data.locations .) -}}
+"{{- .name }}{{- with .street }}, {{.}}{{ end -}}{{- with .zip }}, {{.}}{{ end -}}{{- with .city }} {{.}}{{ end -}}"
+{{- else }}
+"{{- . -}}"
+{{- end }}
+{{- end }}
+}
+{{- if lt $i $l }}, {{ end -}}
+{{- end -}}]

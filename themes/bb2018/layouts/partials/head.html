@@ -2,9 +2,10 @@
 {{- $options := (dict "targetPath" "/css/style.min.css" "outputStyle" "compressed" "enableSourceMap" false) -}}
 {{- $style := $scss | resources.ToCSS $options -}}
 <!-- todo: minify script -->
-{{- $script := resources.Get "script/main.js" -}}
+{{- $script := resources.Get "script/index.js" | js.Build -}}
 {{- $secScript := $script | resources.Fingerprint "sha512" -}}
 {{- $secScriptMin := $script | resources.Minify | resources.Fingerprint "sha512" -}}
+
 {{- $uikit := resources.Get "script/uikit.js" -}}
 {{- $uikitIcons := resources.Get "script/uikit-icons.js" -}}
 {{- $secUikit := slice $uikit $uikitIcons | resources.Concat "script/uikit-bundle.js" | resources.Fingerprint "sha256" -}}
@@ -15,6 +16,12 @@
 {{- $matomo := resources.Get "script/matomo.js" -}}
 {{- $secMatomo := $matomo | resources.Fingerprint "sha512" -}}
 {{- $secMatomoMin := $matomo | resources.Minify | resources.Fingerprint "sha512" -}}
+{{- $calendar := resources.Get "script/js-year-calendar.js" -}}
+{{- $secCalendar := $calendar | resources.Fingerprint "sha512" -}}
+{{- $secCalendarMin := $calendar | resources.Minify | resources.Fingerprint "sha512" -}}
+{{- $calendarStyle := resources.Get "css/js-year-calendar.css" -}}
+{{- $calendarStyleMin := $calendar | resources.Minify -}}
+
 
 <head>
 	<meta charset="UTF-8">
@@ -38,6 +45,7 @@
 	<link rel="manifest" href="/manifest.json">
 	<link rel="mask-icon" href="/images/manifest/safari-pinned-tab.svg" color="#0b8d36">
 	<link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
+	<link rel="stylesheet" type="text/css" href="{{ $calendarStyle.Permalink }}">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
 		  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
 		  crossorigin=""/>
@@ -48,6 +56,7 @@
 	{{- end -}}
 	<script type="text/javascript" src="{{ $secUikitMin.Permalink }}" integrity="{{ $secUikitMin.Data.Integrity }}" async></script>
 	<script type="text/javascript" src="{{ $secScriptMin.Permalink }}" integrity="{{ $secScriptMin.Data.Integrity }}" async></script>
+	<script type="text/javascript" src="{{ $secCalendarMin.Permalink }}" integrity="{{ $secCalendarMin.Data.Integrity }}" async></script>
 	{{ if .Page.HasShortcode "emailjs" -}}
 	<script type="text/javascript" src="{{ $secEmailMin.Permalink }}" integrity="{{ $secEmailMin.Data.Integrity }}" async></script>
 	{{- end -}}

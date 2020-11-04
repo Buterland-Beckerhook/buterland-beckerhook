@@ -5,4 +5,5 @@ year: 2019
 outputs:
 - html
 - calendar
+- json
 ---
