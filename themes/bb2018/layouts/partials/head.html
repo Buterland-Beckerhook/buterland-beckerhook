@@ -2,7 +2,7 @@
 {{- $options := (dict "targetPath" "/css/style.min.css" "outputStyle" "compressed" "enableSourceMap" false) -}}
 {{- $style := $scss | resources.ToCSS $options -}}
 <!-- todo: minify script -->
-{{- $script := resources.Get "script/index.js" | js.Build -}}
+{{- $script := resources.Get "script/index.js" | js.Build (dict "params" (dict "debug" .Site.BuildDrafts )) -}}
 {{- $secScript := $script | resources.Fingerprint "sha512" -}}
 {{- $secScriptMin := $script | resources.Minify | resources.Fingerprint "sha512" -}}
 

@@ -1,12 +1,19 @@
 export class Menu {
 
-    drawer;
+  drawer;
 
-    constructor() {
-        this.drawer = document.getElementById('drawer');
-    }
+  constructor() {
+    this.drawer = document.getElementById('drawer');
 
-    toggle = () => {
-        this.drawer.classList.toggle('drawer-open');
+    if (debug) {
+      console.log("menu init", this.drawer)
     }
+  }
+
+  toggle = () => {
+    if (this.drawer === null || this.drawer === undefined) {
+      return
+    }
+    this.drawer.classList.toggle('drawer-open');
+  }
 }

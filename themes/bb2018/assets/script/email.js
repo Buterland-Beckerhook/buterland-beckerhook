@@ -1,4 +1,7 @@
 'use strict';
+
+
+
 const url = 'https://api.emailjs.com/api/v1.0/email/send';
 let ui_alert = document.getElementById('captcha-alert');
 let ui_alert_title = document.getElementById('alert-title');
