@@ -6,6 +6,6 @@ start: 2019-07-07T11:00:00+02:00
 location: dinkelhof
 draft: false
 outputs:
-- html
-- calendar
+  - html
+  - calendar
 ---

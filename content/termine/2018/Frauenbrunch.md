@@ -7,6 +7,6 @@ end: 2018-11-18T15:00:00+01:00
 location: Dinkelhof
 draft: false
 outputs:
-- html
-- calendar
+  - html
+  - calendar
 ---

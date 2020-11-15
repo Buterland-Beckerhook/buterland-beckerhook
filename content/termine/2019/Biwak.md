@@ -6,6 +6,6 @@ start: 2019-05-18T16:30:00+02:00
 location: platz
 draft: false
 outputs:
-- html
-- calendar
+  - html
+  - calendar
 ---

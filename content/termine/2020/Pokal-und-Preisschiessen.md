@@ -6,6 +6,6 @@ start: 2020-01-04T15:30:00+01:00
 location: dinkelhof
 draft: false
 outputs:
-- html
-- calendar
+  - html
+  - calendar
 ---

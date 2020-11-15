@@ -7,7 +7,7 @@ end: 2019-07-24
 location: platz
 draft: false
 outputs:
-- html
-- calendar
+  - html
+  - calendar
 ---
 [Zur Einladung 2019]({{< ref "/aktuell/2019/einladung" >}})

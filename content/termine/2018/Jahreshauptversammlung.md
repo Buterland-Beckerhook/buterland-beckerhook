@@ -6,6 +6,6 @@ start: 2018-11-24T20:00:00+01:00
 location: Dinkelhof
 draft: false
 outputs:
-- html
-- calendar
+  - html
+  - calendar
 ---
