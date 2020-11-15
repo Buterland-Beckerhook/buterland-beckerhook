@@ -13,7 +13,7 @@ METHOD:PUBLISH
 {{ $status := "CONFIRMED" }}
 {{ with .Params.canceled }}{{ if . }}{{ $status = "CANCELED" }}{{ end -}}{{ end -}}
 
-{{ if $hasStart }}
+{{ if and $hasStart (not .Draft) }}
 BEGIN:VEVENT
 ORGANIZER;CN="Schützenverein Buterland-Beckerhook":mailto:Kontakt@Buterland-Beckerhook.de
 SUMMARY:{{ .Title }}
