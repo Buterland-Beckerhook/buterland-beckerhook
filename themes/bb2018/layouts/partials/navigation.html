@@ -1,8 +1,14 @@
 <div class="head_logo">
 	<a href="/">
+    {{ if $.Site.BuildDrafts }}
+    <img src="/images/logo_lng_beta.svg" alt="" class="uk-preserve">
+    {{ else }}
 		<img src="/images/logo_lng.svg" alt="" class="uk-preserve">
+    {{ end }}
 	</a>
 </div>
+
+
 <div id="navbar" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-active">
 	<nav class="uk-navbar-container uk-margin" uk-navbar>
 		<div class="uk-navbar-left">

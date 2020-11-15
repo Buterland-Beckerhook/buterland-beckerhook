@@ -1,11 +1,21 @@
-{{- if eq .Type "eventlist" -}}[
-{{- $outer := .Sections.Reverse }}
-{{- $ol := (len $outer) }}
-{{- range $oi, $oe := where $outer ".Date.Year" "ge" (int (sub now.Year 1)) -}}
-{ "year": {{ .Date.Year }}, "cal": "{{- with .OutputFormats.Get "calendar" -}}{{ .Permalink }}{{- end -}}", "events": [
-{{- $inner := .Pages.Reverse }}{{ $il := (len $inner) }}{{ range $ii, $ie := $inner -}}
-  {"title": "{{ .Title }}", "uid": "{{- with .Params.uid -}}{{ . }}{{- else -}}{{- md5 (printf "%s@%d" .Title .Date.Unix) -}}{{- end -}}", "cal": "{{- with .OutputFormats.Get "calendar" -}}{{ .Permalink }}{{- end -}}", "start": {{ with .Date -}}{{ .Unix }}{{else}}0{{- end -}}, "end": {{- with .Params.end -}}{{ (time .).Unix }}{{- else -}}null{{- end -}}, "loc": {{- with .Params.location -}}{{ with (index $.Site.Data.locations .) }}{ "name": {{ with .name }}"{{ . }}"{{ else }}null{{ end }}, "street": {{ with .street }}"{{ . }}"{{ else }}null{{ end }}, "zip": {{ with .zip }}"{{ . }}"{{ else }}null{{ end }}, "city": {{ with .city }}"{{ . }}"{{ else }}null{{ end }}, "lat": {{ with .lat }}{{ . }}{{ else }}null{{ end }}, "lng": {{ with .lng }}{{ . }}{{ else }}null{{ end }}, "maps": {{ with .maps }}"{{ . }}"{{ else }}null{{ end }}}{{- else -}} {"raw": "{{ . }}"}{{- end -}}{{- else -}}null{{- end -}} }{{ if lt (add $ii 1) $il }},{{ end }}
-{{- end -}}
-{{ if lt (add $oi 1) $ol }}]},{{- else -}} ]} {{- end -}}
+{{- $l := sub (len .Pages) 1 -}}
+[{{- range $i, $v := .Pages -}}
+{{ $year := .Date.Year }}
+{{ with .Params.start }}{{ $year := dateFormat "2006" $v.Params.start | int}}{{ end }}
+{
+  "id": {{ with .Params.start }}{{ add $year (add 10000 $i) }}{{ else }}0{{ end }},
+  "name": "{{ $v.Title }}",
+  "startDate": {{ with .Params.start }}{{ mul 1000 (time .).Unix }}{{ else }}null{{ end }},
+  "endDate": {{ with .Params.end }}{{ sub 4 (mul 1000 (time .).Unix) }}{{ else }}{{ with .Params.start }}{{ mul 1000 (time .).Unix }}{{ else }}null{{ end }} {{ end }},
+  "endHalfDate": true,
+  "color": "green",
+{{ with $v.Params.location }}
+"location":{{- with (index $.Site.Data.locations .) -}}
+"{{- .name }}{{- with .street }}, {{.}}{{ end -}}{{- with .zip }}, {{.}}{{ end -}}{{- with .city }} {{.}}{{ end -}}"
+{{- else }}
+"{{- . -}}"
+{{- end }}
+{{- end }}
+}
+{{- if lt $i $l }}, {{ end -}}
 {{- end -}}]
-{{- end -}}

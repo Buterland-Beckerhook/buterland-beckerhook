@@ -19,6 +19,7 @@ $breadcrumb-item-active-color:                       $global-color !default;
 
 $breadcrumb-divider:                                 "/" !default;
 $breadcrumb-divider-margin-horizontal:               20px !default;
+$breadcrumb-divider-font-size:                       $breadcrumb-item-font-size !default;
 $breadcrumb-divider-color:                           $global-muted-color !default;
 
 
@@ -27,32 +28,26 @@ $breadcrumb-divider-color:                           $global-muted-color !defaul
  ========================================================================== */
 
 /*
- * 1. Allow items to wrap into the next line
- * 2. Reset list
+ * Reset list
  */
 
 .uk-breadcrumb {
-    display: flex;
-    /* 1 */
-    flex-wrap: wrap;
-    /* 2 */
     padding: 0;
     list-style: none;
     @if(mixin-exists(hook-breadcrumb)) {@include hook-breadcrumb();}
 }
 
 /*
- * Space is allocated solely based on content dimensions: 0 0 auto
+ * 1. Doesn't generate any box and replaced by child boxes
  */
 
-.uk-breadcrumb > * { flex: none; }
+.uk-breadcrumb > * { display: contents; }
 
 
 /* Items
  ========================================================================== */
 
 .uk-breadcrumb > * > * {
-    display: inline-block;
     font-size: $breadcrumb-item-font-size;
     color: $breadcrumb-item-color;
     @if(mixin-exists(hook-breadcrumb-item)) {@include hook-breadcrumb-item();}
@@ -72,7 +67,8 @@ $breadcrumb-divider-color:                           $global-muted-color !defaul
 }
 
 /* Active */
-.uk-breadcrumb > :last-child > * {
+.uk-breadcrumb > :last-child > span,
+.uk-breadcrumb > :last-child > a:not([href]) {
     color: $breadcrumb-item-active-color;
     @if(mixin-exists(hook-breadcrumb-item-active)) {@include hook-breadcrumb-item-active();}
 }
@@ -86,6 +82,7 @@ $breadcrumb-divider-color:                           $global-muted-color !defaul
     content: $breadcrumb-divider;
     display: inline-block;
     margin: 0 $breadcrumb-divider-margin-horizontal;
+    font-size: $breadcrumb-divider-font-size;
     color: $breadcrumb-divider-color;
     @if(mixin-exists(hook-breadcrumb-divider)) {@include hook-breadcrumb-divider();}
 }

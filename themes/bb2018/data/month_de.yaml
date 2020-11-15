@@ -1,4 +1,5 @@
 long:
+  - nil
   - Januar
   - Februar
   - März
@@ -13,6 +14,7 @@ long:
   - Dezember
 
 short:
+  - nil
   - Jan
   - Feb
   - Mär

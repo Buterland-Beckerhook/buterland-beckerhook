@@ -1,4 +1,7 @@
 'use strict';
+
+
+
 const url = 'https://api.emailjs.com/api/v1.0/email/send';
 let ui_alert = document.getElementById('captcha-alert');
 let ui_alert_title = document.getElementById('alert-title');
@@ -12,7 +15,7 @@ let message = document.getElementById('c_message');
 let data = {
 	service_id: 'mailcow_bb',
 	template_id: 'bb_contact_form',
-   user_id: 'user_kE7Jv1VRmENZb4wCxu718',
+	user_id: 'user_kE7Jv1VRmENZb4wCxu718',
 	template_params: {
 		'g-recaptcha-response': '',
 		'name': '',

@@ -1,0 +1,16 @@
+long:
+  - Sonntag
+  - Montag
+  - Dienstag
+  - Mittwoch
+  - Donnerstag
+  - Freitag
+
+short:
+  - So
+  - Mo
+  - Di
+  - Mi
+  - Do
+  - Fr
+  - Sa

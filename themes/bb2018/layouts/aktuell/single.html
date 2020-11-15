@@ -1,9 +1,10 @@
 {{- define "main" -}}
+{{ $month := .Site.Data.month_de }}
 <div>
     <article class="uk-article">
         <h1 class="uk-article-title">{{- with .Params.headline -}}{{ . }}{{- else -}}{{ .Title }}{{- end -}}</h1>
         {{- with .Params.subtitle -}}<h4 class="">{{ . }}</h4>{{- end -}}
-        <p class="uk-article-meta">{{ .Date.Day }}. {{ index $.Site.Data.month (printf "%d" .Date.Month)}} {{ .Date.Year }}{{ with .Params.meta }} - {{ . }}{{ end }}</p>
+        <p class="uk-article-meta">{{ .Date.Day }}. {{ index $month.long .Date.Month }} {{ .Date.Year }}{{ with .Params.meta }} - {{ . }}{{ end }}</p>
         <p>{{ .Content }}</p>
     </article>
 </div>

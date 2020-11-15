@@ -1,7 +1,7 @@
 ---
 title: Michael Albers ist neuer König im Buterland-Beckerhook!
 date: 2019-07-26T11:00:00+02:00
-lastmodified: 2020-05-21T12:00:00+02:00
+lastmod: 2020-05-21T12:00:00+02:00
 subtitle: Der 374. Schuss entscheidet ein spannendes Königsschießen 
 tags:
   - Thron

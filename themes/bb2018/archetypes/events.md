@@ -6,6 +6,6 @@ end_date:  {{ .Date }}
 location:
 draft: false
 outputs:
-- html
-- calendar
+  - html
+  - calendar
 ---

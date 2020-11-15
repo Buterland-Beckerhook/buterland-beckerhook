@@ -11,6 +11,10 @@ function init() {
       l.innerText = ma;
       l.classList.remove('uk-hidden');
     }
+
+    if (window.loadCalender !== undefined) {
+    	window.loadCalender();
+	}
   }
 }
 

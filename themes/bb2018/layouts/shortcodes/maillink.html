@@ -1,10 +1,12 @@
 <a href="" class="maillink uk-hidden" data-src="{{ .Inner | base64Encode }}"></a>
 <noscript>
     {{- with .Get 0 -}}{{- safeHTML (printf "<%s>" .) -}}{{- end -}}
+    <span class="uk-text-warning uk-text-italic">
     Die eMail-Adresse ist vor Spam-Bots geschützt. Um sie zu sehen,
     müssen sie in Ihrem Browser Javascript aktivieren.
     Sie können natürlich auch das Wort <b>{{ .Inner }}</b> gefolgt von dem At-Zeichen,
     gefolgt von unserer Domain (<b>{{ $.Site.Title -}}.de),</b>
     als Adresse in ihren eMail-Client eingeben.
+    </span>
     {{- with .Get 0 -}}{{- safeHTML (printf "</%s>" .) -}}{{- end -}}
 </noscript>

@@ -1,65 +1,9 @@
 {{- define "main" -}}
-{{- if eq .Type "eventlist" -}}
-{{- range where .Sections.Reverse ".Date.Year" 2020 -}}
-<h1 class="uk-margin-top uk-margin-bottom uk-text-center">{{ .Title }}</h1>
-{{ range .Pages.Reverse }}
-<div class="uk-card uk-card-default uk-card-border uk-width-1-1@l uk-margin-bottom">
-	<div class="uk-card-header uk-overflow-hidden">
-		<div class="uk-grid-small uk-flex-middle" uk-grid>
-			<div class="uk-width-auto">
-				<div class="bb-event-day uk-text-center">
-				<div class="bb-event-day-mon">{{- with .Date }}{{ index $.Site.Data.month_short (printf "%d" .Month)}}.{{ end -}}</div>
-				<div class="bb-event-day-dom"><b>
-					{{ $endDay := .Date.Day }}{{- if (isset .Params "end") }}{{ $endDay = (add (time .Params.end).Day -1) }}{{ end }}
-					{{ if eq $endDay (.Date.Day) }}{{ .Date.Day }}{{ else }}{{ .Date.Day }}-{{ $endDay }}{{ end -}}
-					</b></div>
-				</div>
-			</div>
-			<div class="uk-width-expand">
-				<h3 class="uk-card-title uk-margin-remove-bottom uk-card-title-small@s">{{ .Title }}</h3>
-				<div class="uk-text-meta uk-margin-remove-top">
-					<time datetime="{{ .Date.String }}">{{ .Date.Day }}. {{ index $.Site.Data.month (printf "%d" .Date.Month)}} {{ .Date.Year }}</time>
-					{{- if (isset .Params "end") }} -
-					<time datetime="{{ (time .Params.end).String }}">{{ (add (time .Params.end).Day -1) }}. {{ index $.Site.Data.month (printf "%d" (time .Params.end).Month)}} {{ (time .Params.end).Year }}</time>
-					{{- end -}}
-					{{- if (gt .Date.Hour 0) }}
-					<span>
-						{{- if (not (isset .Params "end")) -}} ab {{ end -}}
-						{{ with .Date }}{{- . | dateFormat "15:04" -}}&nbsp;Uhr{{ end -}}{{ with .Params.end }} - {{ . | dateFormat "15:04" -}}&nbsp;Uhr{{ end -}}
-						{{ end -}}
-					</span>
-					</div>
-				{{- with .Params.location -}}
-				<div class="uk-text-muted uk-text-nowrap uk-text-meta">
-					{{ with (index $.Site.Data.locations .) }}
-					{{ .name}}
-					{{ with .street }}, {{.}}{{ end }}
-					{{ with .maps }}<a href="{{.}}" target="_blank" uk-icon="location"></a>{{ end }}
-					{{- else -}}
-					{{ . }}
-					{{- end -}}
-				</div>
-				{{- end -}}
-			</div>
-		</div>
-	</div>
-	{{- with .Content -}}
-		<div class="uk-card-body">
-			<p>{{ . }}</p>
-		</div>
-	{{- end -}}
-	<div class="uk-card-footer">
-		<a class="uk-label uk-align-right" target="_parent" {{ with .OutputFormats.Get "calendar" }}href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}"{{ end -}}>abbonieren</a>
-	</div>
-</div>
-{{- end -}}
-<div class="uk-alert">
-	<h3 uk-icon="icon: info"></h3>
-	<p class="uk-text-small uk-margin-remove-top">Du kannst einzelne Termine einfach deinem Kalender hinzufügen, indem du auf den Abbonieren-Button des Termin klickst.
-		Oder	<a target="_blank" {{ with .OutputFormats.Get "calendar" }}href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}"{{ end }}>hier, um alle Termine aus {{ .Date.Year }} zu abbonieren.</a></p>
-</div>
-<div class="uk-visible@m uk-margin-xlarge-bottom"></div>
-{{- end -}}
-{{- end -}}
+
+<!--{{ template "termine/js-year-calendar.html" . }}-->
+<!--<noscript>-->
+    {{ template "termine/noscript.html" . }}
+<!--</noscript>-->
+
 {{- end -}}
 

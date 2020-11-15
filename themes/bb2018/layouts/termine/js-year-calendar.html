@@ -1,0 +1,39 @@
+<div class="calendar" >
+
+</div>
+<script>
+    {{- $l := sub (len .Sections) 1 -}}
+    let years = [
+        {{- range $i, $v := .Sections -}}
+        {{ int $v.Params.year }}
+        {{- if lt $i $l }}, {{ end -}}
+        {{- end -}}];
+
+    let data = new Map();
+
+    {{- range $i, $v := .Sections -}}
+    {{ with .OutputFormats.Get "json" }}data.set({{ $v.Params.year }}, '{{ .Permalink | safeURL }}');{{ end }}
+    {{- end -}}
+
+    window.loadCalender = function () {
+        console.log(years, data);
+
+
+        new Calendar('.calendar', {
+            minDate: new Date(years[years.length - 1], 0, 1, 0, 0, 0),
+            maxDate: new Date(years[0], 11, 31, 0, 0 ,0),
+            language: 'de',
+            displayWeekNumber: true,
+            yearChanged: function (e) {
+                let url = data.get(e.currentYear);
+                let res = fetch(url)
+                    .then(r => r.json())
+                .then(d => {
+                    console.log('yearChanged', e, d);
+                    e.calendar.setDataSource(d);
+                });
+
+            }
+        });
+    }
+</script>
