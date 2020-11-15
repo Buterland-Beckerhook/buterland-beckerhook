@@ -1,4 +1,4 @@
-{{ $data := .Site.Data.month_de }}
+{{ $month := .Site.Data.month_de }}
   <div class="uk-child-width-1-3@s uk-section-primary uk-margin-large-top" uk-grid>
     <div>
         {{ if .Site.BuildDrafts}}
@@ -20,7 +20,7 @@
             <span class="uk-text-nowrap">Buterland-Beckerhook e.V.</span>
             <br><small>All rights reserved.</small>
             <br>
-            <br><small>Zuletzt geändert am <span class="uk-text-nowrap">{{ with .Site.LastChange }}{{ .Day }}. {{ index $data.short (sub .Month 1) }} {{ .Year }}{{ end }}</span>.</small>
+            <br><small>Zuletzt geändert am <span class="uk-text-nowrap">{{ with now }}{{ .Day }}. {{ index $month.short .Month }} {{ .Year }}{{ end }}</span>.</small>
             <br><hr><small><a href="https://github.com/Buterland-Beckerhook/hugo-ci">Built</a> with
             <a href="https://gohugo.io">hugo</a> and <a href="https://github.com/Buterland-Beckerhook/buterland-beckerhook" uk-icon="icon: heart; ratio: 0.7"></a></small>
               <small class="small-italic"><br>on {{ now.Format "2006-01-02 15:04 (MST)" }}</small>

@@ -1,4 +1,5 @@
 {{- define "main" -}}
+{{ $month := .Site.Data.month_de }}
 {{ $start := time .Params.start }}
 {{ $end := time .Params.end }}
 {{ $hasEnd := false }}
@@ -11,7 +12,7 @@
 <div uk-grid>
     <div class="uk-width-1-2@m">
         <h2>{{ .Title }}</h2>
-        <time class="{{ if $canceled }} text-strikethrough{{ end }}" datetime="{{ $start.String }}">{{ $start.Day }}. {{ index $.Site.Data.month_short (printf "%d" $start.Month) }} {{ $start.Year }}
+        <time class="{{ if $canceled }} text-strikethrough{{ end }}" datetime="{{ $start.String }}">{{ $start.Day }}. {{ index $month.long $start.Month }} {{ $start.Year }}
             {{ if (gt $start.Hour 0) }}
             ab {{ $start | dateFormat "15:04" }} Uhr
             {{ end }}
@@ -19,7 +20,7 @@
         {{ if $canceled }}<span class="uk-text-warning">&nbsp;{{ with .Params.cancelReason }}{{ . }}{{ else }}Abgesagt{{ end }}</span>{{ end }}
         {{ if $hasEnd }}
         <br><span class="{{ if $canceled }} text-strikethrough{{ end }}">
-    bis <time datetime="{{ $end.String }}">{{ $end.Day }}. {{ index $.Site.Data.month_short (printf "%d" $end.Month) }} {{ $end.Year }}</time>
+    bis <time datetime="{{ $end.String }}">{{ $end.Day }}. {{ index $month.long $end.Month }} {{ $end.Year }}</time>
 </span>{{ end }}
 
         <p>{{ .Content }}</p>

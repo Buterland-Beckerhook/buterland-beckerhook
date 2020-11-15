@@ -1,3 +1,4 @@
+{{ $month := .Site.Data.month_de }}
 {{ $paginator := .Paginate .Sections 1 }}
 {{ template "termine/pagination.html" . }}
 {{- range $paginator.Pages -}}
@@ -30,7 +31,7 @@
 
         <td class="{{ if $was }} uk-text-muted{{ end }}">
             <a class="uk-link uk-link-text-nu" href="{{ .RelPermalink }}">
-            <time class="{{ if $canceled }} text-strikethrough{{ end }}" datetime="{{ $start.String }}">{{ $start.Day }}. {{ index $.Site.Data.month_short (printf "%d" $start.Month) }} {{ $start.Year }}
+            <time class="{{ if $canceled }} text-strikethrough{{ end }}" datetime="{{ $start.String }}">{{ $start.Day }}. {{ index $month.long $start.Month }} {{ $start.Year }}
             {{ if (gt $start.Hour 0) }}
                 ab {{ $start | dateFormat "15:04" }} Uhr
             {{ end }}
@@ -38,7 +39,7 @@
             {{ if $canceled }}<span class="uk-text-warning">&nbsp;{{ with .Params.cancelReason }}{{ . }}{{ else }}Abgesagt{{ end }}</span>{{ end }}
             {{ if $hasEnd }}
             <br><span class="{{ if $canceled }} text-strikethrough{{ end }}">
-            bis <time datetime="{{ $end.String }}">{{ $end.Day }}. {{ index $.Site.Data.month_short (printf "%d" $end.Month) }} {{ $end.Year }}</time>
+            bis <time datetime="{{ $end.String }}">{{ $end.Day }}. {{ index $month.long $end.Month }} {{ $end.Year }}</time>
             </span>{{ end }}
             </a>
         </td>
