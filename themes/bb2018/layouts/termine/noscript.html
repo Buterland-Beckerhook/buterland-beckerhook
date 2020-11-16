@@ -24,9 +24,6 @@
     <tr>
         <td class="uk-text-bold {{ if $was }}uk-text-muted{{ end }}">
             <a class="uk-link uk-link-text-nu" href="{{ .RelPermalink }}">{{ .Title }}</a>
-            {{ with .OutputFormats.Get "calendar" }}
-            <a class="uk-link uk-link-text-nu" href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}" uk-icon="calendar"></a>
-            {{ end }}
         </td>
 
         <td class="{{ if $was }} uk-text-muted{{ end }}">
@@ -64,12 +61,12 @@
 <div class="uk-alert">
     <h3 uk-icon="info"></h3>
     <p class="uk-text-small uk-margin-remove-top uk-margin-left">
-        Du kannst einzelne Termine einfach in deinen Kalendar importieren, indem du auf das Icon hinter dem Event klickst.
         {{ $year := .Params.year}}
         {{ with .OutputFormats.Get "calendar" }}
-        Oder klicke <a href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}" uk-icon="calendar">hier </a>, um alle Termine
-        aus {{ $year }} zu importieren.
+        Du kannst die Termine für {{ $year }} ganz einfach in deinen Kalendar importieren, indem du
+        <a href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}" uk-icon="calendar">hier </a>, klickst.
         {{ end }}
+        Um einen einzelnen Termin zu importieren, wechsle in die Detailansicht des Termins.
     </p>
 </div>
 

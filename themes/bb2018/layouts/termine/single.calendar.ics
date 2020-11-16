@@ -4,45 +4,5 @@ VERSION:2.0
 PRODID:-//buterland-beckerhook//termine//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-{{ $start := time .Params.start -}}
-{{ $end := time .Params.end -}}
-{{ $hasStart := (eq (printf "%T" $start) "time.Time") -}}
-{{ $hasEnd := (eq (printf "%T" $end) "time.Time") -}}
-{{ $seq := 0 }}
-{{ with .Params.revision }}{{ $seq = . }}{{ end -}}
-{{ $status := "CONFIRMED" }}
-{{ with .Params.canceled }}{{ if . }}{{ $status = "CANCELED" }}{{ end -}}{{ end -}}
-
-{{ if and $hasStart (not .Draft) }}
-BEGIN:VEVENT
-ORGANIZER;CN="Schützenverein Buterland-Beckerhook":mailto:Kontakt@Buterland-Beckerhook.de
-SUMMARY:{{ .Title }}
-{{ with .Content }}DESCRIPTION: {{ . | plainify }}{{ end -}}
-UID:{{ sha256 (printf "%s-%s" .Title (dateFormat "01-2006" $start)) }}
-SEQUENCE:{{ $seq }}
-STATUS:{{ $status }}
-DTSTAMP:{{- with .Params.Date }}{{dateFormat "20060102T150405Z" . }}{{ else }}{{dateFormat "20060102T150405Z" now }}{{ end }}
-LAST-MODIFIED:{{- with .Params.lastmod }}{{dateFormat "20060102T150405Z" . }}{{ else }}{{dateFormat "20060102T150405Z" now }}{{ end }}
-{{- if (gt $start.Hour 0) }}
-DTSTART;TZID=Europe/Berlin:{{dateFormat "20060102T150405" $start}}
-DTEND;TZID=Europe/Berlin:{{- if $hasEnd }}{{dateFormat "20060102T150405" $end }}{{ else }}{{ printf "%sT000000" (dateFormat "20060102" ($start.AddDate 0 0 1)) -}}{{- end -}}
-{{ else }}
-DTSTART;VALUE=DATE:{{dateFormat "20060102" $start }}
-DTEND;VALUE=DATE:{{- if $hasEnd }}{{dateFormat "20060102" $end }}{{ else }}{{dateFormat "20060102" $start -}}{{- end }}{{ end }}
-LOCATION:{{ with .Params.location -}}
-  {{- with (index $.Site.Data.locations .) -}}
-  {{- .name }}
-  {{- with .street }}, {{.}}{{ end }}
-  {{- with .zip }}, {{.}}{{ end }}
-  {{- with .city }} {{.}}{{ end }}
-  {{- if and (isset . "lat") (isset . "lng") }}
-GEO:{{ .lat }};{{ .lng }}
-  {{- end -}}
-  {{- else }}
-  {{- . -}}
-  {{- end }}
-  {{- end }}
-URL:{{ .Site.BaseURL }}/termine
-END:VEVENT
-{{ end -}}
+{{- template "termine/calentry.ics" . -}}
 END:VCALENDAR
