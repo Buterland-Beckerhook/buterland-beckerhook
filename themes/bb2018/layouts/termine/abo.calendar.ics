@@ -3,7 +3,9 @@ VERSION:2.0
 PRODID:-//buterland-beckerhook//termine//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-{{ range .Pages.ByParam "start" -}}
+{{- range first 2 .Sections -}}
+{{- range .Pages.ByParam "start" -}}
 {{- template "termine/calentry.ics" . -}}
-{{ end -}}
+{{- end -}}
+{{- end -}}
 END:VCALENDAR

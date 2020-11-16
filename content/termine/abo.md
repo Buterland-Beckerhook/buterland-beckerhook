@@ -1,8 +1,7 @@
 ---
 title: Termine
-layout: abo
+type: eventlist
 outputs:
-- html
-- json
 - calendar
 ---
+Test
