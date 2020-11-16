@@ -21,9 +21,15 @@
         {{ if $hasEnd }}
         <br><span class="{{ if $canceled }} text-strikethrough{{ end }}">
     bis <time datetime="{{ $end.String }}">{{ $end.Day }}. {{ index $month.long $end.Month }} {{ $end.Year }}</time>
-</span>{{ end }}
+
+
+    </span>{{ end }}
 
         <p>{{ .Content }}</p>
+        {{ with .OutputFormats.Get "calendar" }}
+        <br>
+        <a class="uk-button uk-button-primary" href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}" >Termin Importieren</a>
+        {{ end }}
     </div>
         {{ with .Params.location }}
         {{ with (index $.Site.Data.locations . ) }}
@@ -38,8 +44,6 @@
                 const lng = {{ .lng }};
 
                 if (token !== '') {
-
-                    console.log(token);
 
                     let map = L.map('map').setView([lng, lat], 14);
                     L.tileLayer('https://api.mapbox.com/styles/v1/rverstbb/ckh22s77e1am31amt3ygaiho6/tiles/{z}/{x}/{y}?access_token=' + token, {
@@ -68,8 +72,8 @@
         {{ end }}
 </div>
 
-<a href="{{ relURL "/termine" }}">Zurück zur Terminübersicht</a>
-
+<br>
+<a class="uk-button uk-button-primary" href="{{ relURL "/termine" }}">Zurück zur Terminübersicht</a>
 
 
 {{ end }}
