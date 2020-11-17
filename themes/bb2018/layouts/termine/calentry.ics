@@ -5,12 +5,12 @@
 {{ $seq := 0 }}
 {{ with .Params.revision }}{{ $seq = . }}{{ end -}}
 {{ $status := "CONFIRMED" -}}
-{{ with .Params.canceled }}{{ if . }}{{ $status = "CANCELED" }}{{ end -}}{{ end -}}
+{{ with .Params.canceled }}{{ if . }}{{ $status = "CANCELED" }}{{ end -}}{{ end }}
 {{ if and $hasStart (not .Draft) }}
 BEGIN:VEVENT
 ORGANIZER;CN="Schützenverein Buterland-Beckerhook":mailto:Kontakt@Buterland-Beckerhook.de
-SUMMARY:{{ .Title }}
-{{ with .Content }}DESCRIPTION: {{ . | plainify }}{{ end -}}
+SUMMARY:{{ .Title }}{{ with .Params.canceled }}{{ if . }} (Abgesagt){{ end }}{{ end }}
+{{ with .Content }}DESCRIPTION:{{ . | plainify }}{{ end -}}
 UID:{{ sha256 (printf "%s-%s" .Title (dateFormat "01-2006" $start)) }}
 SEQUENCE:{{ $seq }}
 STATUS:{{ $status }}
