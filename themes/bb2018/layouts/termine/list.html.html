@@ -1,6 +1,30 @@
 {{- define "main" -}}
 <!--{{ template "termine/js-year-calendar.html" . }}-->
 <!--<noscript>-->
-    {{ template "termine/noscript.html" . }}
+{{ template "termine/noscript.html" . }}
 <!--</noscript>-->
+
+
+{{ with .OutputFormats.Get "calendar" }}
+{{ $webcal := .Permalink | replaceRE "^https?://(.*)" "webcal://$1" }}
+<div class="uk-alert">
+    <h3 uk-icon="info">Tip </h3>
+    <p class="uk-text-small uk-margin-remove-top uk-margin-left">
+        Du kannst den Kalender auch ganz komfortabel abbonieren. Dieser beinhaltet dann immer die
+        Termine der letzten beiden Jahre und wird automatisch aktualisiert. Nutze dazu den folgenden Link:
+        <br>
+        <a class="uk-link-text uk-text-bold" href="{{ $webcal | safeURL }}" type="{{ .MediaType.Type }}">{{ $webcal }}</a>.
+        <br>
+    <p class="uk-text-small uk-margin-remove-top uk-margin-left">
+        Sollte das automatische abbonieren nicht funktionieren,
+        solltest du die Suchmaschiene deiner Wahl befragen:
+        "Kalender unter &lt;Mein Gerät&gt; abbonieren", z.B.
+        <a href="https://duckduckgo.com/?q=Kalender+unter+iOS+abbonieren" target="_blank">
+            Kalender unter iOS abbonieren.</a>
+        Dabei kann es nötig sein, dass du folgende URL verwendest:
+        <br>
+        <a class="uk-link-text uk-text-bold" href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}">{{ .Permalink }}</a>.
+    </p>
+</div>
+{{ end }}
 {{- end -}}
