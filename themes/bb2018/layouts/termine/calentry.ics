@@ -6,9 +6,15 @@
 {{ with .Params.revision }}{{ $seq = . }}{{ end -}}
 {{ $status := "CONFIRMED" -}}
 {{ with .Params.canceled }}{{ if . }}{{ $status = "CANCELED" }}{{ end -}}{{ end }}
+{{ $method := "PUBLISH" -}}
+{{ with .Params.canceled }}{{ if . }}{{ $method = "CANCEL" }}{{ end -}}{{ end }}
 {{ if and $hasStart (not .Draft) }}
 BEGIN:VEVENT
+METHOD:{{ $method }}
 ORGANIZER;CN="Schützenverein Buterland-Beckerhook":mailto:Kontakt@Buterland-Beckerhook.de
+REFRESH-INTERVAL;VALUE=DURATION:P4D
+COLOR:green
+IMAGE;VALUE=URI;DISPLAY=BADGE;FMTTYPE=image/png:{{ "/images/manifest/icon-512x512.png" | absURL }}
 SUMMARY:{{ .Title }}{{ with .Params.canceled }}{{ if . }} (Abgesagt){{ end }}{{ end }}
 {{ with .Content }}DESCRIPTION:{{ . | plainify }}{{ end -}}
 UID:{{ sha256 (printf "%s-%s" .Title (dateFormat "01-2006" $start)) }}

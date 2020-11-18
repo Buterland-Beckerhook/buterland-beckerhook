@@ -2,7 +2,9 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//buterland-beckerhook//termine//DE
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
+NAME:Buterland-Beckerhook Termine{{ with .Params.year }} {{ . }}
+X-WR-CALNAME:Buterland-Beckerhook Termine {{ . }}
+X-WR-RELCALID:{{ sha256 (printf "buterland-beckerhook_termine_%s" .) }}{{ end }}
 {{ range .Pages.ByParam "start" -}}
 {{- template "termine/calentry.ics" . -}}
 {{ end -}}

@@ -3,6 +3,5 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//buterland-beckerhook//termine//DE
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
 {{- template "termine/calentry.ics" . -}}
 END:VCALENDAR
