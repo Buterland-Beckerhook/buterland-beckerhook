@@ -6,9 +6,9 @@ NAME:Buterland-Beckerhook Termine
 X-WR-CALNAME:Buterland-Beckerhook Termine
 X-WR-RELCALID:{{ sha256 "buterland-beckerhook_termine_abo" }}
 X-PUBLISHED-TTL:P1W
-{{- range first 2 .Sections -}}
-{{- range .Pages.ByParam "start" -}}
-{{- template "termine/calentry.ics" . -}}
-{{- end -}}
-{{- end -}}
+{{ range first 2 .Sections -}}
+{{ range .Pages.ByParam "start" -}}
+{{ template "termine/calentry.ics" . -}}
+{{ end -}}
+{{ end -}}
 END:VCALENDAR
