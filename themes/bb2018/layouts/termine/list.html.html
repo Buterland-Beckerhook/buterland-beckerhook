@@ -10,18 +10,15 @@
 <div class="uk-alert">
     <h3 uk-icon="info">Tip </h3>
     <p class="uk-text-small uk-margin-remove-top uk-margin-left">
-        Du kannst den Kalender auch ganz komfortabel abbonieren. Dieser beinhaltet dann immer die
+        Du kannst den Kalender auch ganz komfortabel abonnieren. Dieser beinhaltet dann immer die
         Termine der letzten beiden Jahre und wird automatisch aktualisiert. Nutze dazu den folgenden Link:
         <br>
         <a class="uk-link-text uk-text-bold" href="{{ $webcal | safeURL }}" type="{{ .MediaType.Type }}">{{ $webcal }}</a>.
         <br>
     <p class="uk-text-small uk-margin-remove-top uk-margin-left">
-        Sollte das automatische abbonieren nicht funktionieren,
-        solltest du die Suchmaschiene deiner Wahl befragen:
-        "Kalender unter &lt;Mein Gerät&gt; abbonieren", z.B.
-        <a href="https://duckduckgo.com/?q=Kalender+unter+iOS+abbonieren" target="_blank">
-            Kalender unter iOS abbonieren.</a>
-        Dabei kann es nötig sein, dass du folgende URL verwendest:
+        Sollte das automatische abonnieren nicht funktionieren, solltest du die Suchmaschine deiner Wahl befragen, z.B.:
+        <a href="https://duckduckgo.com/?q=Kalender+mit+Android+abbonieren" target="_blank">Kalender mit Android abonnieren.</a>
+        Dabei kann es nötig sein, dass du folgenden URL verwendest:
         <br>
         <a class="uk-link-text uk-text-bold" href="{{ .Permalink | safeURL }}" type="{{ .MediaType.Type }}">{{ .Permalink }}</a>.
     </p>

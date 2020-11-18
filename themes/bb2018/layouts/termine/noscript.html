@@ -23,7 +23,7 @@
 
     <tr>
         <td class="uk-text-bold {{ if $was }}uk-text-muted{{ end }}">
-            <a class="uk-link uk-link-text-nu" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <a class="uk-link uk-link-text" href="{{ .RelPermalink }}">{{ .Title }}</a>
         </td>
 
         <td class="{{ if $was }} uk-text-muted{{ end }}">
@@ -45,7 +45,7 @@
             <span class="{{ if $canceled }} text-strikethrough{{ end }}">
             {{ with .Params.location }}
               {{ with (index $.Site.Data.locations . ) }}
-                {{ if (isset . "maps") }}<a class="{{ if $canceled }} text-strikethrough{{ end }}" href="{{ .maps }}" uk-icon="icon: location; ratio: 0.8">{{ .name }} </a>{{ else }}{{ .name }}{{ end }}
+                {{ if (isset . "maps") }}<a class="uk-link-text {{ if $canceled }} text-strikethrough{{ end }}" href="{{ .maps }}">{{ .name }} </a>{{ else }}{{ .name }}{{ end }}
               {{ else }}
                 {{ . }}
               {{ end }}
