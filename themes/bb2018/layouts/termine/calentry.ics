@@ -4,13 +4,7 @@
 {{- $hasEnd := (eq (printf "%T" $end) "time.Time") -}}
 {{- if not $hasEnd -}}
   {{- $e := time (dateFormat "2006-01-02" ($start.AddDate 0 0 1)) "Europe/Berlin" -}}
-  {{- $diff := div (sub $e.Unix $start.Unix) 3600 -}}
-  {{- if gt $diff 4 -}}
-    {{- $end = time (add $start.Unix 18000) -}}
-  {{- else -}}
-    {{- $end = $e -}}
-  {{- end -}}
-  {{- if eq $end.Hour 0 }}{{ $end = time (sub $end.Unix 1) }}{{ end -}}
+  {{- $end = time (sub $e.Unix 1) }}
 {{- end -}}
 {{- $seq := 0 -}}
 {{- with .Params.revision }}{{ $seq = . }}{{ end -}}
@@ -31,7 +25,7 @@ DTSTART;TZID=Europe/Berlin:{{dateFormat "20060102T150405" $start}}
 DTEND;TZID=Europe/Berlin:{{dateFormat "20060102T150405" $end }}
 {{ else }}
 DTSTART;VALUE=DATE:{{dateFormat "20060102" $start }}
-DTEND;VALUE=DATE:{{- if $hasEnd }}{{dateFormat "20060102" $end }}{{ else }}{{dateFormat "20060102" $start -}}{{- end }}
+DTEND;VALUE=DATE:{{- if $hasEnd }}{{dateFormat "20060102" ($end.AddDate 0 0 1) }}{{ else }}{{dateFormat "20060102" $start -}}{{- end }}
 {{ end -}}
 REFRESH-INTERVAL;VALUE=DURATION:P4D
 ORGANIZER;CN="Schützenverein Buterland-Beckerhook":mailto:Kontakt@Buterland-Beckerhook.de
