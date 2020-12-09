@@ -1,8 +1,8 @@
 ---
 title: "Biwak"
 date: 2019-12-10T06:00:00+01:00
-lastmod: 2020-05-04T10:00:00+02:00
-revision: 1
+lastmod: 2020-11-17T10:00:00+02:00
+revision: 2
 start: 2020-05-16T16:30:00+02:00
 location: platz
 draft: false

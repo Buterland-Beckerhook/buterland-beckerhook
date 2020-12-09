@@ -1,0 +1,51 @@
+{{- $start := time .Params.start -}}
+{{- $end := time .Params.end -}}
+{{- $hasStart := (eq (printf "%T" $start) "time.Time") -}}
+{{- $hasEnd := (eq (printf "%T" $end) "time.Time") -}}
+{{- if not $hasEnd -}}
+  {{- $e := time (dateFormat "2006-01-02" ($start.AddDate 0 0 1)) "Europe/Berlin" -}}
+  {{- $end = time (sub $e.Unix 1) }}
+{{- end -}}
+{{- $seq := 0 -}}
+{{- with .Params.revision }}{{ $seq = . }}{{ end -}}
+{{- $status := "CONFIRMED" -}}
+{{- with .Params.canceled }}{{ if . }}{{ $status = "CANCELED" }}{{ end -}}{{ end -}}
+{{- $method := "PUBLISH" -}}
+{{- with .Params.canceled }}{{ if . }}{{ $method = "CANCEL" }}{{ end -}}{{ end -}}
+{{- if and $hasStart (not .Draft) -}}
+BEGIN:VEVENT
+UID:{{ sha256 (printf "%s-%s" .Title (dateFormat "01-2006" $start)) }}
+METHOD:{{ $method }}
+STATUS:{{ $status }}
+DTSTAMP:{{- with .Params.Date }}{{dateFormat "20060102T150405Z" . }}{{ else }}{{dateFormat "20060102T150405Z" now }}{{ end }}
+LAST-MODIFIED:{{- with .Params.lastmod }}{{dateFormat "20060102T150405Z" . }}{{ else }}{{dateFormat "20060102T150405Z" now }}{{ end }}
+SEQUENCE:{{ $seq }}
+{{- if (gt $start.Hour 0) }}
+DTSTART;TZID=Europe/Berlin:{{dateFormat "20060102T150405" $start}}
+DTEND;TZID=Europe/Berlin:{{dateFormat "20060102T150405" $end }}
+{{ else }}
+DTSTART;VALUE=DATE:{{dateFormat "20060102" $start }}
+DTEND;VALUE=DATE:{{- if $hasEnd }}{{dateFormat "20060102" ($end.AddDate 0 0 1) }}{{ else }}{{dateFormat "20060102" $start -}}{{- end }}
+{{ end -}}
+REFRESH-INTERVAL;VALUE=DURATION:P4D
+ORGANIZER;CN="Schützenverein Buterland-Beckerhook":mailto:Kontakt@Buterland-Beckerhook.de
+COLOR:green
+IMAGE;VALUE=URI;DISPLAY=BADGE;FMTTYPE=image/png:{{ "/images/manifest/icon-512x512.png" | absURL }}
+SUMMARY:{{ .Title }}{{ with .Params.canceled }}{{ if . }} (Abgesagt){{ end }}{{ end }}
+{{ with .Content }}DESCRIPTION:{{ . | plainify }}{{ end -}}
+LOCATION:{{ with .Params.location -}}
+  {{- with (index $.Site.Data.locations .) -}}
+  {{- .name }}
+  {{- with .street }}, {{.}}{{ end }}
+  {{- with .zip }}, {{.}}{{ end }}
+  {{- with .city }} {{.}}{{ end }}
+  {{- if and (isset . "lat") (isset . "lng") }}
+GEO:{{ .lat }};{{ .lng }}
+  {{- end -}}
+  {{- else }}
+  {{- . -}}
+  {{- end }}
+  {{- end }}
+URL:{{ .Site.BaseURL }}/termine
+END:VEVENT
+{{ end -}}

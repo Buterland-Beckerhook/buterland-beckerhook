@@ -1,6 +1,6 @@
 ---
 title: Termine
-type: eventlist
+layout: abo
 outputs:
 - html
 - json
