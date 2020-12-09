@@ -6,7 +6,9 @@ revision: 0
 start: 2021-01-16T20:00:00+01:00
 location: dinkelhof
 draft: false
+canceled: true
 outputs:
   - html
   - calendar
 ---
+Das Winterfest muss aufgrund der anhaltenden Pandemie leider abgesagt werden.
