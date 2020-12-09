@@ -27,14 +27,15 @@
                 </div>
             </div>
             <div class="uk-width-expand">
-                <h3 class="uk-card-title uk-margin-remove-bottom uk-card-title-small@s">{{ .Title }}</h3>
+                <h3 class="uk-card-title uk-margin-remove-bottom uk-card-title-small@s"><span class="{{ if $canceled }}text-strikethrough{{ end }}">{{ .Title }}</span>{{ if $canceled }}<span class="uk-text-warning">&nbsp;{{ with .Params.cancelReason }}{{ . }}{{ else }}Abgesagt{{ end }}</span>{{ end }}</h3>
                 <p class="uk-text-meta uk-margin-remove-top">
-                    <time datetime="{{ $start.String }}">{{ $start.Day }}. {{ index $month.long $start.Month }} {{ $start.Year }}
+                    <time class="{{ if $canceled }} text-strikethrough{{ end }}" datetime="{{ $start.String }}">{{ $start.Day }}. {{ index $month.long $start.Month }} {{ $start.Year }}
                     </time>
                     {{- if $hasEnd }} -
                     <time datetime="{{ $end.String }}">{{ $end.Day }}. {{ index $month.long $end.Month }} {{ $end.Year }}
                     </time>
                     {{ end }}
+
                 </p>
             </div>
         </div>
@@ -44,6 +45,7 @@
         <div class="uk-card uk-card-default uk-card-body uk-padding-remove uk-margin-left" style="box-shadow: none;">
 
                 {{- with .Content -}}<p>{{ . }}</p>{{- end -}}
+                {{if not $canceled }}
                 <div>
                     {{- if (gt $start.Hour 0) }}
                     {{- if (not (isset .Params "end")) }}ab {{ end -}}
@@ -59,6 +61,7 @@
                     {{- end -}}
                     {{- end -}}
                 </div>
+                {{ end }}
 
         </div>
     </div>

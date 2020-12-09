@@ -6,7 +6,9 @@ revision: 0
 start: 2021-01-02T15:30:00+01:00
 location: dinkelhof
 draft: false
+canceled: true
 outputs:
   - html
   - calendar
 ---
+Das Pokal- und Preisschießen müssen wir aufgrund der anhaltenden Pandemie leider absagen.
