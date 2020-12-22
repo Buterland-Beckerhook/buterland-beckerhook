@@ -2,7 +2,7 @@
 title: Kontakt zum Vorstand
 date: 2018-11-02T00:00:00+01:00
 weight: 2
-anchor: contact
+anchor: kontakt
 resources:
   - src: 'head_of_board_2019.jpg'
     name: 'headofboard'
