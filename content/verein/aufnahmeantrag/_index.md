@@ -10,7 +10,9 @@ subhead: Mitglied werden im Schützenverein Buterland-Beckerhook e.V.
 ---
 
 Um Mitglied im Schützenverein Buterland-Beckerhook zu werden,   
-füllen Sie den [Aufnahmeantrag](/pdf/aufnahmeantrag.pdf) aus und lassen Sie 
+füllen Sie den
+{{< tlink class="green" text="Aufnahmeantrag" url="/pdf/aufnahmeantrag.pdf" target="_blank" >}} 
+aus und lassen Sie 
 ihn uns zukommen:   
 
 - {{< impress-publisher >}}
