@@ -4,7 +4,8 @@ languageCode: de-DE
 title: Buterland-Beckerhook
 copyright: Buterland-Beckerhook e.V.
 theme: bb2018
-timeout: 30000
+timeout: 120000
+enableGitInfo: true
 
 build:
   writeStats: true
