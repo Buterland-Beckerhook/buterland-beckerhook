@@ -7,7 +7,10 @@ start: 2021-07-17
 end: 2021-07-20
 location: platz
 draft: false
+canceled: true
 outputs:
   - html
   - calendar
 ---
+Auch das Schützenfest muss in diesem Jahr aufgrund der anhaltenden Pandemie
+erneut ausfallen.
