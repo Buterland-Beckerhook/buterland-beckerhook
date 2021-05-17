@@ -5,12 +5,10 @@ import {unveilMail} from "./utils";
 
 window.debug = params.debug;
 
-window.init = function () {
-
+window.onload = function () {
   if (debug) {
     console.info("Buterland-Beckerhook beta build")
   }
-
   let links = document.getElementsByClassName('maillink');
   for (let l of links) {
     let ma = unveilMail(l.getAttribute('data-src'));
@@ -18,9 +16,4 @@ window.init = function () {
     l.innerText = ma;
     l.classList.remove('uk-hidden');
   }
-
 };
-
-document.body.onload = () => {
-  init();
-}
