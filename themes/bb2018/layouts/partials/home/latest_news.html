@@ -1,9 +1,8 @@
 {{- with $.Site.GetPage "/aktuell" -}}
 {{ $month := .Site.Data.month_de }}
-<div class="uk-grid-small uk-child-width-expand@s" uk-grid>
-{{- range $i, $e :=  first 2 .Pages -}}
+<div class="uk-child-width-expand@s">{{- range $i, $e :=  first 2 .Pages -}}
 
-  <div class="uk-margin-left {{ if eq $i 1 }} uk-margin-right{{ end }} uk-card uk-card-border uk-card-body" onclick="window.location = '{{ .RelPermalink }}';"
+  <div class="{{ if eq $i 1 }} bb-news-margin{{ end }} uk-card uk-card-default uk-card-border uk-card-body" onclick="window.location = '{{ .RelPermalink }}';"
        style="cursor: pointer">
     <h3 class="uk-card-title">{{ $e.Title }}</h3>
     <small class="uk-text-muted">{{ $e.Date.Day }}. {{ index $month.long (.Date.Month)}} {{ .Date.Year }}{{ with .Params.meta }} - {{ . }}{{ end }}</small>
