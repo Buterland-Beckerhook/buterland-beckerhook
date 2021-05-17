@@ -1,33 +1,30 @@
 {{ define "main" }}
 
-
 <div class="uk-child-width-1-1@m" style="min-width: 400px;" uk-grid>
-
-    <div class="uk-child-width-expand uk-grid-small uk-grid-match" uk-grid>
-        <div>
-            <a class="uk-link-text-nu" href="/termine" type="{{ .MediaType.Type }}" style="display: block;">
-            <div class="uk-card uk-card-border uk-card-default uk-card-body">
-                {{ partial "home/next_event.html" . }}
-            </div>
-            </a>
-        </div>
-    </div>
-
+  <div class="uk-child-width-expand uk-grid-small uk-grid-match" uk-grid>
     <div>
-      {{ partial "home/latest_news.html" . }}
+      <a class="uk-link-text-nu" href="/termine" type="{{ .MediaType.Type }}" style="display: block;">
+        <div class="uk-card uk-card-border uk-card-default uk-card-body">
+          {{ partial "home/next_event.html" . }}
+        </div>
+      </a>
     </div>
+  </div>
 
   <div class="uk-child-width-expand uk-grid-small uk-grid-match" uk-grid>
-        <div>
-            <div class="uk-card uk-card-border uk-card-default uk-card-body">
-                {{ partial "home/current_throne.html" . }}
-            </div>
-        </div>
-    </div>
+    {{ partial "home/latest_news.html" . }}
+  </div>
 
-    {{ partial "home/top_card.html" . }}
+  <div class="uk-child-width-expand uk-grid-small uk-grid-match" uk-grid>
+    <div>
+      <div class="uk-card uk-card-border uk-card-default uk-card-body">
+        {{ partial "home/current_throne.html" . }}
+      </div>
+    </div>
+  </div>
+
+  {{ partial "home/top_card.html" . }}
 
 </div>
-
 
 {{ end }}

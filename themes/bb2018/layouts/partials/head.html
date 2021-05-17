@@ -55,13 +55,13 @@
 	{{- range .AlternativeOutputFormats -}}
 	{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
 	{{- end -}}
-	<script type="text/javascript" src="{{ $secUikitMin.Permalink }}" integrity="{{ $secUikitMin.Data.Integrity }}" async></script>
-	<script type="text/javascript" src="{{ $secScriptMin.Permalink }}" integrity="{{ $secScriptMin.Data.Integrity }}" async></script>
-	<script type="text/javascript" src="{{ $secCalendarMin.Permalink }}" integrity="{{ $secCalendarMin.Data.Integrity }}" async></script>
+	<script type="text/javascript" src="{{ $secUikitMin.Permalink }}" async></script>
+	<script type="text/javascript" src="{{ $secScriptMin.Permalink }}" async></script>
+	<script type="text/javascript" src="{{ $secCalendarMin.Permalink }}" async></script>
 	{{ if .Page.HasShortcode "emailjs" -}}
-	<script type="text/javascript" src="{{ $secEmailMin.Permalink }}" integrity="{{ $secEmailMin.Data.Integrity }}" async></script>
+	<script type="text/javascript" src="{{ $secEmailMin.Permalink }}" async></script>
 	{{- end -}}
-	<script type="text/javascript" src="{{ $secMatomoMin.Permalink }}" integrity="{{ $secMatomoMin.Data.Integrity }}" async></script>
+	<script type="text/javascript" src="{{ $secMatomoMin.Permalink }}" async></script>
 	<noscript><p><img src="//matomo.verst.eu/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
 			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
