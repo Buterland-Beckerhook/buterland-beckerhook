@@ -6,6 +6,7 @@ revision: 0
 start: 2021-08-01
 location: none
 draft: false
+canceled: true
 outputs:
   - html
   - calendar
