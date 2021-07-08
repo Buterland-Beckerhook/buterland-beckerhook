@@ -13,12 +13,12 @@ resources:
 
 # An alle Mitglieder
 
-Liebe Schützenschwestern und Schützenbrüder,
+Liebe Schützenschwestern und Schützenbrüder,  
 
 
 leider mussten wir auch in diesem Jahr alle offiziellen Veranstaltungen des Schützenvereins wegen der Corona
 Pandemie absagen. Auch unser Schützenfest können wir, wie fast alle Gronauer und Eperaner Schützenvereine,
-ncht stattfinden lassen.
+nicht stattfinden lassen. <!--more-->
 
 Am **18.07.2021 um 10:00 Uhr** werden wir eine Gedenkfeier, für unsere gefallenen und verstorbenen
 Vereinsmitglieder, am Ehrenmal auf dem Schützenplatz abhalten. Anschließend wird dort ein Frühschoppen, mit

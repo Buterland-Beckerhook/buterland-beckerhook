@@ -5,7 +5,11 @@
 
 {{- with .Get "name" -}}
 {{- $name := . -}}
+{{- range $.Page.Resources -}}
+{{ printf "%v" . }}
+{{- end -}}
 {{- range $.Page.Resources.ByType "pdf" -}}
+{{ printf "%v" . }}
 {{- if eq .Name $name -}}
 <a href="{{ .Permalink }}" target="_blank" class="uk-icon-link">
 <span class="uk-icon-link" uk-icon="icon: file-pdf"></span> {{ with .Title }}{{ . }}{{ else }}{{ .Name }}{{ end }}
