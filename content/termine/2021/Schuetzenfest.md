@@ -8,6 +8,7 @@ end: 2021-07-20
 location: platz
 draft: false
 canceled: true
+hideOnHome: true
 outputs:
   - html
   - calendar
