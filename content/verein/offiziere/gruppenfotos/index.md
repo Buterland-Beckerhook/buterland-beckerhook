@@ -1,8 +1,13 @@
 ---
 title: Gruppenfotos
-date: 2018-11-02T00:00:00+01:00
+date: 2021-07-30T15:00:00+02:00
 headless: true
 resources:
+  - src: '2021.jpg'
+    name: 2021
+    title: "Die Offiziere zur Gedenkfeier/Frühschoppen 2021"
+    params:
+      copy: "Buterland-Beckerhook e.V."
   - src: '2019.jpg'
     name: 2019
     title: "Die Offiziere zum Schützenfest 2019"
