@@ -3,7 +3,7 @@ title: Thron 1912/1913 - Bernhard II.
 date: 1912-07-21T20:00:00+01:00
 tags:
   - Thron
-noarticle: true
+noarticle: false
 throne:
   years: 1912/1913
   king_title: Bernhard II.
@@ -14,7 +14,19 @@ resources:
     name: 'thron-1'
     title: 'Der Thron 1912/1913'
     params:
+      copy: 'privat'
+  - src: '1912_orig.jpg'
+    name: 'thron-2'
+    title: 'Der Thron 1912/1913'
+    params:
       copy: 'Buterland-Beckerhook e.V.'
 ---
 {{< imageslide name="thron" lightbox="true" >}}
 {{< thronemembers >}}
+
+
+Frau Nederlof aus Amsterdam hat dieses Foto gefunden und uns zukommen lassen (2021).  
+
+Ihr Urgroßvater, *Alewijn Nederlof*, steht dort mit seiner Gattin hinten rechts.  
+Auf der Rückseite des Fotos steht geschrieben: "A. Nederlof, Beckerhook 31 bei Herrn Prein"
+
