@@ -27,10 +27,10 @@ resources:
 
 Frau Nederlof aus Amsterdam hat dieses Foto gefunden und uns zukommen lassen (2021).  
 
-Ihre Urgroßmutter steht hinten rechts auf dem Foto. Ob ihr Urgroßvater *Alewijn Nederlof*
-auch auf dem Foto abgebildet ist, kann leider nicht mehr genau ermittelt werden, es könnte sich
-hierbei um den Herrn stehend oder sitzend rechts im Bild handeln (Es gibt leider keine weiteren
-Fotos von Alewijn Nederlof).
+Ihre Urgroßmutter, *Wilhelmina Aleida (Nerderlof-Struik)*, steht hinten rechts auf dem Foto.
+Ob ihr Urgroßvater *Alewijn Nederlof* auch auf dem Foto abgebildet ist, 
+kann leider nicht mehr genau ermittelt werden, es könnte sich hierbei um den Herrn stehend 
+oder sitzend rechts im Bild handeln (Es gibt leider keine weiteren Fotos von Alewijn Nederlof).
 
 Auf der Rückseite des Fotos steht geschrieben: "A. Nederlof, Beckerhook 31 bei Herrn Prein"
 
