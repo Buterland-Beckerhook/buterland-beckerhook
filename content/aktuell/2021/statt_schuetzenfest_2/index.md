@@ -1,5 +1,5 @@
 ---
-title: Schützentag
+title: Schützentag am 18.09.2021
 subtitle: Wichtige Information
 date: 2021-09-05T11:00:00+02:00
 author: Gerd Lübbers
