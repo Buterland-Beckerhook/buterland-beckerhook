@@ -1,24 +1,25 @@
-<div class="head_logo">
-	<a href="/">
-    {{ if $.Site.BuildDrafts }}
-    <img src="/images/logo_lng_beta.svg" alt="" class="uk-preserve">
-    {{ else }}
-		<img src="/images/logo_lng.svg" alt="" class="uk-preserve">
-    {{ end }}
-	</a>
-</div>
-
 
 <div id="navbar" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-active">
 	<nav class="uk-navbar-container uk-margin" uk-navbar>
-		<div class="uk-navbar-left">
+
+		<div class="head_logo">
+			<a href="/">
+				{{ if $.Site.BuildDrafts }}
+				<img src="/images/logo_lng_beta.svg" alt="" class="uk-preserve">
+				{{ else }}
+				<img src="/images/logo_lng.svg" alt="" class="uk-preserve">
+				{{ end }}
+			</a>
+		</div>
+
+		<div class="uk-navbar-right uk-text-nowrap">
 			<ul class="uk-navbar-nav uk-visible@s">
 				{{- $currentPage := . -}}
 				{{- range .Site.Menus.main }}
 				{{- $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
 				{{- if .HasChildren }}
 				<li {{ if $active -}}class="uk-active" {{- end -}}>
-					<a href="{{ .URL }}">{{ .Name }}</a>
+					<a href="{{ .URL }}" uk-icon="icon: triangle-down">{{ .Name }}</a>
 					<div class="uk-navbar-dropdown">
 						<ul class="uk-nav uk-navbar-dropdown-nav">
 							{{- range .Children }}
@@ -52,11 +53,11 @@
 		<!-- mobile off canvas menu -->
 		<div class="uk-padding uk-hidden@s">
 			<div class="uk-position-center-right">
-				<a class="uk-navabar-toggle" uk-toggle="target: #mobile-nav" href="">
-					<span uk-navbar-toggle-icon class="uk-text-muted uk-padding-small"></span> <!--<span class="uk-margin-small-left uk-text-muted">Men&uuml;</span>-->
+				<a class="uk-navabar-toggle uk-link-text-nu" uk-toggle="target: #mobile-nav" href="">
+					Men&uuml;&nbsp;<span class="uk-margin-small-right" uk-icon="icon: table"></span>
 				</a>
 			</div>
-			<div id="mobile-nav" class="uk-hidden@s" uk-offcanvas="overlay: true">
+			<div id="mobile-nav" class="uk-hidden@s" uk-offcanvas="overlay: true; flip: true">
 				<div class="uk-offcanvas-bar">
 					<ul class="uk-nav uk-nav-default">
 						{{- $currentPage := . -}}
