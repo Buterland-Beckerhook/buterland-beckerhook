@@ -130,12 +130,19 @@ a.uk-link-text-nu:hover,
 	border: none;
 }
 
+.uk-no-decoration {
+	text-decoration: none !important;
+}
+
+.uk-no-decoration:hover {
+	text-decoration: none !important;
+}
 
 @import "uikit-theme.scss";
 
 .head_logo {
-	width: 50%;
-	max-width: 700px;
+	width: 40%;
+	max-width: 500px;
 }
 
 @media (max-width: $breakpoint-small) {
@@ -144,7 +151,7 @@ a.uk-link-text-nu:hover,
 	}
 
 	.head_logo {
-		width: 70%;
+		width: 50%;
 	}
 
 	.uk-position-bottom {
