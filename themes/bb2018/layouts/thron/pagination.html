@@ -3,15 +3,15 @@
 
 <div class="uk-child-width-1-3@s uk-margin-large-top uk-text-center" uk-grid>
 
-  <div class="uk-visible@s">
+  <div class="uk-visible@s uk-width-auto">
     {{ if $p.HasPrev }}
     {{$pp := index ($p.Prev.Pages) 0}}
-    <a href="{{ $p.Prev.URL }}" class="uk-button uk-button-default">
-      <span class="uk-text-nowrap">{{ $pp.Date.Year }}<span class="uk-visible@m"> - {{ $pp.Params.throne.king }}</span></span></a>
+    <a href="{{ $p.Prev.URL }}" uk-slidenav-previous></a>
+    <a class="uk-slidenav" href="{{ $p.Prev.URL }}"><span class="">{{ $pp.Date.Year }}</span><span class="uk-visible@m"> - {{ $pp.Params.throne.king }}</span></a>
     {{ end }}
   </div>
 
-  <div>
+  <div class="uk-width-expand">
     <select name="thrones" id="thrones" class="uk-select uk-button uk-button-default" onchange="location.href = this.value;">
       {{ range $p.Pagers }}
       {{$ppp := index (.Pages) 0}}
@@ -20,11 +20,11 @@
     </select>
   </div>
 
-  <div class="uk-visible@s">
+  <div class="uk-visible@s uk-width-auto">
     {{ if $p.HasNext }}
     {{$np := index ($p.Next.Pages) 0}}
-    <a href="{{ $p.Next.URL }}" class="uk-button uk-button-default">
-      <span class="uk-text-nowrap"><span class="uk-visible@m">{{ $np.Params.throne.king }} - </span>{{ $np.Date.Year }}</span></a>
+    <a class="uk-slidenav" href="{{ $p.Next.URL }}"> <span class="uk-visible@m">{{ $np.Params.throne.king }} - </span><span class="">{{ $np.Date.Year }}</span></a>
+    <a href="{{ $p.Next.URL }}" uk-slidenav-next></a>
     {{ end }}
   </div>
 
