@@ -12,14 +12,14 @@
 			</a>
 		</div>
 
-		<div class="uk-navbar-right">
+		<div class="uk-navbar-right uk-text-nowrap">
 			<ul class="uk-navbar-nav uk-visible@s">
 				{{- $currentPage := . -}}
 				{{- range .Site.Menus.main }}
 				{{- $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) -}}
 				{{- if .HasChildren }}
 				<li {{ if $active -}}class="uk-active" {{- end -}}>
-					<a href="{{ .URL }}">{{ .Name }}</a>
+					<a href="{{ .URL }}" uk-icon="icon: triangle-down">{{ .Name }}</a>
 					<div class="uk-navbar-dropdown">
 						<ul class="uk-nav uk-navbar-dropdown-nav">
 							{{- range .Children }}
