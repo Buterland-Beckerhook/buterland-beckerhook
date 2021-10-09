@@ -6,7 +6,7 @@
 {{- $title := .Title -}}
 {{- $ttitle := printf "Thron %s - %s" .Params.throne.years .Params.throne.king_title -}}
 {{- $hasContent := not .Params.noarticle -}}
-<h3 class="uk-card-title uk-card-title-small@s">{{ $ttitle }}</h3>
+<h3 class="uk-card-title uk-card-title-small@s uk-margin-small-top">{{ $ttitle }}</h3>
 {{ if $hasContent }}<a class="uk-link-text" href="{{ .Permalink }}">{{ end }}
   {{ range first 1 (.Resources.Match "thron-*") }}
   {{- $s := .Resize "480x" -}}
