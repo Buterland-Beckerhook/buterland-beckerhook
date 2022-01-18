@@ -1,8 +1,13 @@
 {{- $start := time .Params.start -}}
-{{- $end := time .Params.end -}}
+{{- $end := $start -}}
 {{- $hasStart := (eq (printf "%T" $start) "time.Time") -}}
-{{- $hasEnd := (eq (printf "%T" $end) "time.Time") -}}
-{{- if not $hasEnd -}}
+{{- $hasEnd := false -}}
+{{- if isset .Params "end" -}}
+  {{- $hasEnd := true -}}
+{{- end -}}
+{{- if $hasEnd -}}
+  {{- $end := time .Params.end -}}
+{{- else -}}
   {{- $e := time (dateFormat "2006-01-02" ($start.AddDate 0 0 1)) "Europe/Berlin" -}}
   {{- $end = time (sub $e.Unix 1) }}
 {{- end -}}

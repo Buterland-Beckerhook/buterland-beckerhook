@@ -1,9 +1,12 @@
 {{- define "main" -}}
 {{ $month := .Site.Data.month_de }}
 {{ $start := time .Params.start }}
-{{ $end := time .Params.end }}
+{{ $end := $start }}
 {{ $hasEnd := false }}
-{{ if isset .Params "end" }}{{ $hasEnd = true }}{{ end }}
+{{ if isset .Params "end" }}
+{{ $hasEnd = true }}
+{{ $end := time .Params.end }}
+{{ end }}
 {{ $was := lt $start now }}
 {{ $canceled := false }}
 {{ with.Params.canceled }}{{ $canceled = . }}{{ end }}

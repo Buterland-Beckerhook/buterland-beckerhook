@@ -25,15 +25,16 @@
             Copyright © {{ now.Year }}
             <span class="uk-text-nowrap">Buterland-Beckerhook e.V.</span>
             <br><small>All rights reserved.</small>
-            <br>
-            <br>
-            <small>Zuletzt geändert am <span class="uk-text-nowrap">{{ with .Site.LastChange }}{{ .Day }}. {{ index $month.short .Month }} {{ .Year }}{{ end }}
-                {{ with .GitInfo }}
-             [<a href="https://github.com/Buterland-Beckerhook/buterland-beckerhook/commit/{{ .Hash }}" target="_blank">{{ .AbbreviatedHash }}</a>]
-                {{ end }}
+            <hr>
+            <small>
+            Letztes Update am <span class="uk-text-nowrap">{{ with .Site.LastChange }}{{ .Day }}. {{ index $month.short .Month }} {{ .Year }}{{ end }}
             </span></small>
+            {{ with .GitInfo }}<br><small class="small-italic">
+            Letzte Änderung auf dieser Seite vom {{ with .AuthorDate }}{{ .Day }}. {{ index $month.short .Month }} {{ .Year }}{{ end }} [<a href="https://github.com/Buterland-Beckerhook/buterland-beckerhook/commit/{{ .Hash }}" target="_blank">{{ .AbbreviatedHash }}</a>]
+            </small>
+            {{ end }}
             <br><hr><small><a href="https://github.com/Buterland-Beckerhook/hugo-ci">Built</a> with
-            <a href="https://gohugo.io">hugo {{ .Hugo.Version }}</a> and <a href="https://github.com/Buterland-Beckerhook/buterland-beckerhook" uk-icon="icon: heart; ratio: 0.7"></a></small>
+            <a href="https://gohugo.io">hugo {{ hugo.Version }}</a> and <a href="https://github.com/Buterland-Beckerhook/buterland-beckerhook" uk-icon="icon: heart; ratio: 0.7"></a></small>
               <small class="small-italic"><br>on {{ now.Format "2006-01-02 15:04 (MST)" }}</small>
 
         </div>
