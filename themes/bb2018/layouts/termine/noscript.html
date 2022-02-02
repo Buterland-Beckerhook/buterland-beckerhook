@@ -16,7 +16,7 @@
     {{ $start := time .Params.start }}
     {{ $end := $start }}
     {{ $hasEnd := false }}
-    {{ if isset .Params "end" }}{{ $end := time .Params.end }}{{ $hasEnd = true }}{{ end }}
+    {{ if isset .Params "end" }}{{ $end = time .Params.end }}{{ $hasEnd = true }}{{ end }}
     {{ $was := lt $start now }}
     {{ $canceled := false }}
     {{ with.Params.canceled }}{{ $canceled = . }}{{ end }}

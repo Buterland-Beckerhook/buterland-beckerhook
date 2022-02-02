@@ -5,7 +5,7 @@
 {{ $hasEnd := false }}
 {{ if isset .Params "end" }}
 {{ $hasEnd = true }}
-{{ $end := time .Params.end }}
+{{ $end = time .Params.end }}
 {{ end }}
 {{ $was := lt $start now }}
 {{ $canceled := false }}
