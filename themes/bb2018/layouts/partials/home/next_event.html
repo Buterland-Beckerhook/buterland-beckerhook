@@ -1,13 +1,13 @@
 {{ $month := .Site.Data.month_de }}
 {{- $isNewer := false -}}
-{{- $hide := false -}}
+{{- $announce := true -}}
 {{- with $.Site.GetPage "/termine" -}}
 {{- range .Sections.ByParam "year" -}}
   {{- range .Pages.ByParam "start" -}}
     {{- if not $isNewer -}}
-      {{- if isset .Params "hideonhome" -}}{{- $hide = .Params.hideOnHome -}}{{ else }}{{ $hide = false}}{{ end }}
+      {{- if isset .Params "announce" -}}{{- $announce = .Params.annonce -}}{{ else }}{{ $announce = true}}{{ end }}
       {{ $start := time .Params.start }}
-      {{- if and (gt $start now) (not $hide) -}}
+      {{- if and (gt $start now) ($announce) -}}
       {{- $isNewer = true -}}
 
       {{ $end := $start }}
