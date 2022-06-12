@@ -10,4 +10,3 @@ outputs:
   - calendar
 ---
 
-Die genaue Zeit wird noch bekannt gegeben.

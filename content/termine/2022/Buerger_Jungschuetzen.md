@@ -5,6 +5,7 @@ lastmod: 2022-02-02:08:00+01:00
 start: 2022-06-25
 location: none
 draft: false
+announce: false
 outputs:
   - html
   - calendar
