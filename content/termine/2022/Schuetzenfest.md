@@ -1,7 +1,7 @@
 ---
 title: "Schützenfest"
 date: 2021-10-13:08:00+02:00
-lastmod: 2022-02-02:08:00+01:00
+lastmod: 2022-06-27:21:00+01:00
 start: 2022-07-16
 end: 2022-07-19
 location: platz
@@ -10,4 +10,14 @@ outputs:
   - html
   - calendar
 ---
+
+[Zum Artikel]({{< ref "/aktuell/2022/schuetzenfest" >}})
+
+{{< html >}}
+<a href="/pdf/plakat_2022.pdf" target="_blank" class="uk-icon-link">
+<span class="uk-icon-link" uk-icon="icon: file-pdf"></span>
+Festprogramm
+</a>
+{{< /html >}}
+
 
