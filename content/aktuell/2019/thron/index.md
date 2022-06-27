@@ -19,12 +19,32 @@ throne:
 resources:
   - src: 'thron.jpg'
     name: 'thron-1'
-    title: 'Thron 2019'
+    title: 'Thron 2019/2022'
     params:
       copy: 'Buterland-Beckerhook e.V.'
   - src: 'king_and_queen.jpg'
     name: 'thron-2'
     title: 'König und Königin 2019'
+    params:
+      copy: 'Buterland-Beckerhook e.V.' 
+  - src: 'img_1.jpg'
+    name: 'thron-3'
+    title: 'Thron 2019/2022'
+    params:
+      copy: 'Buterland-Beckerhook e.V.' 
+  - src: 'img_2.jpg'
+    name: 'thron-4'
+    title: 'Thron 2019/2022'
+    params:
+      copy: 'Buterland-Beckerhook e.V.' 
+  - src: 'img_3.jpg'
+    name: 'thron-5'
+    title: 'Thron 2019/2022'
+    params:
+      copy: 'Buterland-Beckerhook e.V.' 
+  - src: 'img_4.jpg'
+    name: 'thron-6'
+    title: 'Thron 2019/2022'
     params:
       copy: 'Buterland-Beckerhook e.V.' 
 ---
