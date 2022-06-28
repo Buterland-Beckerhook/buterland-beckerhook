@@ -97,29 +97,6 @@ Jahr „Mike´s Musikexpress & DJ Pfanny“.
 Für Speisen und Getränke sorgen in diesem Jahr die Geschwister Sengenhorst.
 
 
-### 2020:
-- Im Jahr 2020 fanden vor Beginn der Pandemie noch im Januar das Pokal- und
-Preisschießen und das Winterfest statt.
-- Am 19.07.2020 wurde eine stille Kranzniederlegung mit kurzer Gedenkfeier abgehalten.
-
-
-### 2021:
-- Anfang Juli verkündete Minister Laumann und das Land NRW das
-Großveranstaltungen wieder erlaubt sind. In Windeseile wurde zum 18.07.2021 ein
-Frühschoppen mit einer vorherigen Kranzniederlegung und Gedenkfeier der Opfer
-der Weltkriege organisiert.
-Der Tag war ein voller Erfolg.
-- Der 18.09.2021 wurde vom Schützenverein zum „Schützentag“ erklärt
-Zum Antreten auf dem Schützenplatz erschienen viele Vereinsmitglieder. Mit
-musikalischer Begleitung des Spielmannszuges der KAB Epe sind wir zum
-Vereinslokal Dinkelhof marschiert.
-Dort kamen viele Partnerinnen der Mitglieder hinzu und es wurde ein schöner
-Abend mit Freibier gefeiert.
-
-
-Vielen Dank!
-
-
 Mit freundlichen Grüßen
 
 Gerd Lübbers
