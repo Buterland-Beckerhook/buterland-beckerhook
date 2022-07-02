@@ -1,7 +1,7 @@
 ---
 title: Einladung 2022
 subtitle: Schützenfest vom 16. bis 19. Juli 2022
-date: 2022-07-02T20:00:00+02:00
+date: 2022-07-02T12:00:00+02:00
 tags:
   - Einladung, Schützenfest
 resources:

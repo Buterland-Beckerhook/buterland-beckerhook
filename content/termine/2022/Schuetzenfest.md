@@ -11,6 +11,8 @@ outputs:
   - calendar
 ---
 
+[Zur Einladung 2022]({{< ref "/aktuell/2022/einladung" >}})
+
 [Zum Artikel]({{< ref "/aktuell/2022/schuetzenfest" >}})
 
 {{< html >}}
