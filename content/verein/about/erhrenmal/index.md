@@ -1,6 +1,7 @@
 ---
 title: Ehrenmal 
 date: 2019-03-26T00:00:00+01:00
+lastmod: 2022-07-22T17:30:00+02:00
 weight: 3
 anchor: ehrenmal
 resources:
@@ -13,6 +14,12 @@ resources:
   - src: 'tafel_re_k.jpg'
     name: 'tafel_rechts'
     title:        
+  - src: 'ehrenmal_2022_01.jpg'
+    name: 'ehre-1'
+    title: 'Das Ehrenmal zum Schützenfest 2022 nach der Kranzniederlegung'
+  - src: 'ehrenmal_2022_02.jpg'
+    name: 'ehre-2'
+    title: 'Das Ehrenmal zum Schützenfest 2022'
 ---
 Das Ehrenmal wurde im Jahr 1934 durch die Firma Heine & Halbach erstellt. 
 Auf der Vorderseite des Denkmals und auf den daneben stehenden Tafeln sind die nachstehend aufgeführten Inschriften zu sehen:
@@ -40,3 +47,5 @@ Vermissten der beiden Weltkriege sowie der verstorbenen Vereinsmitglieder gedach
 
 Das Ehrenmal wurde zuletzt 1997 renoviert. Insgesamt sind nun 20 Tafeln mit den Namen von vermissten oder gefallenen 
 Vereinsmitgliedern der beiden Weltkriege aufgestellt.
+
+{{< imageslide name="ehre" lightbox="true" >}}
