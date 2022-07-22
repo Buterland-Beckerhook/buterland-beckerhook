@@ -4,9 +4,9 @@ date: 2018-11-02T00:00:00+01:00
 weight: 2
 anchor: kontakt
 resources:
-  - src: 'head_of_board_2019.jpg'
+  - src: 'head_of_board_2022.jpg'
     name: 'headofboard'
-    title: 'v.l.n.r: B. Lewing, B. Doetkotte, J. Frieske, G. Lübbers, M. Busen'
+    title: 'v.l.n.r: G. Lübbers, B. Lewing, J. Frieske, B. Doetkotte, M. Busen'
 ---
 
 {{< image name="headofboard" class="uk-width-3-4@m uk-align-center" >}}
