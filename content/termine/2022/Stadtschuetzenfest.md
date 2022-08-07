@@ -11,3 +11,15 @@ outputs:
   - calendar
 ---
 
+Horrido an alle ehemaligen Könige,
+wir haben die Liste für die Anwärter zum Stadtkaiserschießen bekommen!
+
+Wir benötigen folgende Angaben:
+Name des Königs
+Name der Königin
+Thronjahr
+
+Bitte per E-Mail beim Vorstand melden und an alle entsprechenden Interessenten weiterleiten!
+Die Liste möchte der Ausrichter am 15.08 zurück!
+
+Der Vorstand
