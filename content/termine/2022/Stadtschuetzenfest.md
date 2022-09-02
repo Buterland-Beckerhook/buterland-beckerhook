@@ -1,7 +1,7 @@
 ---
 title: "Stadtschützenfest"
 date: 2021-10-13:08:00+02:00
-lastmod: 2022-02-02:08:00+01:00
+lastmod: 2022-09-02:15:00+02:00
 start: 2022-09-02
 end: 2022-09-03
 location: none
@@ -13,7 +13,7 @@ outputs:
 
 Zur Teilnahme am Stadtschützenfest trifft sich der Verein 
 am Samstag um 13:00 Uhr auf dem Kirmesplatz in Epe.  
-Alle interessierten Mitglieder sind herzlich eingeladen.
+Alle interessierten Mitglieder sind herzlich eingeladen (mit Schützenhut).
 
 Bereits am Freitag treffen sich die Jungschützen um 18:00 Uhr am Hubertusplatz zum
 Ausschießen des Jungschützenstadtkaisers.
