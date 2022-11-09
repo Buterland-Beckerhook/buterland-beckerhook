@@ -10,3 +10,9 @@ outputs:
   - calendar
 ---
 
+{{< html >}}
+<a href="/pdf/jhv_2022.pdf" target="_blank" class="uk-icon-link">
+<span class="uk-icon-link" uk-icon="icon: file-pdf"></span>
+Einladung
+</a>
+{{< /html >}}
