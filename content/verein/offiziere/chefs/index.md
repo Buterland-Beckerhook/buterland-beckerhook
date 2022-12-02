@@ -44,7 +44,7 @@ Oberst von 1931 bis 1950 und von 1952 bis 1955; anschließend bis zum Tode Verei
 {{< mediacardright image="hpieper" title="Heinrich Pieper" subtitle="* 07. Oktober 1898 in Gronau, † 26. März 1979 in Gronau" >}} 
 Oberst von 1950 bis 1952. Langjähriges Vorstandsmitglied und Mitglied des Offizierskorps. 
 Als Heinrich I. 1928/29 König. Ehrenmitglied seit 1966. Er war Landwirt auf dem "Friesenhof", Beckerhook 9 
-(später umbenannt in Alstätter Straße 206), der Eigentum der Familie van Delden war und heute von Theo Stenau bewohnt wird.
+(später umbenannt in Alstätter Straße 206), der Eigentum der Familie van Delden war.
 {{< /mediacardright >}}
 
 {{< mediacardright image="hlammers" title="Heinrich Lammers" subtitle="* 12. August 1922 in Gronau † 25. Oktober 2019 in Gronau" >}} 
