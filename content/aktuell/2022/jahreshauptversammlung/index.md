@@ -1,5 +1,5 @@
 ---
-title: Norbert Wülker ist neues Ehrenmitglieder im Buterland
+title: Norbert Wülker ist neues Ehrenmitglied im Buterland-Beckerhook
 subtitle: Jahreshauptversammlung des Schützenvereins Buterland Beckerhook
 date: 2022-11-15T20:00:00+01:00
 author: Gerd Lübbers
