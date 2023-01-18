@@ -1,5 +1,5 @@
 ---
-title: Sendung mit der Maus“ im Dinkelhof
+title: “Sendung mit der Maus“ im Dinkelhof
 subtitle: Winterfest im Buterland-Beckerhook
 date: 2023-01-18T19:00:00+01:00
 tags:
