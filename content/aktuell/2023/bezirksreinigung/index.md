@@ -20,18 +20,18 @@ resources:
     title:
     params:
       copy: 'Buterland-Beckerhook'
-  - src: 'b1.jpg'
-    name: 'bild_b-1'
+  - src: 'a4.jpg'
+    name: 'bild_a-4'
     title:
     params:
       copy: 'Buterland-Beckerhook'
-  - src: b2.jpg'
-    name: 'bild_b-2'
+  - src: 'b2.jpg'
+    name: 'bild_b-3'
     title:
     params:
       copy: 'Buterland-Beckerhook'
   - src: 'b3.jpg'
-    name: 'bild_b-3'
+    name: 'bild_b-2'
     title:
     params:
       copy: 'Buterland-Beckerhook'
