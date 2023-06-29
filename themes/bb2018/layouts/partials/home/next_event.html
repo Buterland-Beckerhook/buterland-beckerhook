@@ -12,10 +12,9 @@
 
       {{ $end := $start }}
       {{ $hasEnd := false }}
-      {{ if isset .Params "end" }}{{ $end := time .Params.end }}{{ $hasEnd = true }}{{ end }}
+      {{ if isset .Params "end" }}{{ $end = time .Params.end }}{{ $hasEnd = true }}{{ end }}
       {{ $canceled := false }}
       {{ with.Params.canceled }}{{ $canceled = . }}{{ end }}
-
 <div class="uk-text-left" uk-grid>
     <div>
         <div class="uk-card uk-card-default uk-card-body uk-padding-remove" style="box-shadow: none;">
