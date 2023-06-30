@@ -30,7 +30,7 @@ sie zum Festplatz. Nach dem Schmücken der Vogelstange und der Ausgabe der Parol
 Jungschützen ihren neuen König, unter den musikalischen Klängen der Stadtkapelle, ausschießen.
 Im Festzelt wird zum Tanz eingeladen. Das DJ Team {{< tlink class="green" text="Two for the Beat" url="https://www.facebook.com/twoforthebeat/" target="_blank" >}} wird für Partystimmung sorgen.
 
-AAm Sonntag beginnt das Fest um _9.30_ Uhr mit einem ökumenischen Gottesdienst im Festzelt.
+Am Sonntag beginnt das Fest um _9.30_ Uhr mit einem ökumenischen Gottesdienst im Festzelt.
 **Dem schließt sich, in diesem Jahr einmalig, das große Frühschoppenkonzert der
 Stadtkapelle Gronau, dem Posaunenchor der Erlöserkirche und einer Gastkapelle
 aus der Gronauer Partnerstadt Mezöbereny an**.
