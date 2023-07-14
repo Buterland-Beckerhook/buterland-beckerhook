@@ -25,7 +25,7 @@ einige Überraschungen zum Kinderfest geben.
 Die anwesenden Kinder der Vereinsmitglieder
 nehmen an einer Tombola mit attraktiven Preisen teil. Auch für das leibliche Wohl der
 Erwachsenen (Kaffee und Kuchen) wird gesorgt.
-Um 19.45 Uhr treten die Schützen auf dem Hof der Buterlandschule an, um _20:00_ Uhr marschieren
+Um _19.45_ Uhr treten die Schützen auf dem Hof der Buterlandschule an, um _20:00_ Uhr marschieren
 sie zum Festplatz. Nach dem Schmücken der Vogelstange und der Ausgabe der Parole, werden die
 Jungschützen ihren neuen König, unter den musikalischen Klängen der Stadtkapelle, ausschießen.
 Im Festzelt wird zum Tanz eingeladen. Das DJ Team {{< tlink class="green" text="Two for the Beat" url="https://www.facebook.com/twoforthebeat/" target="_blank" >}} wird für Partystimmung sorgen.
