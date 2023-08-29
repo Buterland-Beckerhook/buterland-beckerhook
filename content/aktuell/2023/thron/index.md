@@ -7,7 +7,7 @@ tags:
   - Thron
 throne:
   years: 2023-2024
-  king_title: Gerd
+  king_title: Gerd X.
   king: Gerd Lübbers
   queen: Silvia Daldrup
   moh1: Manuela Doetkotte
