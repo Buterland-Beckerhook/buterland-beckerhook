@@ -1,6 +1,8 @@
 name: Hugo build and deploy
 
 on:
+  schedule:
+    - cron: "0 3 * * *"
   push:
     branches: ["main"]
     tags: ["v*.*.*"]
