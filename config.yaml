@@ -20,33 +20,33 @@ outputFormats:
 
 menu:
   main:
-  - identifier: home
-    name: Der Verein
-    url: /
-    weight: 1
-  - identifier: termine
-    name: Termine
-    url: /termine/
-    weight: 2
-  - identifier: aktuell
-    name: Aktuelles
-    url: /aktuell/
-    weight: 3
-  - identifier: thron
-    name: Thron
-    url: /thron/
-    weight: 4
+    - identifier: home
+      name: Der Verein
+      url: /
+      weight: 1
+    - identifier: termine
+      name: Termine
+      url: /termine/
+      weight: 2
+    - identifier: aktuell
+      name: Aktuelles
+      url: /aktuell/
+      weight: 3
+    - identifier: thron
+      name: Thron
+      url: /thron/
+      weight: 4
 
   right:
-  - identifier: kontakt
-    name: Kontaktformular
-    url: /kontakt/
-    weight: 1
-  - identifier: datenschuzerklaerung
-    name: Datenschutz
-    url: /datenschutzerklaerung/
-    weight: 2
-  - identifier: impressum
-    name: Impressum
-    url: /impressum/
-    weight: 3
+    - identifier: kontakt
+      name: Kontaktformular
+      url: /kontakt/
+      weight: 1
+    - identifier: datenschuzerklaerung
+      name: Datenschutz
+      url: /datenschutzerklaerung/
+      weight: 2
+    - identifier: impressum
+      name: Impressum
+      url: /impressum/
+      weight: 3
