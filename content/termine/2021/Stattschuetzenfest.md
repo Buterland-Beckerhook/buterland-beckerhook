@@ -1,7 +1,7 @@
 ---
 title: "Statt Schützenfest"
-date: 2021-07-08:17:00+02:00
-lastmod: 2021-07-08:07:00+02:00
+date: 2021-07-08T17:00+02:00
+lastmod: 2021-07-08T07:00+02:00
 revision: 0
 start: 2021-07-18T10:00:00+02:00
 location: platz
