@@ -1,7 +1,7 @@
 ---
 title: "Stadtschützenfest"
-date: 2021-10-13:08:00+02:00
-lastmod: 2022-09-02:15:00+02:00
+date: 2021-10-13T08:00+02:00
+lastmod: 2022-09-02T15:00+02:00
 start: 2022-09-02
 end: 2022-09-03
 location: none
