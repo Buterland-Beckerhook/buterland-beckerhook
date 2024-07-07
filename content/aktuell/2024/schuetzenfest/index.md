@@ -13,7 +13,7 @@ resources:
       copy: "Buterland-Beckerhook"
 ---
 
-**Horrido**, heißt es an diesem Wochenende im Stadtwesten von Gronau, wo die Mitglieder des Schützenvereins
+**Horrido**, heißt bald wieder im Stadtwesten von Gronau, wo die Mitglieder des Schützenvereins
 Buterland-Beckerhook vom **20. bis zum 23. Juli** ihr diesjähriges Schützenfest feiern.
 
 <!--more-->
@@ -62,8 +62,6 @@ Musik Express** sorgen zum Abschluss der Feierlichkeiten für die richtige Party
 
 Für Speisen und Getränke sorgen in diesem Jahr wieder die
 {{< tlink class="green" text="Geschwister Sengenhorst" url="https://altdeutschepilsstube.chayns.site/" target="_blank" >}}.
-
-Stefan Schmeing
 
 {{< html >}}
 <a href="/pdf/einladung_2024.pdf" target="_blank" class="uk-icon-link">
