@@ -36,7 +36,7 @@ Jan Henrik Achteresch und Gerd Lübbers.<!--more-->
 
 Gerd konnte sich am Ende durchsetzten und holte den Vogel von der Stange. Zu seiner Königen erkor er Silvia Daldrup.
 
-- {{< tlink url="https://l.buterland-beckerhook.de/0iw" text="Zum Bericht des Vogelschießen (WN)" >}}
+- {{< tlink url="https://l.buterland-beckerhook.de/0iw" text="Zum Bericht des Vogelschießen (WN)" target="_blank" >}}
 
 {{< imageslide name="thron" lightbox="true" >}}
 {{< thronemembers >}}
