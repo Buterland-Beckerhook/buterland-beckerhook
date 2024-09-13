@@ -22,21 +22,45 @@ resources:
     title: "Thron 2023/2024"
     params:
       copy: "Buterland-Beckerhook e.V."
-  - src: "img_4337.jpg"
+  - src: "sf2024_5.jpg"
     name: "thron-2"
+    title: "Thron 2023/2024"
+    params:
+      copy: "Buterland-Beckerhook e.V."
+  - src: "img_4337.jpg"
+    name: "menge-1"
     title: "Vogelschießen 2024"
     params:
       copy: "Buterland-Beckerhook e.V."
-  - src: "img_4338.jpg"
-    name: "thron-3"
-    title: "Vogelschießen 2024"
+  - src: "sf2024_1.jpg"
+    name: "vogel-1"
+    title: ""
     params:
-      copy: "Buterland-Beckerhook e.V."
+      copy: ""
+  - src: "sf2024_2.jpg"
+    name: "vogel-2"
+    title: ""
+    params:
+      copy: ""
+  - src: "sf2024_3.jpg"
+    name: "vogel-3"
+    title: ""
+    params:
+      copy: ""
+  - src: "sf2024_4.jpg"
+    name: "vogel-4"
+    title: ""
+    params:
+      copy: ""
+
 ---
 
 Der Vogel bewies in diesem Jahr auch nach gut drei Stunden Beschuss noch
 bemerkenswere Standfestigkeit. Erst mit dem 426. Schuss fiel der Vogel.
 <!--more-->
+
+{{< image name="menge-1" class="uk-width-3-4@m uk-align-center" >}}
+
 
 Letzter Schütze war Yannick Wolff, der sich damit die Königswürde sicherte. 
 Unter Freudentränen nahm der frisch gekrönte König die Glückwünsche
@@ -45,6 +69,8 @@ die Yannick zu seiner Konigin wählte. Die Ehrenpaare Linda Verst und Heiko Oude
 sowie Clara Droste und David Nienhues vervollständigen den Thron. 
 Jens Ruczinski übernimmt das Amt des Oberhofmarschall, während Jörg Schmiemann 
 künftig als Mundschenk für das leibliche Wohl der Gäste sorgt.
+
+{{< imagegrid name="vogel" lightbox="true" >}}
 
 - {{< tlink url="https://l.buterland-beckerhook.de/k3q" text="Zum Bericht des Vogelschießen (WN)" target="_blank" >}}
 
