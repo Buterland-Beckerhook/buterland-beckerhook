@@ -3,6 +3,11 @@ title: Gruppenfotos
 date: 2021-07-30T15:00:00+02:00
 headless: true
 resources:
+  - src: '2024.jpg'
+    name: 2024
+    title: "Die Offiziere zum Schützenfest 2024"
+    params:
+      copy: "Buterland-Beckerhook e.V."
   - src: '2022.jpg'
     name: 2022
     title: "Die Offiziere zum Schützenfest 2022"
