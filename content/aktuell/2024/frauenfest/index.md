@@ -47,7 +47,7 @@ resources:
       copy: 'Buterland-Beckerhook'
 ---
 
-Am Sonntag, den 03. November, fand unser fand unser jährliches Frauenfest statt, 
+Am Sonntag, den 03. November, fand unser jährliches Frauenfest statt, 
 das dieses Mal als fröhliches Frühstück in gemütlicher Runde gestartet wurde. 
 Ein besonderes Highlight des Tages war die Möglichkeit für unsere Frauen, 
 selbst einmal ins Schießen reinzuschnuppern – ein echtes Novum im Buterland 😉.  
