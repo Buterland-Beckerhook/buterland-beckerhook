@@ -41,10 +41,11 @@ für die rege Teilnahme an den Veranstaltungen und die geleistete Arbeit.
 
 Wegen der hohen Verdienste um den Schützenverein ist Vereinswirt Heinrich Thebelt zum Ehrenmitglied ernannt worden.
 Michael Wessendorf als Vorstandsmitglied und Christian Gleis als Offizier stellten nach jahrelanger Tätigkeit ihre Posten zur Verfügung.
-Präsident Jörg Frieske und Oberst Norbert Droste dankten beiden für ihre Leistungen.
+Präsident Jörg Frieske und Oberst Norbert Droste dankten beiden für ihre Leistungen. Außerdem wurde Berthold Doetkotte
+nach 15 Jahren als Schriftführer aus dem geschäftsführenden Vorstand verabschiedt.
 Die Offiziere Andreas Schmeing, Tobias Bußjan, Bastian Hölscher, Marius Rösner und Heinrich Thebelt jun. stellten sich zur Wiederwahl und wurden in ihren Ämtern bestätigt.
 Neu in das Offizierskorps ist Jannik Dapper gewählt worden. Der Vorstand freut sich über Jan-Hendrik Achteresch und Simon Sell als neue Vorstandsmitglieder.
-Zweiter Kassenprüfer wird im kommenden Jahr Henning Lübbers neben Jörg Schmiemann sein.
+Zweiter Kassenprüfer wird im kommenden Jahr Henning Lübbers neben Daniel Storost sein.
 Zum Abschluss wies der Präsident auf die Termine des Jahres 2025 hin.
 
 
