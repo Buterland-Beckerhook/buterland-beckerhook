@@ -32,8 +32,8 @@ resources:
       copy: 'Buterland-Beckerhook'
 ---
 
-Am ersten Samstag des neuen Jahres trafen sich die Schützen des SV
-Buterland-Beckerhook zum traditionellen Pokal- und Preisschießen im
+Am ersten Samstag des neuen Jahres trafen sich die Schützen des Schützenvereins
+Buterland-Beckerhook e.V. zum traditionellen Pokal- und Preisschießen im
 Vereinslokal Dinkelhof. In spannenden Wettkämpfen wurden die begehrten Pokale
 ausgeschossen.
 
@@ -52,10 +52,6 @@ Samstag, 18. Januar, ab 20:00 Uhr in der Gaststätte "Dinkelhof" statt.
 
 Vorstand, Festausschuss und der amtierende Thron laden alle Vereinsmitglieder
 herzlich zum [Winterfest](../../termine) ein.  
-
-Nach dem spannenden Wettkampf gratulierten
-Präsident Jörg Frieske, König Gerd Lübbers und Königin Silvia Daldrup den erfolgreichen Schützen.
-
 
 {{< imageslide name="bild" lightbox="1">}}
 
