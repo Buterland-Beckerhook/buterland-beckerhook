@@ -69,7 +69,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           tags: |
             ghcr.io/buterland-beckerhook/buterland-beckerhook:latest
-            ghcr.io/buterland-beckerhook.buterland-beckerhook:${{ github.sha }}
+            ghcr.io/buterland-beckerhook/buterland-beckerhook:${{ github.sha }}
             ${{ secrets.DOCKER_USER }}/buterland-beckerhook:latest
             ${{ secrets.DOCKER_USER }}/buterland-beckerhook:${{ github.sha }}
           cache-from: type=gha
