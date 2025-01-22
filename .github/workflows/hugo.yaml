@@ -68,8 +68,8 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           labels: ${{ steps.meta.outputs.labels }}
           tags: |
-            ghcr.io/buterland-beckerhook:latest
-            ghcr.io/buterland-beckerhook:${{ github.sha }}
+            ghcr.io/Buterland-Beckerhook/buterland-beckerhook:latest
+            ghcr.io/Buterland-Beckerhook.buterland-beckerhook:${{ github.sha }}
             ${{ secrets.DOCKER_USER }}/buterland-beckerhook:latest
             ${{ secrets.DOCKER_USER }}/buterland-beckerhook:${{ github.sha }}
           cache-from: type=gha
