@@ -15,7 +15,7 @@ resources:
 Das traditionelle Winterfest des Schützenvereins Buterland-Beckerhook lockte am
 vergangenen Samstag zahlreiche Mitglieder in den Dinkelhof. Der Festausschuss
 und der amtierende Thron hatten ein abwechslungsreiches Programm vorbereitet.
-<-! more ->
+<!--more-->
 
 Nach der Begrüßung durch Präsident Jörg Frieske wurden die Sieger des Pokal-
 und Preisschießens geehrt. Die begehrten Trophäen gingen an:
