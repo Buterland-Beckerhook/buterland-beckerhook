@@ -26,7 +26,7 @@ und Preisschießens geehrt. Die begehrten Trophäen gingen an:
   - Königspokal: Michael Terhalle
 
 Ein besonderes Highlight des Abends war die unterhaltsame Show des amtierenden
-Throns um das Königspaar Katharina Leemreyze und Yannick Wolf. Mit ihrer
+Throns um das Königspaar Katharina Leemreyze und Yannick Wolff. Mit ihrer
 Talkshow "Buterländer Treff" sorgten sie für beste Stimmung im voll besetzten
 Saal und brachten das Publikum mit humorvollen Einblicken in das Schützenleben zum Lachen.
 
