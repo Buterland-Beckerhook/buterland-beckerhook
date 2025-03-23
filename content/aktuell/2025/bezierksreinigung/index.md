@@ -42,6 +42,8 @@ zahlreiche Schützenschwestern und -brüder mit ihren Kindern an der städtische
 "Gronau putzt sich raus". Mit Greifzangen, Handschuhen und Müllsäcken ausgerüstet,
 machten sich die fleißigen Helfer des Buterland-Beckerhook e.V. daran, Straßenränder
 und Gräben von achtlos weggeworfenem Unrat zu befreien.
+ 
+ <!--more-->
 
 Wie in den Vorjahren füllte sich der bereitgestellte Container im Laufe des Vormittags
 bis zum Rand - ein deutliches Zeichen, wie wichtig diese regelmäßige Säuberungsaktion
@@ -54,6 +56,5 @@ vom Duesmann und einer deftigen Erbsensuppe vom Dinkelhof.
 
 Der Schützenverein Buterland-Beckerhook e.V. bedankt sich bei allen Helfern für ihren
 Einsatz zum Wohle unserer Umwelt und unserer Heimatstadt Gronau.
- <!--more-->
 {{< imageslide name="bild_a" lightbox="1">}}
 
