@@ -52,9 +52,9 @@ das seinem glücklichen Besitzer aus Nordhorn zurückgegeben werden konnte.
 
 Nach getaner Arbeit waren sich alle einig: Die Anstrengung hatte sich gelohnt! Beim
 gemütlichen Beisammensein stärkten sich die Vereinsmitglieder mit köstlicher Pizza
-vom Duesmann und einer deftigen Erbsensuppe vom Dinkelhof.
+von Duesmann und einer deftigen Erbsensuppe vom Dinkelhof.
 
-Der Schützenverein Buterland-Beckerhook e.V. bedankt sich bei allen Helfern für ihren
+Der Schützenverein Buterland-Beckerhook bedankt sich bei allen Helfern für ihren
 Einsatz zum Wohle unserer Umwelt und unserer Heimatstadt Gronau.
 {{< imageslide name="bild_a" lightbox="1">}}
 
