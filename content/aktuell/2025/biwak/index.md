@@ -85,8 +85,8 @@ wurden – hierfür gilt ihm unser besonderer Dank!
 
 Wir bedanken uns außerdem herzlich bei der Familie Tenberge für die erneute Gastfreundschaft 
 sowie beim Spielmannszug KAB Epe für die musikalische Begleitung. Ein besonderer 
-Dank gilt auch dem engagierten Team am Grill sowie der fleißigen Thekenmannschaft 
-für ihren Einsatz.
+Dank gilt auch dem engagierten Team am Grill, Sabine und Nelli, sowie der fleißigen 
+Thekenmannschaft, den "Buterländer Kornküken" für ihren Einsatz.
 
 Das Biwak hat auch in diesem Jahr wieder eindrucksvoll gezeigt, wie lebendig
 die Tradition in unserem Verein gepflegt wird.
