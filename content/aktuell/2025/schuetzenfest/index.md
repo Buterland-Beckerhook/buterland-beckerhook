@@ -45,11 +45,9 @@ IV. und dem gesamten Hofstaat. Nach der traditionellen Kranzniederlegung am Ehre
 setzt sich der Festumzug durch den Vereinsbezirk in Bewegung. Begleitet vom
 {{< tlink class="green" text="Spielmannszug der KAB Epe" url="https://spielmannszug-kab-epe.de/" target="_blank" >}}
 und der {{< tlink class="green" text="Stadtkapelle Gronau" url="https://www.stadtkapelle-gronau.de" target="_blank" >}}
-führt die Route in diesem Jahr vom Festplatz über die Buterlandstraße, Beckerhookstraße, Sonnenstraße, Mackensenstraße, 
-Breslauerstraße, Doetkottenweg, Zum Hovesaatsteing, Annette von Droste Hülshoff Ring, Schäferweg, Butenstegge, 
-die Butenstegge zur Alstätter Straße.  
-Nach einer Pause im Vereinslokal Dinkelhof führt der Umzug über die Alstätter Straße, Butenstegge, Am Forstgarten zum
-Festplatz zurück.
+führt die Route in diesem Jahr vom Festplatz über die Buterlandstraße, Beckerhookstraße, Sonnenstraße, die Mackensenstraße, 
+Breslauerstraße, den Doetkottenweg, Zum Hovesaatstein, Annette von Droste Hülshoff Ring, Schäferweg, die Butenstegge zur Alstätter Straße.  
+Nach einer Pause im Vereinslokal Dinkelhof führt der Umzug über die Alstätter Straße, Butenstegge, Am Forstgarten zum Festplatz zurück.
 
 
 Auf eine rauschende Nacht freut sich schon jetzt der amtierende Hofstaat, der ab _20:00_ Uhr zum Festball bittet. 
