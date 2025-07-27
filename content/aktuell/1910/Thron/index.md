@@ -1,6 +1,7 @@
 ---
 title: Thron 1910/1911 - Gerhard I.
 date: 1910-07-17T20:00:00+01:00 
+lastmod: 1910-07-17T20:00:00+01:00 
 tags:
   - Thron
 noarticle: true
