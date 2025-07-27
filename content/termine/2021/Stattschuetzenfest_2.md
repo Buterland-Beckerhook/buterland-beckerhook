@@ -1,7 +1,7 @@
 ---
 title: "Statt Schützenfest 2.0"
-date: 2021-07-08T17:00+02:00
-lastmod: 2021-07-08T07:00+02:00
+date: 2021-07-08T17:00:00+02:00
+lastmod: 2021-07-08T07:00:00+02:00
 revision: 0
 start: 2021-09-18T16:00:00+02:00
 location: platz
