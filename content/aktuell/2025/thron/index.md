@@ -1,7 +1,7 @@
 ---
 title: Neues Königspaar regiert im Buterland-Beckerhook!
 date: 2025-07-22T08:00:00+02:00
-lastmod: 2024-07-22T08:00:00+02:00
+lastmod: 2025-08-04T16:00:00+02:00
 subtitle: Jan-Bernd Droste und Charlyn Lösing übernehmen die Krone
 tags:
   - Thron
@@ -22,6 +22,21 @@ resources:
     title: "Thron 2025/2026"
     params:
       copy: "Buterland-Beckerhook e.V."
+  - src: "vogelschiessen_2025_1.jpeg"
+    name: "vogelstange-1"
+    title: "Vogelstange 2025"
+    params:
+      copy: "Buterland-Beckerhook e.V."
+  - src: "vogelschiessen_2025_2.jpeg"
+    name: "vogelstange-2"
+    title: "Vogelstange 2025"
+    params:
+      copy: "Buterland-Beckerhook e.V."
+  - src: "vogelschiessen_2025_3.jpeg"
+    name: "vogelstange-3"
+    title: "Vogelstange 2025"
+    params:
+      copy: "Buterland-Beckerhook e.V."
 
 ---
 
@@ -30,6 +45,8 @@ unseres Schützenvereins. Um 16.38 Uhr fiel die Entscheidung: Jan-Bernd Droste h
 mit dem entscheidenden Schuss den letzten Rest des Holzvogels von der Stange und sicherte
 sich damit die Königswürde.
 <!--more-->
+
+{{< imagegrid name="vogelstange" lightbox="true" >}}
 
 Als seine Königin wählte der frischgebackene Regent Charlyn Lösing. Das neue Königspaar
 wird von zwei Ehrenpaaren begleitet: Lara Gleis mit Louis Prause sowie 
