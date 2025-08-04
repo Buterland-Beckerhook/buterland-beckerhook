@@ -1,8 +1,14 @@
 ---
 title: Gruppenfotos
 date: 2021-07-30T15:00:00+02:00
+lastmod: 2025-08-04T16:00:00+02:00
 headless: true
 resources:
+  - src: '2025.jpg'
+    name: 2025
+    title: "Die Jungschützen zum Schützenfest 2025"
+    params:
+      copy: "Buterland-Beckerhook e.V."
   - src: '2022.jpg'
     name: 2022
     title: "Die Jungschützen zum Schützenfest 2022"
