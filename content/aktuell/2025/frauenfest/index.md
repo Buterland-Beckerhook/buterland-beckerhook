@@ -43,6 +43,7 @@ Am Sonntagmorgen, den 02. November, ab 10 Uhr startete das alljährliche Frauenf
 mit einem ausgedehnten Frühstück für unsere Frauen. Mit über 100 Anmeldungen freuen
 wir uns, dass dieser Tag wieder so gut angenommen wurde. In gemütlicher Atmosphäre
 war bei dem reichhaltigen Frühstücksbuffet für jeden etwas dabei.
+<!--more-->
 
 {{< imagegrid name="bild1" lightbox="1">}}
 
