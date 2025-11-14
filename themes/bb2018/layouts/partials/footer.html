@@ -27,7 +27,7 @@
             <br><small>All rights reserved.</small>
             <hr>
             <small>
-            Letztes Update am <span class="uk-text-nowrap">{{ with .Site.Lastmod }}{{ .Day }}. {{ index $month.short .Month }} {{ .Year }}{{ end }}
+            Letztes Update am <span class="uk-text-nowrap">{{ with .Site.LastChange }}{{ .Day }}. {{ index $month.short .Month }} {{ .Year }}{{ end }}
             </span></small>
             {{ with .GitInfo }}<br><small class="small-italic">
             Letzte Änderung auf dieser Seite vom {{ with .AuthorDate }}{{ .Day }}. {{ index $month.short .Month }} {{ .Year }}{{ end }} [<a href="https://github.com/Buterland-Beckerhook/buterland-beckerhook/commit/{{ .Hash }}" target="_blank">{{ .AbbreviatedHash }}</a>]
