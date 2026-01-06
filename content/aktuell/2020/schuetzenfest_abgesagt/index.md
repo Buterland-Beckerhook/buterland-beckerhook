@@ -7,8 +7,6 @@ aliases:
   - "/aktuell/2020/schützenfest_abgesagt"
 tags:
   - Schützenfest, Corona
-tags:
-  - Pokal- und Preisschießen
 resources:
   - src: 'thron.jpg'
     name: 'bild-1'
