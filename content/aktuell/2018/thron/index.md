@@ -9,10 +9,10 @@ throne:
   king_title: Björn I.
   king: Björn Wielens
   queen: Yvonne Arnzen
-  loh1: Torsten Arnzen
-  loh2: Sebastian Stern
-  moh1: Andrea Stern
-  moh2: Julia Wielens
+  moh1: Torsten Arnzen
+  moh2: Sebastian Stern
+  loh1: Andrea Stern
+  loh2: Julia Wielens
   cupbearer: Heinrich Thebelt jun.
   courtmarshal: Robert Verst
 resources:

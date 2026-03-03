@@ -10,10 +10,10 @@ throne:
   king_title: Gerd X.
   king: Gerd Lübbers
   queen: Silvia Daldrup
-  moh1: Manuela Doetkotte
-  moh2: Renate Frieske
-  loh1: Christian Sierp
-  loh2: Bernd Lewing
+  loh1: Manuela Doetkotte
+  loh2: Renate Frieske
+  moh1: Christian Sierp
+  moh2: Bernd Lewing
   cupbearer: Jannik Terhalle
   courtmarshal: Niko Assing
 resources:

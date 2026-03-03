@@ -10,10 +10,10 @@ throne:
   king_title: Martin II.
   king: Martin Schreiber
   queen: Maria Oude-Lansink
-  loh1: Stephan Rörick
-  loh2: Niklas Terhalle
-  moh1: Claudia Wessendorf
-  moh2: Jana Henkhaus
+  moh1: Stephan Rörick
+  moh2: Niklas Terhalle
+  loh1: Claudia Wessendorf
+  loh2: Jana Henkhaus
   cupbearer: Torsten Arnzen
   courtmarshal: Burkhard Büscher
 resources:

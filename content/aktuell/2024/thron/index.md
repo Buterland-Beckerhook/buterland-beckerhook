@@ -10,10 +10,10 @@ throne:
   king_title: Yannick I.
   king: Yannick Wolff
   queen: Katharina Leemreyze
-  moh1: Clara Droste
-  moh2: Linda Verst
-  loh1: David Nienhues
-  loh2: Heiko Oude-Lansink
+  loh1: Clara Droste
+  loh2: Linda Verst
+  moh1: David Nienhues
+  moh2: Heiko Oude-Lansink
   cupbearer: Jörg Schmiemann
   courtmarshal: Jens Ruczinksi
 resources:

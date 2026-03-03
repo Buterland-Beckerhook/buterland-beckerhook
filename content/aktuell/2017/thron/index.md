@@ -9,10 +9,10 @@ throne:
   king_title: Bernd XII.
   king: Bernd Lewing
   queen: Sandra Lübbers
-  loh1: Gerhard Ort
-  loh2: Hermann Gleis
-  moh1: Sabine Falkenberg
-  moh2: Petra Wessendorf
+  moh1: Gerhard Ort
+  moh2: Hermann Gleis
+  loh1: Sabine Falkenberg
+  loh2: Petra Wessendorf
   cupbearer: Hubert Subgang
   courtmarshal: Berthold Doetkotte
 resources:

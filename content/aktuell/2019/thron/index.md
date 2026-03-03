@@ -10,10 +10,10 @@ throne:
   king_title: Michael IV.
   king: Michael Albers
   queen: Hanna Lübbers
-  loh1: Frank Diekmann
-  loh2: Stefan Schmeing
-  moh1: Lilly Höllermann
-  moh2: Karolin Ritter
+  moh1: Frank Diekmann
+  moh2: Stefan Schmeing
+  loh1: Lilly Höllermann
+  loh2: Karolin Ritter
   cupbearer: Rene Lepping
   courtmarshal: Patrick Buß
 resources:

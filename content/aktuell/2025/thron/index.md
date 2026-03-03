@@ -6,14 +6,14 @@ subtitle: Jan-Bernd Droste und Charlyn Lösing übernehmen die Krone
 tags:
   - Thron
 throne:
-  years: 2024-2025
+  years: 2025-2026
   king_title: Jan-Bernd I.
   king: Jan-Bernd Droste
   queen: Charlyn Lösing
-  moh1: Lara Gleis
-  moh2: Lisa Wiedenhaus
-  loh1: Louis Prause
-  loh2: Heinrich Thebelt
+  loh1: Lara Gleis
+  loh2: Lisa Wiedenhaus
+  moh1: Louis Prause
+  moh2: Heinrich Thebelt
   cupbearer: Manuel Rengers
   courtmarshal: Finn Schreiber
 resources:
