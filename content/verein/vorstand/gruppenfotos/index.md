@@ -4,6 +4,10 @@ date: 2018-11-02T00:00:00+01:00
 lastmod: 2025-08-04T16:00:00+02:00
 headless: true
 resources:
+  - src: "2026.jpg"
+    name: 2026
+    title: "Der Vorstand Schützenfest 2026"
+    copy: "Buterland-Beckerhook e.V."
   - src: "2025.jpg"
     name: 2025
     title: "Der Vorstand Schützenfest 2025"

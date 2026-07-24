@@ -17,8 +17,13 @@ throne:
   cupbearer: Manuel Rengers
   courtmarshal: Finn Schreiber
 resources:
-  - src: "thron_2025.jpeg"
+  - src: "thron_2025_01.jpeg"
     name: "thron-1"
+    title: "Thron 2025/2026"
+    params:
+      copy: "Buterland-Beckerhook e.V."
+  - src: "thron_2025_02.jpeg"
+    name: "thron-2"
     title: "Thron 2025/2026"
     params:
       copy: "Buterland-Beckerhook e.V."
@@ -37,19 +42,19 @@ resources:
     title: "Vogelstange 2025"
     params:
       copy: "Buterland-Beckerhook e.V."
-
 ---
 
 Bei herrlichem Wetter erlebten zahlreiche Zuschauer am Montag ein aufregendes Königsschießen
 unseres Schützenvereins. Um 16.38 Uhr fiel die Entscheidung: Jan-Bernd Droste holte
 mit dem entscheidenden Schuss den letzten Rest des Holzvogels von der Stange und sicherte
 sich damit die Königswürde.
+
 <!--more-->
 
 {{< imagegrid name="vogelstange" lightbox="true" >}}
 
 Als seine Königin wählte der frischgebackene Regent Charlyn Lösing. Das neue Königspaar
-wird von zwei Ehrenpaaren begleitet: Lara Gleis mit Louis Prause sowie 
+wird von zwei Ehrenpaaren begleitet: Lara Gleis mit Louis Prause sowie
 Lisa Wiedenhaus mit Heinrich Thebelt.
 Komplettiert wird der Hofstaat durch Oberhofmarschall Finn Schreiber und Mundschenk
 Manuel Rengers, der sich um das leibliche Wohl des Hofstaates kümmern wird.
